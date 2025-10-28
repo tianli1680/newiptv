@@ -6,7 +6,7 @@ on:
     - cron: '0 0 * * *'  # 每天自动运行一次
   push:
     paths:
-      - 'https://live.ottiptv.cc/iptv.m3u?userid=8137863657&sign=2c8d82c9f17f480726d4770be9d0fb33fd0fcb31e1024448c36663605ea6a3f99e5bd467b68c287e3f0c07f85b95a188139aa3f19e227e251dc707bce0ededaab73ceeaddf6195&auth_token=54741b289e946919fc1c34ca88db58a4'  # 当源文件变更时触发
+      - '**.m3u'  # 修改为监控本地m3u文件变更
 
 jobs:
   process-playlist:
@@ -25,14 +25,31 @@ jobs:
       with:
         python-version: '3.9'
     
+    - name: Download source M3U file
+      run: |
+        curl -L -o "source.m3u" "https://live.ottiptv.cc/iptv.m3u?userid=8137863657&sign=2c8d82c9f17f480726d4770be9d0fb33fd0fcb31e1024448c36663605ea6a3f99e5bd467b68c287e3f0c07f85b95a188139aa3f19e227e251dc707bce0ededaab73ceeaddf6195&auth_token=54741b289e946919fc1c34ca88db58a4"
+    
     - name: Process M3U playlist
       run: |
         python << 'EOF'
         import re
+        import urllib.request
         
-        # 读取原始文件
-        with open('https://live.ottiptv.cc/iptv.m3u?userid=8137863657&sign=2c8d82c9f17f480726d4770be9d0fb33fd0fcb31e1024448c36663605ea6a3f99e5bd467b68c287e3f0c07f85b95a188139aa3f19e227e251dc707bce0ededaab73ceeaddf6195&auth_token=54741b289e946919fc1c34ca88db58a4', 'r', encoding='utf-8') as f:
-            content = f.read()
+        # 下载并读取原始文件
+        url = "https://live.ottiptv.cc/iptv.m3u?userid=8137863657&sign=2c8d82c9f17f480726d4770be9d0fb33fd0fcb31e1024448c36663605ea6a3f99e5bd467b68c287e3f0c07f85b95a188139aa3f19e227e251dc707bce0ededaab73ceeaddf6195&auth_token=54741b289e946919fc1c34ca88db58a4"
+        
+        # 方法1：使用下载到本地的文件
+        try:
+            with open('source.m3u', 'r', encoding='utf-8') as f:
+                content = f.read()
+        except:
+            # 方法2：如果本地文件不存在，直接下载
+            try:
+                with urllib.request.urlopen(url) as response:
+                    content = response.read().decode('utf-8')
+            except Exception as e:
+                print(f"下载文件失败: {e}")
+                exit(1)
         
         # 解析m3u文件
         lines = content.split('\n')
@@ -48,10 +65,14 @@ jobs:
                 group_match = re.search(r'group-title="([^"]*)"', line)
                 if group_match:
                     current_channel['group'] = group_match.group(1)
+                else:
+                    current_channel['group'] = ''
                 # 提取频道名称
                 name_match = re.search(r',([^,]*)$', line)
                 if name_match:
                     current_channel['name'] = name_match.group(1)
+                else:
+                    current_channel['name'] = ''
             elif line and not line.startswith('#') and current_channel:
                 current_channel['url'] = line
                 channels.append(current_channel.copy())
@@ -168,20 +189,26 @@ jobs:
         write_m3u_file('live4.m3u', live4_channels)
         write_m3u_file('live5.m3u', live5_channels)
         write_m3u_file('live6.m3u', live6_channels)
-
-               
+        
         # 合并文件（按指定顺序）
         with open('live.m3u', 'w', encoding='utf-8') as f:
             f.write('#EXTM3U\n')
             # 按指定顺序合并：live2, live4, live1, live3, live5, live6
             for filename in ['live2.m3u', 'live4.m3u', 'live1.m3u', 'live3.m3u', 'live5.m3u', 'live6.m3u']:
-                with open(filename, 'r', encoding='utf-8') as src:
-                    content = src.read()
-                    # 跳过每个文件的EXTM3U头
-                    lines = content.split('\n')[1:]
-                    f.write('\n'.join(lines) + '\n')
+                try:
+                    with open(filename, 'r', encoding='utf-8') as src:
+                        content = src.read()
+                        # 跳过每个文件的EXTM3U头
+                        lines = content.split('\n')[1:]
+                        # 过滤空行
+                        non_empty_lines = [line for line in lines if line.strip()]
+                        if non_empty_lines:
+                            f.write('\n'.join(non_empty_lines) + '\n')
+                except Exception as e:
+                    print(f"读取文件 {filename} 时出错: {e}")
         
         print("M3U文件处理完成！")
+        print(f"分类统计: 咪咕央视{len(live1_channels)}, 央视频道{len(live2_channels)}, 咪咕卫视{len(live3_channels)}, 卫视频道{len(live4_channels)}, 其他影视{len(live5_channels)}, 体育{len(live6_channels)}")
         EOF
     
     - name: Commit processed files
@@ -189,5 +216,5 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add live*.m3u
-        git commit -m "自动更新分类后的播放列表 [skip ci]" || exit 0
+        git diff --staged --quiet || git commit -m "自动更新分类后的播放列表 [skip ci]"
         git push
