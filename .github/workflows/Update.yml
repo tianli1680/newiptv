@@ -4,9 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'  # 每天自动运行一次
-  push:
-    paths:
-      - '**.m3u'  # 修改为监控本地m3u文件变更
 
 jobs:
   process-playlist:
@@ -25,37 +22,34 @@ jobs:
       with:
         python-version: '3.9'
     
-    - name: Download source M3U file
-      run: |
-        curl -L -o "source.m3u" "https://live.ottiptv.cc/iptv.m3u?userid=8137863657&sign=2c8d82c9f17f480726d4770be9d0fb33fd0fcb31e1024448c36663605ea6a3f99e5bd467b68c287e3f0c07f85b95a188139aa3f19e227e251dc707bce0ededaab73ceeaddf6195&auth_token=54741b289e946919fc1c34ca88db58a4"
-    
     - name: Process M3U playlist
       run: |
         python << 'EOF'
         import re
         import urllib.request
+        import urllib.parse
         
-        # 下载并读取原始文件
-        url = "https://live.ottiptv.cc/iptv.m3u?userid=8137863657&sign=2c8d82c9f17f480726d4770be9d0fb33fd0fcb31e1024448c36663605ea6a3f99e5bd467b68c287e3f0c07f85b95a188139aa3f19e227e251dc707bce0ededaab73ceeaddf6195&auth_token=54741b289e946919fc1c34ca88db58a4"
+        # m3u文件URL
+        m3u_url = "https://live.ottiptv.cc/iptv.m3u?userid=8137863657&sign=2c8d82c9f17f480726d4770be9d0fb33fd0fcb31e1024448c36663605ea6a3f99e5bd467b68c287e3f0c07f85b95a188139aa3f19e227e251dc707bce0ededaab73ceeaddf6195&auth_token=54741b289e946919fc1c34ca88db58a4"
         
-        # 方法1：使用下载到本地的文件
+        print("开始下载m3u文件...")
         try:
-            with open('source.m3u', 'r', encoding='utf-8') as f:
-                content = f.read()
-        except:
-            # 方法2：如果本地文件不存在，直接下载
-            try:
-                with urllib.request.urlopen(url) as response:
-                    content = response.read().decode('utf-8')
-            except Exception as e:
-                print(f"下载文件失败: {e}")
-                exit(1)
+            # 下载m3u文件
+            req = urllib.request.Request(m3u_url)
+            req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')
+            with urllib.request.urlopen(req) as response:
+                content = response.read().decode('utf-8')
+            print("m3u文件下载成功")
+        except Exception as e:
+            print(f"下载m3u文件失败: {e}")
+            exit(1)
         
         # 解析m3u文件
         lines = content.split('\n')
         channels = []
         current_channel = {}
         
+        print("开始解析m3u文件...")
         for line in lines:
             line = line.strip()
             if line.startswith('#EXTINF:'):
@@ -77,6 +71,8 @@ jobs:
                 current_channel['url'] = line
                 channels.append(current_channel.copy())
                 current_channel = {}
+        
+        print(f"共解析到 {len(channels)} 个频道")
         
         # 分类处理
         live1_channels = []  # 咪咕央视
@@ -111,59 +107,66 @@ jobs:
             'CGTN阿拉伯语': 'CGTN 阿拉伯语'
         }
         
+        def update_channel_name(header, old_name, new_name):
+            """更新频道名称的辅助函数"""
+            # 使用正则表达式精确替换频道名称
+            pattern = r'(,)' + re.escape(old_name) + r'$'
+            new_header = re.sub(pattern, r'\1' + new_name, header)
+            return new_header
+        
+        def update_group_title(header, old_group, new_group):
+            """更新分组名称的辅助函数"""
+            # 使用正则表达式精确替换分组名称
+            pattern = r'group-title="' + re.escape(old_group) + r'"'
+            new_header = re.sub(pattern, f'group-title="{new_group}"', header)
+            return new_header
+        
+        print("开始分类处理频道...")
         for channel in channels:
             group = channel.get('group', '')
             name = channel.get('name', '')
+            original_header = channel['header']
             
-            # 1. 央视频道处理
+            # 1. 央视频道处理 - 分组为央视且名称包含CCTV
             if group == '央视':
                 if 'MCP' in name:
-                    # 央视频道 (MCP)
-                    new_header = channel['header'].replace(
-                        f'group-title="{group}"', 
-                        'group-title="央视频道"'
-                    )
+                    # 央视频道 (MCP) - 分组为央视且名称包含MCP
+                    new_header = update_group_title(original_header, group, '央视频道')
                     channel['header'] = new_header
                     live2_channels.append(channel)
                 elif 'CCTV' in name or 'CGTN' in name:
-                    # 咪咕央视
+                    # 咪咕央视 - 分组为央视且名称包含CCTV或CGTN
+                    new_header = original_header
+                    
                     # 应用名称映射
-                    if name in cctv_name_mapping:
-                        new_name = cctv_name_mapping[name]
-                        new_header = channel['header'].replace(
-                            f',{name}', 
-                            f',{new_name}'
-                        )
-                        new_header = new_header.replace(
-                            f'group-title="{group}"', 
-                            'group-title="咪咕央视"'
-                        )
-                        channel['header'] = new_header
-                        channel['name'] = new_name
-                    else:
-                        new_header = channel['header'].replace(
-                            f'group-title="{group}"', 
-                            'group-title="咪咕央视"'
-                        )
-                        channel['header'] = new_header
+                    name_updated = False
+                    for old_name, new_name in cctv_name_mapping.items():
+                        if old_name == name:  # 精确匹配
+                            new_header = update_channel_name(new_header, name, new_name)
+                            channel['name'] = new_name
+                            name_updated = True
+                            break
+                        elif old_name in name:  # 部分匹配
+                            new_header = update_channel_name(new_header, name, new_name)
+                            channel['name'] = new_name
+                            name_updated = True
+                            break
+                    
+                    # 更新分组名称
+                    new_header = update_group_title(new_header, group, '咪咕央视')
+                    channel['header'] = new_header
                     live1_channels.append(channel)
             
             # 2. 卫视频道处理
             elif group == '卫视':
                 if 'MCP' in name:
-                    # 卫视频道 (MCP)
-                    new_header = channel['header'].replace(
-                        f'group-title="{group}"', 
-                        'group-title="卫视频道"'
-                    )
+                    # 卫视频道 (MCP) - 分组为卫视且名称包含MCP
+                    new_header = update_group_title(original_header, group, '卫视频道')
                     channel['header'] = new_header
                     live4_channels.append(channel)
                 else:
-                    # 咪咕卫视
-                    new_header = channel['header'].replace(
-                        f'group-title="{group}"', 
-                        'group-title="咪咕卫视"'
-                    )
+                    # 咪咕卫视 - 分组为卫视且不包含MCP
+                    new_header = update_group_title(original_header, group, '咪咕卫视')
                     channel['header'] = new_header
                     live3_channels.append(channel)
             
@@ -175,6 +178,22 @@ jobs:
             elif group == '体育':
                 live6_channels.append(channel)
         
+        # 调试输出：显示名称映射情况
+        print("央视频道名称映射调试信息:")
+        cctv_mapped = []
+        for channel in live1_channels:
+            for old_name, new_name in cctv_name_mapping.items():
+                if new_name == channel['name']:
+                    cctv_mapped.append(f"  {old_name} -> {new_name}")
+                    break
+        if cctv_mapped:
+            for item in cctv_mapped[:10]:  # 只显示前10个映射
+                print(item)
+            if len(cctv_mapped) > 10:
+                print(f"  ... 还有 {len(cctv_mapped) - 10} 个映射")
+        else:
+            print("  没有找到可映射的央视频道")
+        
         # 写入各分类文件
         def write_m3u_file(filename, channel_list):
             with open(filename, 'w', encoding='utf-8') as f:
@@ -183,6 +202,7 @@ jobs:
                     f.write(channel['header'] + '\n')
                     f.write(channel['url'] + '\n')
         
+        print("开始写入分类文件...")
         write_m3u_file('live1.m3u', live1_channels)
         write_m3u_file('live2.m3u', live2_channels)
         write_m3u_file('live3.m3u', live3_channels)
@@ -207,8 +227,16 @@ jobs:
                 except Exception as e:
                     print(f"读取文件 {filename} 时出错: {e}")
         
+        # 输出统计信息
         print("M3U文件处理完成！")
-        print(f"分类统计: 咪咕央视{len(live1_channels)}, 央视频道{len(live2_channels)}, 咪咕卫视{len(live3_channels)}, 卫视频道{len(live4_channels)}, 其他影视{len(live5_channels)}, 体育{len(live6_channels)}")
+        print(f"分类统计:")
+        print(f"  咪咕央视 (live1.m3u): {len(live1_channels)} 个频道")
+        print(f"  央视频道 (live2.m3u): {len(live2_channels)} 个频道")
+        print(f"  咪咕卫视 (live3.m3u): {len(live3_channels)} 个频道")
+        print(f"  卫视频道 (live4.m3u): {len(live4_channels)} 个频道")
+        print(f"  其他影视 (live5.m3u): {len(live5_channels)} 个频道")
+        print(f"  体育频道 (live6.m3u): {len(live6_channels)} 个频道")
+        print(f"  合并文件 (live.m3u): {len(live1_channels) + len(live2_channels) + len(live3_channels) + len(live4_channels) + len(live5_channels) + len(live6_channels)} 个频道")
         EOF
     
     - name: Commit processed files
