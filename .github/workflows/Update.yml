@@ -170,25 +170,25 @@ jobs:
         write_m3u_file('live6.m3u', live6_channels)
 
         # 虎牙一起看
-        rm -f huyayqk.m3u && wget https://sub.ottiptv.cc/huyayqk.m3u -O huyayqk.m3u
+        rm -f huyayqk.m3u && wget https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/huyayqk.m3u -O huyayqk.m3u
         sed -i '/#EXTM3U/d' huyayqk.m3u
         sed -i '1i #EXTM3U' huyayqk.m3u
         sed -i '/^\s*$/d' huyayqk.m3u
 
         # 斗鱼一起看
-        rm -f douyuyqk.m3u && wget https://sub.ottiptv.cc/douyuyqk.m3u -O douyuyqk.m3u
+        rm -f douyuyqk.m3u && wget https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/douyuyqk.m3u -O douyuyqk.m3u
         sed -i '/#EXTM3U/d' douyuyqk.m3u
         sed -i '1i #EXTM3U' douyuyqk.m3u
         sed -i '/^\s*$/d' douyuyqk.m3u
 
         # bilibili直播
-        rm -f bililive.m3u && wget https://sub.ottiptv.cc/bililive.m3u -O bililive.m3u
+        rm -f bililive.m3u && wget https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/bililive.m3u -O bililive.m3u
         sed -i '/#EXTM3U/d' bililive.m3u
         sed -i '1i #EXTM3U' bililive.m3u
         sed -i '/^\s*$/d' bililive.m3u
 
         # YY轮播
-        rm -f yylunbo.m3u && wget https://sub.ottiptv.cc/yylunbo.m3u -O yylunbo.m3u
+        rm -f yylunbo.m3u && wget https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/yylunbo.m3u -O yylunbo.m3u
         sed -i '/#EXTM3U/d' yylunbo.m3u
         sed -i '1i #EXTM3U' yylunbo.m3u
         sed -i '/^\s*$/d' yylunbo.m3u
