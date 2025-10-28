@@ -1,0 +1,216 @@
+name: Process M3U Playlist
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'  # 每天自动运行一次
+  push:
+    paths:
+      - 'https://live.ottiptv.cc/iptv.m3u?userid=8137863657&sign=2c8d82c9f17f480726d4770be9d0fb33fd0fcb31e1024448c36663605ea6a3f99e5bd467b68c287e3f0c07f85b95a188139aa3f19e227e251dc707bce0ededaab73ceeaddf6195&auth_token=54741b289e946919fc1c34ca88db58a4'  # 当源文件变更时触发
+
+jobs:
+  process-playlist:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 添加仓库写入权限
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Process M3U playlist
+      run: |
+        python << 'EOF'
+        import re
+        
+        # 读取原始文件
+        with open('https://live.ottiptv.cc/iptv.m3u?userid=8137863657&sign=2c8d82c9f17f480726d4770be9d0fb33fd0fcb31e1024448c36663605ea6a3f99e5bd467b68c287e3f0c07f85b95a188139aa3f19e227e251dc707bce0ededaab73ceeaddf6195&auth_token=54741b289e946919fc1c34ca88db58a4', 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        # 解析m3u文件
+        lines = content.split('\n')
+        channels = []
+        current_channel = {}
+        
+        for line in lines:
+            line = line.strip()
+            if line.startswith('#EXTINF:'):
+                # 解析频道信息
+                current_channel = {'header': line}
+                # 提取group-title
+                group_match = re.search(r'group-title="([^"]*)"', line)
+                if group_match:
+                    current_channel['group'] = group_match.group(1)
+                # 提取频道名称
+                name_match = re.search(r',([^,]*)$', line)
+                if name_match:
+                    current_channel['name'] = name_match.group(1)
+            elif line and not line.startswith('#') and current_channel:
+                current_channel['url'] = line
+                channels.append(current_channel.copy())
+                current_channel = {}
+        
+        # 分类处理
+        live1_channels = []  # 咪咕央视
+        live2_channels = []  # 央视频道 (MCP)
+        live3_channels = []  # 咪咕卫视
+        live4_channels = []  # 卫视频道 (MCP)
+        live5_channels = []  # 其他、影视
+        live6_channels = []  # 体育
+        
+        # 央视频道名称映射
+        cctv_name_mapping = {
+            'CCTV1综合': 'CCTV-1 综合',
+            'CCTV2财经': 'CCTV-2 财经',
+            'CCTV3综艺': 'CCTV-3 综艺',
+            'CCTV4中文国际': 'CCTV-4 中文国际',
+            'CCTV5体育': 'CCTV-5 体育',
+            'CCTV5+体育赛事': 'CCTV-5+ 体育赛事',
+            'CCTV6电影': 'CCTV-6 电影',
+            'CCTV7国防军事': 'CCTV-7 国防军事',
+            'CCTV8电视剧': 'CCTV-8 电视剧',
+            'CCTV9纪录': 'CCTV-9 纪录',
+            'CCTV10科教': 'CCTV-10 科教',
+            'CCTV11戏曲': 'CCTV-11 戏曲',
+            'CCTV12社会与法': 'CCTV-12 社会与法',
+            'CCTV13新闻': 'CCTV-13 新闻',
+            'CCTV14少儿': 'CCTV-14 少儿',
+            'CCTV15音乐': 'CCTV-15 音乐',
+            'CCTV17农业农村': 'CCTV-17 农业农村',
+            'CCTV4欧洲': 'CCTV-4 欧洲',
+            'CCTV4美洲': 'CCTV-4 美洲',
+            'CGTN外语纪录': 'CGTN 外语纪录',
+            'CGTN阿拉伯语': 'CGTN 阿拉伯语'
+        }
+        
+        for channel in channels:
+            group = channel.get('group', '')
+            name = channel.get('name', '')
+            
+            # 1. 央视频道处理
+            if group == '央视':
+                if 'MCP' in name:
+                    # 央视频道 (MCP)
+                    new_header = channel['header'].replace(
+                        f'group-title="{group}"', 
+                        'group-title="央视频道"'
+                    )
+                    channel['header'] = new_header
+                    live2_channels.append(channel)
+                elif 'CCTV' in name or 'CGTN' in name:
+                    # 咪咕央视
+                    # 应用名称映射
+                    if name in cctv_name_mapping:
+                        new_name = cctv_name_mapping[name]
+                        new_header = channel['header'].replace(
+                            f',{name}', 
+                            f',{new_name}'
+                        )
+                        new_header = new_header.replace(
+                            f'group-title="{group}"', 
+                            'group-title="咪咕央视"'
+                        )
+                        channel['header'] = new_header
+                        channel['name'] = new_name
+                    else:
+                        new_header = channel['header'].replace(
+                            f'group-title="{group}"', 
+                            'group-title="咪咕央视"'
+                        )
+                        channel['header'] = new_header
+                    live1_channels.append(channel)
+            
+            # 2. 卫视频道处理
+            elif group == '卫视':
+                if 'MCP' in name:
+                    # 卫视频道 (MCP)
+                    new_header = channel['header'].replace(
+                        f'group-title="{group}"', 
+                        'group-title="卫视频道"'
+                    )
+                    channel['header'] = new_header
+                    live4_channels.append(channel)
+                else:
+                    # 咪咕卫视
+                    new_header = channel['header'].replace(
+                        f'group-title="{group}"', 
+                        'group-title="咪咕卫视"'
+                    )
+                    channel['header'] = new_header
+                    live3_channels.append(channel)
+            
+            # 3. 其他、影视频道
+            elif group in ['其他', '影视']:
+                live5_channels.append(channel)
+            
+            # 4. 体育频道
+            elif group == '体育':
+                live6_channels.append(channel)
+        
+        # 写入各分类文件
+        def write_m3u_file(filename, channel_list):
+            with open(filename, 'w', encoding='utf-8') as f:
+                f.write('#EXTM3U\n')
+                for channel in channel_list:
+                    f.write(channel['header'] + '\n')
+                    f.write(channel['url'] + '\n')
+        
+        write_m3u_file('live1.m3u', live1_channels)
+        write_m3u_file('live2.m3u', live2_channels)
+        write_m3u_file('live3.m3u', live3_channels)
+        write_m3u_file('live4.m3u', live4_channels)
+        write_m3u_file('live5.m3u', live5_channels)
+        write_m3u_file('live6.m3u', live6_channels)
+
+        # 虎牙一起看
+        rm -f huyayqk.m3u && wget https://sub.ottiptv.cc/huyayqk.m3u -O huyayqk.m3u
+        sed -i '/#EXTM3U/d' huyayqk.m3u
+        sed -i '1i #EXTM3U' huyayqk.m3u
+        sed -i '/^\s*$/d' huyayqk.m3u
+
+        # 斗鱼一起看
+        rm -f douyuyqk.m3u && wget https://sub.ottiptv.cc/douyuyqk.m3u -O douyuyqk.m3u
+        sed -i '/#EXTM3U/d' douyuyqk.m3u
+        sed -i '1i #EXTM3U' douyuyqk.m3u
+        sed -i '/^\s*$/d' douyuyqk.m3u
+
+        # bilibili直播
+        rm -f bililive.m3u && wget https://sub.ottiptv.cc/bililive.m3u -O bililive.m3u
+        sed -i '/#EXTM3U/d' bililive.m3u
+        sed -i '1i #EXTM3U' bililive.m3u
+        sed -i '/^\s*$/d' bililive.m3u
+
+        # YY轮播
+        rm -f yylunbo.m3u && wget https://sub.ottiptv.cc/yylunbo.m3u -O yylunbo.m3u
+        sed -i '/#EXTM3U/d' yylunbo.m3u
+        sed -i '1i #EXTM3U' yylunbo.m3u
+        sed -i '/^\s*$/d' yylunbo.m3u
+        
+        # 合并文件（按指定顺序）
+        with open('live.m3u', 'w', encoding='utf-8') as f:
+            f.write('#EXTM3U\n')
+            # 按指定顺序合并：live2, live4, live1, live3, live5, live6
+            for filename in ['live2.m3u', 'live4.m3u', 'live1.m3u', 'live3.m3u', 'live5.m3u', 'live6.m3u', 'huyayqk.m3u', 'douyuyqk.m3u', 'bililive.m3u', 'yylunbo.m3u']:
+                with open(filename, 'r', encoding='utf-8') as src:
+                    content = src.read()
+                    # 跳过每个文件的EXTM3U头
+                    lines = content.split('\n')[1:]
+                    f.write('\n'.join(lines) + '\n')
+        
+        print("M3U文件处理完成！")
+        EOF
+    
+    - name: Commit processed files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add live*.m3u
+        git commit -m "自动更新分类后的播放列表 [skip ci]" || exit 0
+        git push
