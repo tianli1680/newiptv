@@ -1,0 +1,29 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="重温经典" tvg-logo="https://11.112114.xyz/logo/重温经典.png" group-title="其他",重温经典
+https://other.ottiptv.cc/cwjd.m3u8
+#EXTINF:-1 tvg-name="五星体育" tvg-logo="https://11.112114.xyz/logo/五星体育.png" group-title="其他",五星体育
+https://other.ottiptv.cc/wxty.m3u8
+#EXTINF:-1 tvg-name="经典香港电影" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/242/089/202508211805_1755769495190_H169_1080.jpg" group-title="影视", 经典香港电影
+https://mgtv.ottiptv.cc/mg/625703337.m3u8?userid=8137863657&sign=289e045774fec2897194423305c8d4a9a875fdb3ba1a573fc1e65e51cf0237d2bd940100f52e3f7268243d26716be4ef15cb829f33cc4f016b48f77a85ebd5b5a61eac3608ee2433c8a2ddf5add58445a1&auth_token=54741b289e946919fc1c34ca88db58a4
+#EXTINF:-1 tvg-name="高能悬疑 推理时刻" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/230/666/202507181733_1752831177769_H169_1080.jpg" group-title="影视", 高能悬疑 推理时刻
+https://mgtv.ottiptv.cc/mg/625133682.m3u8?userid=8137863657&sign=79eaa1de44a4c40799249d07e4db97a0b5f63bc4cad170d65ad4ab43aa64161ad9b8e9e18ec296414d0f025bb0e3117dfb603278428b99b17202a663936c96a63bf17e07d162451d79411d3a214e6d67a9&auth_token=54741b289e946919fc1c34ca88db58a4
+#EXTINF:-1 tvg-name="抗战经典影片" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/002/717/202507241513_1753340542329_H169_1080.jpg" group-title="影视", 抗战经典影片
+https://mgtv.ottiptv.cc/mg/617432318.m3u8?userid=8137863657&sign=87b3b71e24cdf460b62fece10fb0cb67670fade5a88077c969dd90afa7016089c5163385bd9ba2b3c3f5812c8852c6445d9d2fb1da56525a7914ab15cfb6aef847682df2529896ec07f95fe7fc0b8f4245&auth_token=54741b289e946919fc1c34ca88db58a4
+#EXTINF:-1 tvg-name="新片放映厅" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/035/175/202405061742_1714988181593_H169_1080.jpg" group-title="影视", 新片放映厅
+https://mgtv.ottiptv.cc/mg/619495952.m3u8?userid=8137863657&sign=4b46ebdaf97f8b47d027c610804c02099894c9291d397d65d1ddf999395c83da92e4d4b2796d87030b30620739beac07a86a4f2531196e6108ade68a966623131c065c9ea214b9a075adedc63c2226cc34&auth_token=54741b289e946919fc1c34ca88db58a4
+#EXTINF:-1 tvg-name="CHC影迷电影" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/022/176/202504161629_1744788994468_H169_1080.jpg" group-title="影视", CHC影迷电影
+https://mgtv.ottiptv.cc/mg/952383261.m3u8?userid=8137863657&sign=ee1485c7e14a28d8106f37c108058e7b219880b77c4e4c5d617d5455e8e24fbd2959d1368cb8e1383729bae2665920f3fd984cb19d6e274fd5199fb27a8b0cd914a21b9c02620e78c53e1ee141f3006734&auth_token=54741b289e946919fc1c34ca88db58a4
+#EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/554/795/202308221159_1692676692674_H169_1080.jpg" group-title="影视", CHC动作电影
+https://mgtv.ottiptv.cc/mg/644368714.m3u8?userid=8137863657&sign=18ecbe9c7a832308887f09f6238680eca28996b200680655d8801c75366eb267a43526e4a8169925366ba294703301a1f8884e0083a605222d97660fa8ec2389a442eeba568026299ea1250b5619c1c063&auth_token=54741b289e946919fc1c34ca88db58a4
+#EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/554/911/202308221200_1692676825616_H169_1080.jpg" group-title="影视", CHC家庭影院
+https://mgtv.ottiptv.cc/mg/644368373.m3u8?userid=8137863657&sign=e72a039f17a0e67aef43de3b65e9575ca290ba8e0f5c5cc1cb2467144ec748d57b53074c20b02b276bec5ad7f76135c08ff44cccfe8e0dc18d6edc63fad86a3eb73ea879df97ceff825c86938bc9ec583c&auth_token=54741b289e946919fc1c34ca88db58a4
+#EXTINF:-1 tvg-name="和美乡途轮播台" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/019/525/202504151721_1744708803016_H169_1080.jpg" group-title="影视", 和美乡途轮播台
+https://mgtv.ottiptv.cc/mg/713591450.m3u8?userid=8137863657&sign=e1c54a9bc47d705a10a53e3930e6162ec70d96077e3d78cf316e205f0bdcfe158cf4cbac9367e03381e38ac7bb2ba0b1ada4d2261aba957a654679819d9211f617d1ea4030abd961b9dead6e9a9c60fd21&auth_token=54741b289e946919fc1c34ca88db58a4
+#EXTINF:-1 tvg-name="高清大片" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/315/684/202204010048_5101034200_H169_1080.jpg" group-title="影视", 高清大片
+https://mgtv.ottiptv.cc/mg/629943678.m3u8?userid=8137863657&sign=fd6c2cbc5da9e59fc71bd344f76f7a3cb395fb0352d5c86d975b6950d00e7027849d2660f556e4e7a33c0354f921203a64a20f5ae9b38d7d9d7f3f06de82c22b3e94ffe5e79ce35468daa1dc16e539f84b&auth_token=54741b289e946919fc1c34ca88db58a4
+#EXTINF:-1 tvg-name="南方影视" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2206/173/738/202304081513_2206173738_HSJ720H.jpg" group-title="影视", 南方影视
+https://mgtv.ottiptv.cc/mg/614961829.m3u8?userid=8137863657&sign=0bc317495ef8a8c291e424518adbc93a644d909ebacc34ec0e9221623e0d8cd69f723d6eb61a67cdf5828cc10dc9edb3b129419774aa7bcf4ec9a83828672e36243362c4d92704f5e9f2c8739e83c575ac&auth_token=54741b289e946919fc1c34ca88db58a4
+#EXTINF:-1 tvg-name="血色山河·抗日战争影像志" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/019/527/202506181115_1750216473927_H169_1080.jpg" group-title="影视", 血色山河·抗日战争影像志
+https://mgtv.ottiptv.cc/mg/713600957.m3u8?userid=8137863657&sign=3fd0b6cecd8820767e18fa43bcc445301160d739ff281b880302efb8efbb3428a740bb8fed141de0724e2db739d7e1a2d9371c54e03dc3b73179d1a342c35609a40f42bed205fe8e8d41a46d97c1bc9bcf&auth_token=54741b289e946919fc1c34ca88db58a4
+#EXTINF:-1 tvg-name="中国教育1台" tvg-logo="https://11.112114.xyz/logo/中国教育1台.png" group-title="其他",中国教育电视台-MCP
+https://live.ottiptv.cc/mcp/cetv1.m3u8?userid=8137863657&sign=603553ede1ed16332a15f47efe7ed3060a7ed88154f14ba052c4078de9bd1f69ce399762c4a2dd556790920d9c856f7dbf742b1d14fabd79c95e25bca37ccecddf6ebf9062f4e34df9eb367bd7&auth_token=54741b289e946919fc1c34ca88db58a4
