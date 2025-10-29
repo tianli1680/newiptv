@@ -152,6 +152,23 @@ jobs:
             new_header = re.sub(pattern, f'group-title="{new_group}"', header)
             return new_header
         
+        def add_group_title(header, new_group):
+            """添加分组名称的辅助函数"""
+            # 检查是否已有group-title
+            if 'group-title=' in header:
+                # 如果已有，则更新
+                pattern = r'group-title="([^"]*)"'
+                new_header = re.sub(pattern, f'group-title="{new_group}"', header)
+            else:
+                # 如果没有，则添加
+                # 在频道名称之前添加group-title
+                parts = header.split(',', 1)
+                if len(parts) == 2:
+                    new_header = parts[0] + f' group-title="{new_group}",' + parts[1]
+                else:
+                    new_header = header + f' group-title="{new_group}"'
+            return new_header
+        
         # 下载并处理主m3u文件
         print("=== 处理主m3u文件 ===")
         main_content = download_m3u(main_m3u_url)
@@ -297,9 +314,24 @@ jobs:
                 channels = parse_m3u(content)
                 print(f"  {filename}: 解析到 {len(channels)} 个频道")
                 
-                # 直接使用原始频道，不修改分组
-                additional_channels[filename] = channels
-                print(f"  {filename}: 保持原始分组")
+                # 设置分组名称
+                group_name_map = {
+                    'iqiyi.m3u': '爱奇频道',
+                    'migu.m3u': '赛事咪咕'
+                }
+                
+                updated_channels = []
+                for channel in channels:
+                    new_header = channel['header']
+                    
+                    # 添加或更新分组名称
+                    new_header = add_group_title(new_header, group_name_map[filename])
+                    
+                    channel['header'] = new_header
+                    updated_channels.append(channel)
+                
+                additional_channels[filename] = updated_channels
+                print(f"  {filename}: 已设置分组为 '{group_name_map[filename]}'")
         
         # 过滤所有分类的频道
         print("\n=== 开始过滤频道 ===")
