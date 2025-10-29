@@ -1,10 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="2025-10-29 09:02:36" tvg-logo="https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/tg.jpg" group-title="斗鱼轮播",2025-10-29 09:02:36
-https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/time/time.mp4
-#EXTINF:-1 tvg-name="4K60PSDR-H264-AAC测试" tvg-logo="https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/tg.jpg" group-title="斗鱼轮播",4K60PSDR-H264-AAC测试
-https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/sdr4kvideo/playlist.m3u8
-#EXTINF:-1 tvg-name="4K60PHLG-HEVC-EAC3测试" tvg-logo="https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/tg.jpg" group-title="斗鱼轮播",4K60PHLG-HEVC-EAC3测试
-https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/hlg4kvideo/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/201907/42dbbbd5f6234e96ac54d84287f8c47e_big.jpg" group-title="斗鱼轮播", 橙記Orange丶
 https://live.ottiptv.cc/douyu/4549169
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/201903/4b77c73f33f343b3a5acc11c20b69efe_big.jpg" group-title="斗鱼轮播", baby丶贝贝
@@ -33,8 +27,6 @@ https://live.ottiptv.cc/douyu/11851549
 https://live.ottiptv.cc/douyu/11878141
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avanew/face/201712/19/07/5e2df6dc5728b47edb1fa2436953ead8_big.jpg" group-title="斗鱼轮播", 我砸晕了牛顿奥
 https://live.ottiptv.cc/douyu/1218414
-#EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar/default/16_big.jpg" group-title="斗鱼轮播", dw151295068
-https://live.ottiptv.cc/douyu/12655359
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avanew/face/201611/19/23/e535db4878625ed52ab5b0edfedb9f29_big.jpg" group-title="斗鱼轮播", 粤语电影丶
 https://live.ottiptv.cc/douyu/1226741
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202308/ed30c2a412654672bd59add6b8b7a5bd_big.jpg" group-title="斗鱼轮播", 蓝翔新三国
@@ -151,8 +143,6 @@ https://live.ottiptv.cc/douyu/2287949
 https://live.ottiptv.cc/douyu/1377142
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202104/792a22940e764b9d80bf0389990dd2ab_big.jpg" group-title="斗鱼轮播", 老高与小茉的死忠粉
 https://live.ottiptv.cc/douyu/236461
-#EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar/default/02_big.jpg" group-title="斗鱼轮播", 用户1275665728
-https://live.ottiptv.cc/douyu/9067836
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202310/2d2a5e1d512744b195a8f0c7bacdbb73_big.jpg" group-title="斗鱼轮播", 小毅主播q
 https://live.ottiptv.cc/douyu/6906628
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202411/54adb764aba24e0f9ed1536054b8b275_big.jpg" group-title="斗鱼轮播", 一把钢刀镇斗虞
@@ -331,8 +321,6 @@ https://live.ottiptv.cc/douyu/9650782
 https://live.ottiptv.cc/douyu/8415464
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202007/620eb391e5ce4d79ba17cac4f3ec6d1d_big.jpg" group-title="斗鱼轮播", 一个机智张张
 https://live.ottiptv.cc/douyu/9653063
-#EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar/default/01_big.jpg" group-title="斗鱼轮播", 用户2979576101
-https://live.ottiptv.cc/douyu/9273031
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202007/f65fe8c27e8f4b74a9d546d9550f8358_big.jpg" group-title="斗鱼轮播", JustXiaIt嘻咦啊看
 https://live.ottiptv.cc/douyu/2660125
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202012/86faf14bc9dd4521bae1fce8829f2eb0_big.jpg" group-title="斗鱼轮播", 漫威君
@@ -499,8 +487,6 @@ https://live.ottiptv.cc/douyu/9409703
 https://live.ottiptv.cc/douyu/9607934
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202005/831dac0d68004066a03dc02acbf80881_big.jpg" group-title="斗鱼轮播", 谁语说电影
 https://live.ottiptv.cc/douyu/8705754
-#EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar/default/13_big.jpg" group-title="斗鱼轮播", 用户7719601289
-https://live.ottiptv.cc/douyu/9403738
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202012/a2234d0f5d7a489497779582283a5fb5_big.jpg" group-title="斗鱼轮播", 鹏友说电影
 https://live.ottiptv.cc/douyu/9445244
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202102/c529281d53624b14a1c49740eddb36b1_big.jpg" group-title="斗鱼轮播", 荒野伊甸园
@@ -655,8 +641,6 @@ https://live.ottiptv.cc/douyu/3506483
 https://live.ottiptv.cc/douyu/9431727
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar/default/22_big.jpg" group-title="斗鱼轮播", OooOlivia奥莉蕉
 https://live.ottiptv.cc/douyu/9678862
-#EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202308/31973c0b74264826b33faaa09dc6d1a6_big.jpg" group-title="斗鱼轮播", 用户8440489197
-https://live.ottiptv.cc/douyu/11752511
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar/default/08_big.jpg" group-title="斗鱼轮播", 星空茶茶
 https://live.ottiptv.cc/douyu/8635497
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202103/b18b63ca73224dd8919bc6a58c7c9ef1_big.jpg" group-title="斗鱼轮播", 阿苏电影
@@ -709,8 +693,6 @@ https://live.ottiptv.cc/douyu/9272327
 https://live.ottiptv.cc/douyu/7508566
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202006/d8ac7c3cd169453295b245eebab3d277_big.jpg" group-title="斗鱼轮播", 猪弟驸马爷
 https://live.ottiptv.cc/douyu/8862501
-#EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202103/7e56236d35394fe88124fa2421654b1b_big.jpg" group-title="斗鱼轮播", 情感测试小分队
-https://live.ottiptv.cc/douyu/9697688
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202011/7fb25d9f3ba44adb882c4725c0dd3ba9_big.jpg" group-title="斗鱼轮播", 神之传说sh
 https://live.ottiptv.cc/douyu/9370168
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202102/9161d300eaaa4f3a83946aeb31105147_big.jpg" group-title="斗鱼轮播", 是真的林虎LinHu

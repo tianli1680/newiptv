@@ -1,10 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="2025-10-29 09:02:28" tvg-logo="https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/tg.jpg" group-title="Y Y 轮播",2025-10-29 09:02:28
-https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/time/time.mp4
-#EXTINF:-1 tvg-name="4K60PSDR-H264-AAC测试" tvg-logo="https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/tg.jpg" group-title="Y Y 轮播",4K60PSDR-H264-AAC测试
-https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/sdr4kvideo/playlist.m3u8
-#EXTINF:-1 tvg-name="4K60PHLG-HEVC-EAC3测试" tvg-logo="https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/tg.jpg" group-title="Y Y 轮播",4K60PHLG-HEVC-EAC3测试
-https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/hlg4kvideo/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 24官频陪你一起看
 https://yylunbo.ottiptv.cc/yy/1351186084
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778172/u2956778172aZ2Pryh.jpg" group-title="Y Y 轮播", 正阳门下
@@ -535,8 +529,6 @@ https://yylunbo.ottiptv.cc/yy/1354658043
 https://yylunbo.ottiptv.cc/yy/1382736864
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 新世界
 https://yylunbo.ottiptv.cc/yy/1382736850
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 爆笑电影！王牌大贱谍2-3
-https://yylunbo.ottiptv.cc/yy/1382735556
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 憨豆先生-经典喜剧
 https://yylunbo.ottiptv.cc/yy/1354936239
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 真心想让你幸福
@@ -757,8 +749,6 @@ https://yylunbo.ottiptv.cc/yy/1354931495
 https://yylunbo.ottiptv.cc/yy/1354930816
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 高分港剧合集
 https://yylunbo.ottiptv.cc/yy/1382735542
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 欢乐集结号58-70
-https://yylunbo.ottiptv.cc/yy/1382745119
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 我的父亲我的兵
 https://yylunbo.ottiptv.cc/yy/1353413714
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 动物宝宝大盘点-大波可爱动物来袭
@@ -995,8 +985,6 @@ https://yylunbo.ottiptv.cc/yy/1354936160
 https://yylunbo.ottiptv.cc/yy/1354936157
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/86/2869863645/u2869863645hloEJqD.jpg" group-title="Y Y 轮播", 时代剧，黄土高天
 https://yylunbo.ottiptv.cc/yy/1414864180
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 爆笑电影！王牌大贱谍2-3
-https://yylunbo.ottiptv.cc/yy/1354936169
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/50/2454500353/u2454500353ZqY-oXw.jpg" group-title="Y Y 轮播", 悬疑剧-河神
 https://yylunbo.ottiptv.cc/yy/1353413683
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 名不虚传-韩剧
@@ -1059,8 +1047,6 @@ https://yylunbo.ottiptv.cc/yy/1354932365
 https://yylunbo.ottiptv.cc/yy/1382745094
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 经典科幻电影-2001漫游太空
 https://yylunbo.ottiptv.cc/yy/1354926671
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 喜剧电影：冒牌天神1-2
-https://yylunbo.ottiptv.cc/yy/1354936210
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 电波传情-生死密电
 https://yylunbo.ottiptv.cc/yy/1382735571
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 笨贼一箩筐，笑出腹肌！
@@ -1137,8 +1123,6 @@ https://yylunbo.ottiptv.cc/yy/1354936214
 https://yylunbo.ottiptv.cc/yy/1382736863
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 小和尚勇闯都市-小和尚大当家
 https://yylunbo.ottiptv.cc/yy/1382736874
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 机械战警1-3
-https://yylunbo.ottiptv.cc/yy/1382736854
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 当爸爸变成我兄弟？
 https://yylunbo.ottiptv.cc/yy/1382749912
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 不一样的花木兰传奇

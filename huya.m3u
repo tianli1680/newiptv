@@ -1,10 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="2025-10-29 09:02:32" tvg-logo="https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/tg.jpg" group-title="虎牙轮播",2025-10-29 09:02:32
-https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/time/time.mp4
-#EXTINF:-1 tvg-name="4K60PSDR-H264-AAC测试" tvg-logo="https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/tg.jpg" group-title="虎牙轮播",4K60PSDR-H264-AAC测试
-https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/sdr4kvideo/playlist.m3u8
-#EXTINF:-1 tvg-name="4K60PHLG-HEVC-EAC3测试" tvg-logo="https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/tg.jpg" group-title="虎牙轮播",4K60PHLG-HEVC-EAC3测试
-https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/hlg4kvideo/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1092/d0/fe3e8932013519fad159f46a499070_180_135.jpg?1751857477" group-title="虎牙轮播", 花见羞羞
 https://live.ottiptv.cc/huya/30829078
 #EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1099/f6/53aafc173b24d0c336faac2e49b822_180_135.jpg?1445851392" group-title="虎牙轮播", 武林萌主唐小姐
