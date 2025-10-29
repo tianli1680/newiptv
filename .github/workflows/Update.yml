@@ -3,7 +3,7 @@ name: Process M3U Playlist
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */3 * * *'  # 每天自动运行一次
+    - cron: '0 */2 * * *'  # 每天自动运行一次
 
 jobs:
   process-playlist:
@@ -297,30 +297,9 @@ jobs:
                 channels = parse_m3u(content)
                 print(f"  {filename}: 解析到 {len(channels)} 个频道")
                 
-                # 设置分组名称
-                group_name_map = {
-                    'iqiyi.m3u': '爱奇频道',
-                    'migu.m3u': '赛事咪咕'
-                }
-                
-                updated_channels = []
-                for channel in channels:
-                    new_header = channel['header']
-                    
-                    # 更新分组名称
-                    group_match = re.search(r'group-title="([^"]*)"', new_header)
-                    if group_match:
-                        old_group = group_match.group(1)
-                        new_header = update_group_title(new_header, old_group, group_name_map[filename])
-                    else:
-                        # 如果没有分组，添加分组
-                        new_header = new_header + f' group-title="{group_name_map[filename]}"'
-                    
-                    channel['header'] = new_header
-                    updated_channels.append(channel)
-                
-                additional_channels[filename] = updated_channels
-                print(f"  {filename}: 已设置分组为 '{group_name_map[filename]}'")
+                # 直接使用原始频道，不修改分组
+                additional_channels[filename] = channels
+                print(f"  {filename}: 保持原始分组")
         
         # 过滤所有分类的频道
         print("\n=== 开始过滤频道 ===")
@@ -388,33 +367,7 @@ jobs:
                 except Exception as e:
                     print(f"  合并 {filename} 时出错: {e}")
         
-        # 输出统计信息
         print("\n=== 处理完成 ===")
-        print("分类统计:")
-        print(f"  咪咕央视 (live1.m3u): {len(live1_channels)} 个频道")
-        print(f"  央视频道 (live2.m3u): {len(live2_channels)} 个频道")
-        print(f"  咪咕卫视 (live3.m3u): {len(live3_channels)} 个频道")
-        print(f"  卫视频道 (live4.m3u): {len(live4_channels)} 个频道")
-        print(f"  影视频道 (live5.m3u): {len(live5_channels)} 个频道")
-        print(f"  体育频道 (live6.m3u): {len(live6_channels)} 个频道")
-        
-        # 新增频道统计
-        for filename, channel_list in additional_channels.items():
-            print(f"  {filename}: {len(channel_list)} 个频道")
-        
-        extra_total = 0
-        for filename, channel_list in extra_channels.items():
-            print(f"  {filename}: {len(channel_list)} 个频道")
-            extra_total += len(channel_list)
-        
-        additional_total = 0
-        for filename, channel_list in additional_channels.items():
-            additional_total += len(channel_list)
-        
-        total_channels = (len(live1_channels) + len(live2_channels) + len(live3_channels) + 
-                         len(live4_channels) + len(live5_channels) + len(live6_channels) + 
-                         extra_total + additional_total)
-        print(f"合并文件 (live.m3u): {total_channels} 个频道")
         EOF
     
     - name: Commit processed files
