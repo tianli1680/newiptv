@@ -3,7 +3,7 @@ name: Process M3U Playlist
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */2 * * *'  # 每天自动运行一次
+    - cron: '0 */2 * * *'  # 每隔2小时自动运行一次
 
 jobs:
   process-playlist:
@@ -76,12 +76,63 @@ jobs:
                         current_channel['name'] = name_match.group(1)
                     else:
                         current_channel['name'] = ''
+                    # 提取tvg-name
+                    tvg_name_match = re.search(r'tvg-name="([^"]*)"', line)
+                    if tvg_name_match:
+                        current_channel['tvg_name'] = tvg_name_match.group(1)
+                    else:
+                        current_channel['tvg_name'] = ''
                 elif line and not line.startswith('#') and current_channel:
                     current_channel['url'] = line
                     channels.append(current_channel.copy())
                     current_channel = {}
             
             return channels
+        
+        def filter_channels(channel_list):
+            """过滤频道，去除包含'测试'和更新时间的频道"""
+            filtered_channels = []
+            removed_count = 0
+            
+            # 匹配更新时间的正则表达式模式
+            # 匹配常见的日期时间格式，如: 2024-01-01, 2024/01/01, 2024.01.01, 20240101等
+            time_patterns = [
+                r'\d{4}-\d{1,2}-\d{1,2}',  # 2024-01-01
+                r'\d{4}/\d{1,2}/\d{1,2}',  # 2024/01/01
+                r'\d{4}\.\d{1,2}\.\d{1,2}',  # 2024.01.01
+                r'\d{8}',  # 20240101
+                r'\d{1,2}-\d{1,2}',  # 01-01
+                r'\d{1,2}/\d{1,2}',  # 01/01
+                r'\d{1,2}月\d{1,2}日',  # 1月1日
+                r'\d{1,2}:\d{2}',  # 12:00
+                r'\d{1,2}时\d{1,2}分',  # 12时00分
+            ]
+            
+            for channel in channel_list:
+                tvg_name = channel.get('tvg_name', '')
+                name = channel.get('name', '')
+                
+                # 检查是否包含"测试"
+                if '测试' in tvg_name or '测试' in name:
+                    removed_count += 1
+                    continue
+                
+                # 检查是否包含更新时间
+                time_found = False
+                for pattern in time_patterns:
+                    if re.search(pattern, tvg_name) or re.search(pattern, name):
+                        time_found = True
+                        break
+                
+                if time_found:
+                    removed_count += 1
+                    continue
+                
+                # 通过过滤的频道
+                filtered_channels.append(channel)
+            
+            print(f"过滤掉了 {removed_count} 个频道")
+            return filtered_channels
         
         def update_channel_name(header, old_name, new_name):
             """更新频道名称的辅助函数"""
@@ -228,6 +279,19 @@ jobs:
                     updated_channels.append(channel)
                 
                 extra_channels[filename] = updated_channels
+        
+        # 过滤所有分类的频道
+        print("\n=== 开始过滤频道 ===")
+        live1_channels = filter_channels(live1_channels)
+        live2_channels = filter_channels(live2_channels)
+        live3_channels = filter_channels(live3_channels)
+        live4_channels = filter_channels(live4_channels)
+        live5_channels = filter_channels(live5_channels)
+        live6_channels = filter_channels(live6_channels)
+        
+        # 过滤额外的m3u文件
+        for filename in extra_channels:
+            extra_channels[filename] = filter_channels(extra_channels[filename])
         
         # 写入各分类文件
         def write_m3u_file(filename, channel_list):
