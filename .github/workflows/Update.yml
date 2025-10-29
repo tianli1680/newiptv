@@ -3,7 +3,7 @@ name: Process M3U Playlist
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */3 * * *'  # 每3小时自动运行一次
+    - cron: '0 */3 * * *'  # 每天自动运行一次
 
 jobs:
   process-playlist:
@@ -39,8 +39,11 @@ jobs:
             'yylunbo.m3u': 'https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/yylunbo.m3u'
         }
         
-        # 新增URL链接
-        additional_url = "http://rihou.cc:567/gggg.nzk/"
+        # 新增URL链接 - 分别对应不同的分组
+        additional_urls = {
+            'iqiyi.m3u': 'https://raw.githubusercontent.com/tianli1680/rihou/refs/heads/main/iqiyi.m3u',
+            'migu.m3u': 'https://raw.githubusercontent.com/tianli1680/rihou/refs/heads/main/migu.m3u'
+        }
         
         def download_m3u(url):
             """下载m3u文件的辅助函数"""
@@ -287,29 +290,37 @@ jobs:
         print("\n=== 处理新增URL ===")
         additional_channels = {}
         
-        additional_content = download_m3u(additional_url)
-        if additional_content:
-            channels = parse_m3u(additional_content)
-            print(f"新增URL: 解析到 {len(channels)} 个频道")
-            
-            # 提取分组为"赛事咪咕"的频道
-            migu_channels = []
-            # 提取分组为"爱奇频道"的频道
-            iqiyi_channels = []
-            
-            for channel in channels:
-                group = channel.get('group', '')
+        # 处理每个新增URL
+        for filename, url in additional_urls.items():
+            content = download_m3u(url)
+            if content:
+                channels = parse_m3u(content)
+                print(f"  {filename}: 解析到 {len(channels)} 个频道")
                 
-                if group == '赛事咪咕':
-                    migu_channels.append(channel)
-                elif group == '爱奇频道':
-                    iqiyi_channels.append(channel)
-            
-            print(f"  赛事咪咕分组: {len(migu_channels)} 个频道")
-            print(f"  爱奇频道分组: {len(iqiyi_channels)} 个频道")
-            
-            additional_channels['migu.m3u'] = migu_channels
-            additional_channels['iqiyi.m3u'] = iqiyi_channels
+                # 设置分组名称
+                group_name_map = {
+                    'iqiyi.m3u': '爱奇频道',
+                    'migu.m3u': '赛事咪咕'
+                }
+                
+                updated_channels = []
+                for channel in channels:
+                    new_header = channel['header']
+                    
+                    # 更新分组名称
+                    group_match = re.search(r'group-title="([^"]*)"', new_header)
+                    if group_match:
+                        old_group = group_match.group(1)
+                        new_header = update_group_title(new_header, old_group, group_name_map[filename])
+                    else:
+                        # 如果没有分组，添加分组
+                        new_header = new_header + f' group-title="{group_name_map[filename]}"'
+                    
+                    channel['header'] = new_header
+                    updated_channels.append(channel)
+                
+                additional_channels[filename] = updated_channels
+                print(f"  {filename}: 已设置分组为 '{group_name_map[filename]}'")
         
         # 过滤所有分类的频道
         print("\n=== 开始过滤频道 ===")
