@@ -3,7 +3,7 @@ name: Process M3U Playlist
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */2 * * *'  # 每隔2小时自动运行一次
+    - cron: '0 */2 * * *'  # 每天自动运行一次
 
 jobs:
   process-playlist:
@@ -38,6 +38,9 @@ jobs:
             'douyu.m3u': 'https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/douyuyqk.m3u',
             'yylunbo.m3u': 'https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/yylunbo.m3u'
         }
+        
+        # 新增URL链接
+        additional_url = "http://rihou.cc:567/gggg.nzk/"
         
         def download_m3u(url):
             """下载m3u文件的辅助函数"""
@@ -280,6 +283,34 @@ jobs:
                 
                 extra_channels[filename] = updated_channels
         
+        # 下载并处理新增的URL
+        print("\n=== 处理新增URL ===")
+        additional_channels = {}
+        
+        additional_content = download_m3u(additional_url)
+        if additional_content:
+            channels = parse_m3u(additional_content)
+            print(f"新增URL: 解析到 {len(channels)} 个频道")
+            
+            # 提取分组为"赛事咪咕"的频道
+            migu_channels = []
+            # 提取分组为"爱奇频道"的频道
+            iqiyi_channels = []
+            
+            for channel in channels:
+                group = channel.get('group', '')
+                
+                if group == '赛事咪咕':
+                    migu_channels.append(channel)
+                elif group == '爱奇频道':
+                    iqiyi_channels.append(channel)
+            
+            print(f"  赛事咪咕分组: {len(migu_channels)} 个频道")
+            print(f"  爱奇频道分组: {len(iqiyi_channels)} 个频道")
+            
+            additional_channels['migu.m3u'] = migu_channels
+            additional_channels['iqiyi.m3u'] = iqiyi_channels
+        
         # 过滤所有分类的频道
         print("\n=== 开始过滤频道 ===")
         live1_channels = filter_channels(live1_channels)
@@ -292,6 +323,10 @@ jobs:
         # 过滤额外的m3u文件
         for filename in extra_channels:
             extra_channels[filename] = filter_channels(extra_channels[filename])
+        
+        # 过滤新增的频道
+        for filename in additional_channels:
+            additional_channels[filename] = filter_channels(additional_channels[filename])
         
         # 写入各分类文件
         def write_m3u_file(filename, channel_list):
@@ -313,12 +348,20 @@ jobs:
         for filename, channel_list in extra_channels.items():
             write_m3u_file(filename, channel_list)
         
+        # 写入新增的m3u文件
+        for filename, channel_list in additional_channels.items():
+            write_m3u_file(filename, channel_list)
+        
         # 合并文件（按指定顺序）
         print("开始合并文件...")
         with open('live.m3u', 'w', encoding='utf-8') as f:
             f.write('#EXTM3U\n')
             # 按指定顺序合并
-            merge_order = ['live2.m3u', 'live4.m3u', 'live1.m3u', 'live3.m3u', 'live5.m3u', 'live6.m3u', 'huya.m3u', 'douyu.m3u', 'yylunbo.m3u']
+            merge_order = [
+                'live2.m3u', 'live4.m3u', 'live1.m3u', 'live3.m3u', 
+                'migu.m3u', 'iqiyi.m3u', 'live5.m3u', 'live6.m3u', 
+                'huya.m3u', 'douyu.m3u', 'yylunbo.m3u'
+            ]
             
             for filename in merge_order:
                 try:
@@ -344,12 +387,22 @@ jobs:
         print(f"  影视频道 (live5.m3u): {len(live5_channels)} 个频道")
         print(f"  体育频道 (live6.m3u): {len(live6_channels)} 个频道")
         
+        # 新增频道统计
+        for filename, channel_list in additional_channels.items():
+            print(f"  {filename}: {len(channel_list)} 个频道")
+        
         extra_total = 0
         for filename, channel_list in extra_channels.items():
             print(f"  {filename}: {len(channel_list)} 个频道")
             extra_total += len(channel_list)
         
-        total_channels = len(live1_channels) + len(live2_channels) + len(live3_channels) + len(live4_channels) + len(live5_channels) + len(live6_channels) + extra_total
+        additional_total = 0
+        for filename, channel_list in additional_channels.items():
+            additional_total += len(channel_list)
+        
+        total_channels = (len(live1_channels) + len(live2_channels) + len(live3_channels) + 
+                         len(live4_channels) + len(live5_channels) + len(live6_channels) + 
+                         extra_total + additional_total)
         print(f"合并文件 (live.m3u): {total_channels} 个频道")
         EOF
     
@@ -357,6 +410,6 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add live*.m3u huya.m3u douyu.m3u yylunbo.m3u
+        git add live*.m3u huya.m3u douyu.m3u yylunbo.m3u migu.m3u iqiyi.m3u
         git diff --staged --quiet || git commit -m "自动更新分类后的播放列表 [skip ci]"
         git push
