@@ -3,7 +3,7 @@ name: Process M3U Playlist
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */2 * * *'  # 每天自动运行一次
+    - cron: '0 */3 * * *'  # 每3小时自动运行一次
 
 jobs:
   process-playlist:
