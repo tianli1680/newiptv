@@ -188,27 +188,27 @@ jobs:
         
         # 央视频道名称映射
         cctv_name_mapping = {
-            'CCTV1综合': 'CCTV-1 综合',
-            'CCTV2财经': 'CCTV-2 财经',
-            'CCTV3综艺': 'CCTV-3 综艺',
-            'CCTV4中文国际': 'CCTV-4 中文国际',
-            'CCTV5体育': 'CCTV-5 体育',
-            'CCTV5+体育赛事': 'CCTV-5+ 体育赛事',
-            'CCTV6电影': 'CCTV-6 电影',
-            'CCTV7国防军事': 'CCTV-7 国防军事',
-            'CCTV8电视剧': 'CCTV-8 电视剧',
-            'CCTV9纪录': 'CCTV-9 纪录',
-            'CCTV10科教': 'CCTV-10 科教',
-            'CCTV11戏曲': 'CCTV-11 戏曲',
-            'CCTV12社会与法': 'CCTV-12 社会与法',
-            'CCTV13新闻': 'CCTV-13 新闻',
-            'CCTV14少儿': 'CCTV-14 少儿',
-            'CCTV15音乐': 'CCTV-15 音乐',
-            'CCTV17农业农村': 'CCTV-17 农业农村',
-            'CCTV4欧洲': 'CCTV-4 欧洲',
-            'CCTV4美洲': 'CCTV-4 美洲',
-            'CGTN外语纪录': 'CGTN 外语纪录',
-            'CGTN阿拉伯语': 'CGTN 阿拉伯语'
+            'CCTV1综合': 'CCTV1综合',
+            'CCTV2财经': 'CCTV2财经',
+            'CCTV3综艺': 'CCTV3综艺',
+            'CCTV4中文国际': 'CCTV4中文国际',
+            'CCTV5体育': 'CCTV5体育',
+            'CCTV5+体育赛事': 'CCTV5+体育赛事',
+            'CCTV6电影': 'CCTV6电影',
+            'CCTV7国防军事': 'CCTV7国防军事',
+            'CCTV8电视剧': 'CCTV8电视剧',
+            'CCTV9纪录': 'CCTV9纪录',
+            'CCTV10科教': 'CCTV10科教',
+            'CCTV11戏曲': 'CCTV11戏曲',
+            'CCTV12社会与法': 'CCTV12社会与法',
+            'CCTV13新闻': 'CCTV13新闻',
+            'CCTV14少儿': 'CCTV14少儿',
+            'CCTV15音乐': 'CCTV15音乐',
+            'CCTV17农业农村': 'CCTV17农业农村',
+            'CCTV4欧洲': 'CCTV4欧洲',
+            'CCTV4美洲': 'CCTV4美洲',
+            'CGTN外语纪录': 'CGTN外语纪录',
+            'CGTN阿拉伯语': 'CGTN阿拉伯语'
         }
         
         print("开始分类处理频道...")
