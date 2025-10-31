@@ -3,7 +3,7 @@ name: Process M3U Playlist
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */2 * * *'  # 每天自动运行一次
+    - cron: '0 */3 * * *'  # 每天自动运行一次
 
 jobs:
   process-playlist:
@@ -44,6 +44,9 @@ jobs:
             'iqiyi.m3u': 'https://raw.githubusercontent.com/tianli1680/rihou/refs/heads/main/iqiyi.m3u',
             'migu.m3u': 'https://raw.githubusercontent.com/tianli1680/rihou/refs/heads/main/migu.m3u'
         }
+        
+        # 新增链接 - 用于提取央视和卫视频道
+        migu_video_url = "https://raw.githubusercontent.com/tianli1680/migu_video/main/interface.txt"
         
         def download_m3u(url):
             """下载m3u文件的辅助函数"""
@@ -140,12 +143,6 @@ jobs:
             print(f"过滤掉了 {removed_count} 个频道")
             return filtered_channels
         
-        def update_channel_name(header, old_name, new_name):
-            """更新频道名称的辅助函数"""
-            pattern = r'(,)' + re.escape(old_name) + r'$'
-            new_header = re.sub(pattern, r'\1' + new_name, header)
-            return new_header
-        
         def update_group_title(header, old_group, new_group):
             """更新分组名称的辅助函数"""
             pattern = r'group-title="' + re.escape(old_group) + r'"'
@@ -179,37 +176,12 @@ jobs:
         print(f"共解析到 {len(channels)} 个频道")
         
         # 分类处理
-        live1_channels = []  # 咪咕央视
+        live1_channels = []  # 央视咪咕 (从新链接提取)
         live2_channels = []  # 央视频道 (MCP)
-        live3_channels = []  # 咪咕卫视
+        live3_channels = []  # 卫视咪咕 (从新链接提取)
         live4_channels = []  # 卫视频道 (MCP)
         live5_channels = []  # 影视频道
         live6_channels = []  # 体育频道
-        
-        # 央视频道名称映射
-        cctv_name_mapping = {
-            'CCTV1综合': 'CCTV1综合',
-            'CCTV2财经': 'CCTV2财经',
-            'CCTV3综艺': 'CCTV3综艺',
-            'CCTV4中文国际': 'CCTV4中文国际',
-            'CCTV5体育': 'CCTV5体育',
-            'CCTV5+体育赛事': 'CCTV5+体育赛事',
-            'CCTV6电影': 'CCTV6电影',
-            'CCTV7国防军事': 'CCTV7国防军事',
-            'CCTV8电视剧': 'CCTV8电视剧',
-            'CCTV9纪录': 'CCTV9纪录',
-            'CCTV10科教': 'CCTV10科教',
-            'CCTV11戏曲': 'CCTV11戏曲',
-            'CCTV12社会与法': 'CCTV12社会与法',
-            'CCTV13新闻': 'CCTV13新闻',
-            'CCTV14少儿': 'CCTV14少儿',
-            'CCTV15音乐': 'CCTV15音乐',
-            'CCTV17农业农村': 'CCTV17农业农村',
-            'CCTV4欧洲': 'CCTV4欧洲',
-            'CCTV4美洲': 'CCTV4美洲',
-            'CGTN外语纪录': 'CGTN外语纪录',
-            'CGTN阿拉伯语': 'CGTN阿拉伯语'
-        }
         
         print("开始分类处理频道...")
         for channel in channels:
@@ -217,48 +189,19 @@ jobs:
             name = channel.get('name', '')
             original_header = channel['header']
             
-            # 1. 央视频道处理
-            if group == '央视':
-                if 'MCP' in name:
-                    # 央视频道 (MCP)
-                    new_header = update_group_title(original_header, group, '央视频道')
-                    channel['header'] = new_header
-                    live2_channels.append(channel)
-                elif 'CCTV' in name or 'CGTN' in name:
-                    # 咪咕央视
-                    new_header = original_header
-                    
-                    # 应用名称映射
-                    name_updated = False
-                    for old_name, new_name in cctv_name_mapping.items():
-                        if old_name == name:  # 精确匹配
-                            new_header = update_channel_name(new_header, name, new_name)
-                            channel['name'] = new_name
-                            name_updated = True
-                            break
-                        elif old_name in name:  # 部分匹配
-                            new_header = update_channel_name(new_header, name, new_name)
-                            channel['name'] = new_name
-                            name_updated = True
-                            break
-                    
-                    # 更新分组名称
-                    new_header = update_group_title(new_header, group, '咪咕央视')
-                    channel['header'] = new_header
-                    live1_channels.append(channel)
+            # 1. 央视频道处理 - 只处理包含MCP的频道
+            if group == '央视' and 'MCP' in name:
+                # 央视频道 (MCP)
+                new_header = update_group_title(original_header, group, '央视频道')
+                channel['header'] = new_header
+                live2_channels.append(channel)
             
-            # 2. 卫视频道处理
-            elif group == '卫视':
-                if 'MCP' in name:
-                    # 卫视频道 (MCP)
-                    new_header = update_group_title(original_header, group, '卫视频道')
-                    channel['header'] = new_header
-                    live4_channels.append(channel)
-                else:
-                    # 咪咕卫视
-                    new_header = update_group_title(original_header, group, '咪咕卫视')
-                    channel['header'] = new_header
-                    live3_channels.append(channel)
+            # 2. 卫视频道处理 - 只处理包含MCP的频道
+            elif group == '卫视' and 'MCP' in name:
+                # 卫视频道 (MCP)
+                new_header = update_group_title(original_header, group, '卫视频道')
+                channel['header'] = new_header
+                live4_channels.append(channel)
             
             # 3. 其他、影视频道 -> 影视频道
             elif group in ['其他', '影视']:
@@ -271,6 +214,39 @@ jobs:
                 new_header = update_group_title(original_header, group, '体育频道')
                 channel['header'] = new_header
                 live6_channels.append(channel)
+        
+        # 下载并处理新增的migu_video链接
+        print("\n=== 处理新增migu_video链接 ===")
+        migu_video_content = download_m3u(migu_video_url)
+        if migu_video_content:
+            channels = parse_m3u(migu_video_content)
+            print(f"migu_video链接: 解析到 {len(channels)} 个频道")
+            
+            # 提取分组为"央视"的频道
+            cctv_channels = []
+            # 提取分组为"卫视"的频道
+            tv_channels = []
+            
+            for channel in channels:
+                group = channel.get('group', '')
+                original_header = channel['header']
+                
+                if group == '央视':
+                    # 更新分组名称为"央视咪咕"
+                    new_header = update_group_title(original_header, group, '央视咪咕')
+                    channel['header'] = new_header
+                    cctv_channels.append(channel)
+                elif group == '卫视':
+                    # 更新分组名称为"卫视咪咕"
+                    new_header = update_group_title(original_header, group, '卫视咪咕')
+                    channel['header'] = new_header
+                    tv_channels.append(channel)
+            
+            live1_channels = cctv_channels
+            live3_channels = tv_channels
+            
+            print(f"  央视咪咕分组: {len(live1_channels)} 个频道")
+            print(f"  卫视咪咕分组: {len(live3_channels)} 个频道")
         
         # 下载并处理额外的m3u文件
         print("\n=== 处理额外m3u文件 ===")
