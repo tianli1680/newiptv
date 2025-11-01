@@ -44,7 +44,7 @@ jobs:
         additional_urls = {
             'iqiyi.m3u': 'https://raw.githubusercontent.com/tianli1680/rihou/refs/heads/main/iqiyi.m3u',
             'migu.m3u': 'https://raw.githubusercontent.com/tianli1680/rihou/refs/heads/main/migu.m3u',
-            'iqiyi1.m3u': 'https://raw.githubusercontent.com/tianli1680/rihou/refs/heads/main/iqiyi1.m3u'  # 新增的iqiyi1链接
+            # 'iqiyi1.m3u': 'https://raw.githubusercontent.com/tianli1680/rihou/refs/heads/main/iqiyi1.m3u'  # 新增的iqiyi1链接
         }
         
         # 新增链接 - 用于提取央视和卫视频道
