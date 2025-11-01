@@ -54,7 +54,7 @@ jobs:
             try:
                 req = urllib.request.Request(url)
                 req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')
-                with urllib.request.urlopen(req) as response:
+                with urllib.request.urlopen(req, timeout=30) as response:
                     content = response.read().decode('utf-8')
                 print("下载成功")
                 return content
@@ -166,16 +166,7 @@ jobs:
                     new_header = header + f' group-title="{new_group}"'
             return new_header
         
-        # 下载并处理主m3u文件
-        print("=== 处理主m3u文件 ===")
-        main_content = download_m3u(main_m3u_url)
-        if not main_content:
-            exit(1)
-        
-        channels = parse_m3u(main_content)
-        print(f"共解析到 {len(channels)} 个频道")
-        
-        # 分类处理
+        # 初始化所有频道列表
         live1_channels = []  # 央视咪咕 (从新链接提取)
         live2_channels = []  # 央视频道 (MCP)
         live3_channels = []  # 卫视咪咕 (从新链接提取)
@@ -183,37 +174,46 @@ jobs:
         live5_channels = []  # 影视频道
         live6_channels = []  # 体育频道
         
-        print("开始分类处理频道...")
-        for channel in channels:
-            group = channel.get('group', '')
-            name = channel.get('name', '')
-            original_header = channel['header']
+        # 下载并处理主m3u文件
+        print("=== 处理主m3u文件 ===")
+        main_content = download_m3u(main_m3u_url)
+        if main_content:
+            channels = parse_m3u(main_content)
+            print(f"共解析到 {len(channels)} 个频道")
             
-            # 1. 央视频道处理 - 只处理包含MCP的频道
-            if group == '央视' and 'MCP' in name:
-                # 央视频道 (MCP)
-                new_header = update_group_title(original_header, group, '央视频道')
-                channel['header'] = new_header
-                live2_channels.append(channel)
-            
-            # 2. 卫视频道处理 - 只处理包含MCP的频道
-            elif group == '卫视' and 'MCP' in name:
-                # 卫视频道 (MCP)
-                new_header = update_group_title(original_header, group, '卫视频道')
-                channel['header'] = new_header
-                live4_channels.append(channel)
-            
-            # 3. 其他、影视频道 -> 影视频道
-            elif group in ['其他', '影视']:
-                new_header = update_group_title(original_header, group, '影视频道')
-                channel['header'] = new_header
-                live5_channels.append(channel)
-            
-            # 4. 体育频道 -> 体育频道
-            elif group == '体育':
-                new_header = update_group_title(original_header, group, '体育频道')
-                channel['header'] = new_header
-                live6_channels.append(channel)
+            print("开始分类处理频道...")
+            for channel in channels:
+                group = channel.get('group', '')
+                name = channel.get('name', '')
+                original_header = channel['header']
+                
+                # 1. 央视频道处理 - 只处理包含MCP的频道
+                if group == '央视' and 'MCP' in name:
+                    # 央视频道 (MCP)
+                    new_header = update_group_title(original_header, group, '央视频道')
+                    channel['header'] = new_header
+                    live2_channels.append(channel)
+                
+                # 2. 卫视频道处理 - 只处理包含MCP的频道
+                elif group == '卫视' and 'MCP' in name:
+                    # 卫视频道 (MCP)
+                    new_header = update_group_title(original_header, group, '卫视频道')
+                    channel['header'] = new_header
+                    live4_channels.append(channel)
+                
+                # 3. 其他、影视频道 -> 影视频道
+                elif group in ['其他', '影视']:
+                    new_header = update_group_title(original_header, group, '影视频道')
+                    channel['header'] = new_header
+                    live5_channels.append(channel)
+                
+                # 4. 体育频道 -> 体育频道
+                elif group == '体育':
+                    new_header = update_group_title(original_header, group, '体育频道')
+                    channel['header'] = new_header
+                    live6_channels.append(channel)
+        else:
+            print("主m3u文件下载失败，跳过主m3u文件的处理")
         
         # 下载并处理新增的migu_video链接
         print("\n=== 处理新增migu_video链接 ===")
@@ -247,6 +247,8 @@ jobs:
             
             print(f"  央视咪咕分组: {len(live1_channels)} 个频道")
             print(f"  卫视咪咕分组: {len(live3_channels)} 个频道")
+        else:
+            print("migu_video链接下载失败，跳过处理")
         
         # 下载并处理额外的m3u文件
         print("\n=== 处理额外m3u文件 ===")
@@ -278,6 +280,8 @@ jobs:
                     updated_channels.append(channel)
                 
                 extra_channels[filename] = updated_channels
+            else:
+                print(f"  {filename}: 下载失败，跳过处理")
         
         # 下载并处理新增的URL
         print("\n=== 处理新增URL ===")
@@ -308,6 +312,8 @@ jobs:
                 
                 additional_channels[filename] = updated_channels
                 print(f"  {filename}: 已设置分组为 '{group_name_map[filename]}'")
+            else:
+                print(f"  {filename}: 下载失败，跳过处理")
         
         # 过滤所有分类的频道
         print("\n=== 开始过滤频道 ===")
@@ -328,11 +334,15 @@ jobs:
         
         # 写入各分类文件
         def write_m3u_file(filename, channel_list):
-            with open(filename, 'w', encoding='utf-8') as f:
-                f.write('#EXTM3U\n')
-                for channel in channel_list:
-                    f.write(channel['header'] + '\n')
-                    f.write(channel['url'] + '\n')
+            if channel_list:  # 只有当频道列表不为空时才写入文件
+                with open(filename, 'w', encoding='utf-8') as f:
+                    f.write('#EXTM3U\n')
+                    for channel in channel_list:
+                        f.write(channel['header'] + '\n')
+                        f.write(channel['url'] + '\n')
+                print(f"  已写入: {filename} ({len(channel_list)} 个频道)")
+            else:
+                print(f"  跳过写入空文件: {filename}")
         
         print("\n开始写入分类文件...")
         write_m3u_file('live1.m3u', live1_channels)
@@ -372,6 +382,8 @@ jobs:
                         if non_empty_lines:
                             f.write('\n'.join(non_empty_lines) + '\n')
                     print(f"  已合并: {filename}")
+                except FileNotFoundError:
+                    print(f"  文件不存在，跳过合并: {filename}")
                 except Exception as e:
                     print(f"  合并 {filename} 时出错: {e}")
         
