@@ -3,21 +3,5 @@
 https://other.ottiptv.cc/cwjd.m3u8
 #EXTINF:-1 tvg-name="五星体育" tvg-logo="https://11.112114.xyz/logo/五星体育.png" group-title="影视频道",五星体育
 https://other.ottiptv.cc/wxty.m3u8
-#EXTINF:-1 tvg-name="经典香港电影" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/242/089/202508211805_1755769495190_H169_1080.jpg" group-title="影视频道", 经典香港电影
-https://mgtv.ottiptv.cc/mg/625703337.m3u8?userid=8137863657&sign=93cc41a5e23893cbb210442d7a20c629fd6049446c330912d7e1860e796353df1911a28afb89bb1767544b0a251ae040060ebe6789a9a4db99cd8c013d57692e8852e7d115815b9072d2cd8678218ac186&auth_token=54741b289e946919fc1c34ca88db58a4
-#EXTINF:-1 tvg-name="抗战经典影片" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/002/717/202507241513_1753340542329_H169_1080.jpg" group-title="影视频道", 抗战经典影片
-https://mgtv.ottiptv.cc/mg/617432318.m3u8?userid=8137863657&sign=fd6978e7821df1009e774594f93018f55cb74acf6a9cb0c865d54ffaf5e8690a08113ed1279ed1c2cdc4a31f94f990585fc55f39abf53d1a1d692110b17aa80e48ed3a518edb6441adcb45ac5ea8005b3b&auth_token=54741b289e946919fc1c34ca88db58a4
-#EXTINF:-1 tvg-name="新片放映厅" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/035/175/202405061742_1714988181593_H169_1080.jpg" group-title="影视频道", 新片放映厅
-https://mgtv.ottiptv.cc/mg/619495952.m3u8?userid=8137863657&sign=d116b607577ff8ed97f7a4a5ac143b1a2653f27205944a22652f7aa4155ca1d70ed0bcbc57fd2abec83027dc936a7146d0c668d9c48d17aadc8195a69318ea053e8a933c1edd799be68d30e58179d0a399&auth_token=54741b289e946919fc1c34ca88db58a4
-#EXTINF:-1 tvg-name="CHC影迷电影" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/022/176/202504161629_1744788994468_H169_1080.jpg" group-title="影视频道", CHC影迷电影
-https://mgtv.ottiptv.cc/mg/952383261.m3u8?userid=8137863657&sign=0e7eae3df80a0f172b9e1642c096246bde89eafbfaba952fd705f93284ff68f1521ba4bc7e0a579001e3915567048e306dff79582d3f845dd8a7a9a10badde7adcc972484311871a763bbd148ee6f9c2fc&auth_token=54741b289e946919fc1c34ca88db58a4
-#EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/554/795/202308221159_1692676692674_H169_1080.jpg" group-title="影视频道", CHC动作电影
-https://mgtv.ottiptv.cc/mg/644368714.m3u8?userid=8137863657&sign=de41c92af07311f34ab4ba25e6545f237a9303b4af926306baa204119bdbed7a259a9a949e7b3a73ca4e21b85221b8129a83f637ea257c8ad12bd077e71335f5feb2695044f0af3831ddaf1486530322b0&auth_token=54741b289e946919fc1c34ca88db58a4
-#EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/554/911/202308221200_1692676825616_H169_1080.jpg" group-title="影视频道", CHC家庭影院
-https://mgtv.ottiptv.cc/mg/644368373.m3u8?userid=8137863657&sign=4fee4094cb5f26228ee3cc4bd5d368598fbdbd212a3a89e9fa8c39af4e51a66ee813d4309dab313739fee2138312a8db747a860d0ef74c47e77de9d5c11fc975ecf84c9797f3efce6fc954d7ed11521c29&auth_token=54741b289e946919fc1c34ca88db58a4
-#EXTINF:-1 tvg-name="和美乡途轮播台" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/019/525/202504151721_1744708803016_H169_1080.jpg" group-title="影视频道", 和美乡途轮播台
-https://mgtv.ottiptv.cc/mg/713591450.m3u8?userid=8137863657&sign=282443f6e2a3d6463ae2c1ef2cbe40982fb5db1fb854813c6355a27321eeec211ad27912248c293d37d7e6e071f2cadb473b49ad8c991db3d253f5fc141b910a4cfd87ccc03f505b61f7bc22634365b3a3&auth_token=54741b289e946919fc1c34ca88db58a4
-#EXTINF:-1 tvg-name="南方影视" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/2206/173/738/202304081513_2206173738_HSJ720H.jpg" group-title="影视频道", 南方影视
-https://mgtv.ottiptv.cc/mg/614961829.m3u8?userid=8137863657&sign=d05ed12be369d695e8f05d742f0faeb00cdfb2906d125ca7b3a3f6f66e4623ebe0e82633c1446dec4f615d3e2b34bc03a771ab8a4db1fdbf158a6fb119d3b79ea042953caa0b4d49cdb6539dd05050c395&auth_token=54741b289e946919fc1c34ca88db58a4
 #EXTINF:-1 tvg-name="中国教育1台" tvg-logo="https://11.112114.xyz/logo/中国教育1台.png" group-title="影视频道",中国教育电视台-MCP
-https://live.ottiptv.cc/mcp/cetv1.m3u8?userid=8137863657&sign=871d53cad78d2528ffa7052b168f742847c88a1c26aaf851d665be54c9c48988b093636314a673e719386e6b3909ef78609419ba72dc9980d0b150ccd1a9ba8dee2e025c21ad1ba752075cdb46&auth_token=54741b289e946919fc1c34ca88db58a4
+https://live.ottiptv.cc/mcp/cetv1.m3u8?userid=8137863657&sign=45b514d49716dad54a9f0026a78f6f00b1e004d8d8a1a0ff48d02a5ffaf54ab9b9594137afa3437a722f834ea88b11d6e2ac83bfcb92be2be610b5490561f737e2dfc96d9f31b81122b94cd56c&auth_token=54741b289e946919fc1c34ca88db58a4
