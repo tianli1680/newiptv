@@ -124,89 +124,91 @@ https://live.ottiptv.cc/mcp/yunnan.m3u8?userid=8137863657&sign=f7f7c7891878ebc18
 #EXTINF:-1 tvg-name="兵团卫视" tvg-logo="https://11.112114.xyz/logo/兵团卫视.png" group-title="卫视频道",兵团卫视-MCP
 https://live.ottiptv.cc/mcp/bintuan.m3u8?userid=8137863657&sign=429583c7ef9c0bd9d414c3339dd2eaeb4ca6b5bea2079a6852d0e4d2d4d016132d5f6a980b041688cca5dd632642730b06df9b40811554711c08594e79ff0f13664aa3b30e82ab1453eb44ad19b34b&auth_token=54741b289e946919fc1c34ca88db58a4
 #EXTINF:-1 svg-id="CCTV1综合" svg-name="CCTV1综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2201/057/821/202204010054_1626677671392_H32_1080.webp" group-title="央视咪咕",CCTV1综合
-http://gslbmgsplive.miguvideo.com/wd_r2/cctv/cctv1hd/1200/index.m3u8?msisdn=2025111616002765c756438e3744ecb496f806fd05b156&mdspid=&spid=699004&netType=0&sid=2201057821&pid=2028597139&timestamp=20251116160027&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608807420&ParentNodeID=-99&assertID=2201057821&client_ip=106.13.250.83&SecurityKey=20251116160027&promotionId=&mvid=2201057821&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=bf535ff18d9fe651ea7c088e3a85dedd&ddCalcu=dbdfee51d385508faf31e88d890fce76a5e1
+http://gslbmgsplive.miguvideo.com/wd_r2/cctv/cctv1hd/1200/index.m3u8?msisdn=202511161800282c428e57457f460bbb9baf3afc9d50f7&mdspid=&spid=699004&netType=0&sid=2201057821&pid=2028597139&timestamp=20251116180028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608807420&ParentNodeID=-99&assertID=2201057821&client_ip=106.13.250.83&SecurityKey=20251116180028&promotionId=&mvid=2201057821&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=b2dd236ff6335d52d0c601bb11a559c5&ddCalcu=5bc2e9d15d8520a3161fbfb6130365cd05d2
 #EXTINF:-1 svg-id="CCTV2财经" svg-name="CCTV2财经" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/346/945/202205311432_1626678578843_H32_1080.webp" group-title="央视咪咕",CCTV2财经
-http://gslbmgsplive.miguvideo.com/wd_r2/cctv/cctv2hd/1500/index.m3u8?msisdn=202511161600276f11059c929f4d7eb6d0342e24cb50b8&mdspid=&spid=699004&netType=0&sid=5500346945&pid=2028597139&timestamp=20251116160027&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=631780532&ParentNodeID=-99&assertID=5500346945&client_ip=106.13.250.83&SecurityKey=20251116160027&promotionId=&mvid=5101064231&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=f633a9a335eb73ee19e921ae1cd46fe9&ddCalcu=9fe6ef316314a0d9ca13e3a51e2b97e39e1e
+http://gslbmgsplive.miguvideo.com/wd_r2/cctv/cctv2hd/1500/index.m3u8?msisdn=2025111618002866ca386f1a3444f282a35e3a10e5d776&mdspid=&spid=699004&netType=0&sid=5500346945&pid=2028597139&timestamp=20251116180028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=631780532&ParentNodeID=-99&assertID=5500346945&client_ip=106.13.250.83&SecurityKey=20251116180028&promotionId=&mvid=5101064231&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=4c67290d47d3ec357ed950f21be54128&ddCalcu=842ce161471520e9b01d24f70d539edce375
 #EXTINF:-1 svg-id="CCTV3综艺" svg-name="CCTV3综艺" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/864/202204010055_1626679244629_H32_1080.webp" group-title="央视咪咕",CCTV3综艺
-http://gslbmgsplive.miguvideo.com/wd_r2/2018/ocn/cctv3hd/2000/index.m3u8?msisdn=20251116160028027468db3e414eb29fced8c06a603a0e&mdspid=&spid=699004&netType=0&sid=5500212864&pid=2028597139&timestamp=20251116160028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=624878271&ParentNodeID=-99&assertID=5500212864&client_ip=106.13.250.83&SecurityKey=20251116160028&promotionId=&mvid=5100001683&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=90e562b098d125fece352c2a996d2322&ddCalcu=2920e3e1254d60629b90a928cd215235efce
+http://gslbmgsplive.miguvideo.com/wd_r2/2018/ocn/cctv3hd/2000/index.m3u8?msisdn=20251116180028106ca49d6b1d46a1bd44697148aceb03&mdspid=&spid=699004&netType=0&sid=5500212864&pid=2028597139&timestamp=20251116180028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=624878271&ParentNodeID=-99&assertID=5500212864&client_ip=106.13.250.83&SecurityKey=20251116180028&promotionId=&mvid=5100001683&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=a63603b04b0b9baaefeb75a37e3bf2bf&ddCalcu=fab6e231f64b0033eb7034ab507bb9ebfaea
 #EXTINF:-1 svg-id="CCTV4中文国际" svg-name="CCTV4中文国际" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/346/947/202204010054_1626679413842_H32_1080.webp" group-title="央视咪咕",CCTV4中文国际
-http://gslbmgsplive.miguvideo.com/wd_r2/cctv/cctv4hd/1500/index.m3u8?msisdn=202511161600286eaffa334f1b4860bc5dfd6917bda77c&mdspid=&spid=699004&netType=0&sid=5500346947&pid=2028597139&timestamp=20251116160028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=631780421&ParentNodeID=-99&assertID=5500346947&client_ip=106.13.250.83&SecurityKey=20251116160028&promotionId=&mvid=5101064235&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=9df089c3f3afe6f8b65fd0df1b3b5268&ddCalcu=896de2f1501b8039bc13ffd30adffe566fb8
+http://gslbmgsplive.miguvideo.com/wd_r2/cctv/cctv4hd/1500/index.m3u8?msisdn=2025111618002883cc4784d1d74f56a87f3d0cfb854774&mdspid=&spid=699004&netType=0&sid=5500346947&pid=2028597139&timestamp=20251116180028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=631780421&ParentNodeID=-99&assertID=5500346947&client_ip=106.13.250.83&SecurityKey=20251116180028&promotionId=&mvid=5101064235&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=7bac100b0fe80cb0c7f029ffe4f0e0d5&ddCalcu=57dbe0a1ec1010f040ebf0ff9e2800fc7bc0
 #EXTINF:-1 svg-id="CCTV5体育" svg-name="CCTV5体育" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/516/171/202204010048_1626679603804_H32_1080.webp" group-title="央视咪咕",CCTV5体育
-http://gslbmgsplive.miguvideo.com/wd_r2/cctv/cctv5hdnew/1200/index.m3u8?msisdn=20251116160028e8deeb1f9dce43f7bd116e69e8757490&mdspid=&spid=699004&netType=0&sid=5500516171&pid=2028597139&timestamp=20251116160028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=641886683&ParentNodeID=-99&assertID=5500516171&client_ip=106.13.250.83&SecurityKey=20251116160028&promotionId=&mvid=5102048712&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=5c100be6701260dfced7da5c27f04208&ddCalcu=850ce211401000fb7e26c750a1d276d0edcf
+http://gslbmgsplive.miguvideo.com/wd_r2/cctv/cctv5hdnew/1200/index.m3u8?msisdn=20251116180028357366b185e243629903f066d9ae9ac2&mdspid=&spid=699004&netType=0&sid=5500516171&pid=2028597139&timestamp=20251116180028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=641886683&ParentNodeID=-99&assertID=5500516171&client_ip=106.13.250.83&SecurityKey=20251116180028&promotionId=&mvid=5102048712&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=38bffdf532028543bb03d5ee69a1b085&ddCalcu=5388e0b1bf11f0ad9f65e3e250d23805b4b3
 #EXTINF:-1 svg-id="CCTV5+体育赛事" svg-name="CCTV5+体育赛事" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/516/288/202204010048_1626679712843_H32_1080.webp" group-title="央视咪咕",CCTV5+体育赛事
-http://gslbmgsplive.miguvideo.com/wd_r2/cctv/cctv5plusnew/1200/index.m3u8?msisdn=202511161600285098a7b9af8d4162ab386d1ac040c70b&mdspid=&spid=699004&netType=0&sid=5500516288&pid=2028597139&timestamp=20251116160028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=641886773&ParentNodeID=-99&assertID=5500516288&client_ip=106.13.250.83&SecurityKey=20251116160028&promotionId=&mvid=5102048803&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=40096789f61c953fa2fe91a3e4bf8001&ddCalcu=1400e001891f60b748e93fa6119ce9f523af
+http://gslbmgsplive.miguvideo.com/wd_r2/cctv/cctv5plusnew/1200/index.m3u8?msisdn=20251116180028911e8b7cc1204bf0b4425b2b1224d504&mdspid=&spid=699004&netType=0&sid=5500516288&pid=2028597139&timestamp=20251116180028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=641886773&ParentNodeID=-99&assertID=5500516288&client_ip=106.13.250.83&SecurityKey=20251116180028&promotionId=&mvid=5102048803&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=d0f362dcda7f43d8036018ea963059e5&ddCalcu=5de0e9f1531060326d9cadea871f04633d08
 #EXTINF:-1 svg-id="CCTV6电影" svg-name="CCTV6电影" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/872/202204010054_1626679914432_H32_1080.webp" group-title="央视咪咕",CCTV6电影
-http://gslbmgsplive.miguvideo.com/wd_r2/2018/ocn/cctv6hd/2000/index.m3u8?msisdn=2025111616002830aaaa632e4d47e591b41dbd4c155a0d&mdspid=&spid=699004&netType=0&sid=5500212872&pid=2028597139&timestamp=20251116160028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=624878396&ParentNodeID=-99&assertID=5500212872&client_ip=106.13.250.83&SecurityKey=20251116160028&promotionId=&mvid=5100001694&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=d6d5d2b562bb0bb5701113c891d924a7&ddCalcu=7da6e4d12549d0d21b9586c23b1b101b0b75
+http://gslbmgsplive.miguvideo.com/wd_r2/2018/ocn/cctv6hd/2000/index.m3u8?msisdn=2025111618002856bc8faa0f8448569f7e2cc476c326b4&mdspid=&spid=699004&netType=0&sid=5500212872&pid=2028597139&timestamp=20251116180028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=624878396&ParentNodeID=-99&assertID=5500212872&client_ip=106.13.250.83&SecurityKey=20251116180028&promotionId=&mvid=5100001694&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=a22628e0094f89da24876ad3a8fc4dbe&ddCalcu=eab2ed21464c20f88ea030d9a46f78894d2a
 #EXTINF:-1 svg-id="CCTV7国防军事" svg-name="CCTV7国防军事" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/622/202204010054_1626680119210_H32_1080.webp" group-title="央视咪咕",CCTV7国防军事
-http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv7hd/51/index.m3u8?msisdn=202511161600286e5f484c39474f4db1af699a60fe45d7&mdspid=&spid=699004&netType=0&sid=5501083622&pid=2028597139&timestamp=20251116160028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=673168121&ParentNodeID=-99&assertID=5501083622&client_ip=106.13.250.83&SecurityKey=20251116160028&promotionId=&mvid=5102910278&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=2305740563bda4817412e513b921953f&ddCalcu=f233e5019531702490b536135bed2a144871
+http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv7hd/51/index.m3u8?msisdn=20251116180028a628a7f2e0d04f6bb1a935ac39d28898&mdspid=&spid=699004&netType=0&sid=5501083622&pid=2028597139&timestamp=20251116180028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=673168121&ParentNodeID=-99&assertID=5501083622&client_ip=106.13.250.83&SecurityKey=20251116180028&promotionId=&mvid=5102910278&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=6ef7132a31d8ddf2fef9672bdbaa9b9e&ddCalcu=e69eebf1973a10a3b2dab3217d689dfdeff2
 #EXTINF:-1 svg-id="CCTV8电视剧" svg-name="CCTV8电视剧" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/868/202204010049_1626677150014_H32_1080.webp" group-title="央视咪咕",CCTV8电视剧
-http://gslbmgsplive.miguvideo.com/wd_r2/2018/ocn/cctv8hd/2000/index.m3u8?msisdn=2025111616002830e67e0bedf2473f8a4594cb07ccf903&mdspid=&spid=699004&netType=0&sid=5500212868&pid=2028597139&timestamp=20251116160028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=624878356&ParentNodeID=-99&assertID=5500212868&client_ip=106.13.250.83&SecurityKey=20251116160028&promotionId=&mvid=5100001695&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=97f8709edc503c647e640fa3f2ecf13e&ddCalcu=e937e1f1f84c70e029fe3dacf500436ce674
+http://gslbmgsplive.miguvideo.com/wd_r2/2018/ocn/cctv8hd/2000/index.m3u8?msisdn=202511161800286c3bb4f1c7a840df8ac876056511a095&mdspid=&spid=699004&netType=0&sid=5500212868&pid=2028597139&timestamp=20251116180028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=624878356&ParentNodeID=-99&assertID=5500212868&client_ip=106.13.250.83&SecurityKey=20251116180028&promotionId=&mvid=5100001695&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=1140d75f87d65c06b6bc3827f274a82f&ddCalcu=f121e841a044d07725ff78278d36c5bc60b6
 #EXTINF:-1 svg-id="CCTV9纪录" svg-name="CCTV9纪录" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/624/202204010054_1626677545059_H32_1080.webp" group-title="央视咪咕",CCTV9纪录
-http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv9hd/51/index.m3u8?msisdn=20251116160028eaac08c97db34203943d22b94c7f0fc2&mdspid=&spid=699004&netType=0&sid=5501083624&pid=2028597139&timestamp=20251116160028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=673168140&ParentNodeID=-99&assertID=5501083624&client_ip=106.13.250.83&SecurityKey=20251116160028&promotionId=&mvid=5102910384&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=2a9c0da1c5fff9cb18af51bad0aa97ce&ddCalcu=e2cae7919c3a00ad0ad1acb51f5fffa98c1b
+http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv9hd/51/index.m3u8?msisdn=2025111618002853bc5f6a51314a67bff17e6318c6d5f0&mdspid=&spid=699004&netType=0&sid=5501083624&pid=2028597139&timestamp=20251116180028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=673168140&ParentNodeID=-99&assertID=5501083624&client_ip=106.13.250.83&SecurityKey=20251116180028&promotionId=&mvid=5102910384&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=1c10a751fa50b5c0212cb95a65738abd&ddCalcu=d1bcea118033a0775561af5a95b0cb251c20
 #EXTINF:-1 svg-id="CCTV10科教" svg-name="CCTV10科教" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/874/202204010054_1626677767922_H32_1080.webp" group-title="央视咪咕",CCTV10科教
-http://gslbmgsplive.miguvideo.com/wd_r2/2018/ocn/cctv10hd/2000/index.m3u8?msisdn=2025111616002883ff64e078c74824a795bc6395aed2e4&mdspid=&spid=699004&netType=0&sid=5500212874&pid=2028597139&timestamp=20251116160028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=624878405&ParentNodeID=-99&assertID=5500212874&client_ip=106.13.250.83&SecurityKey=20251116160028&promotionId=&mvid=5100001696&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=a5611e8c2a7099d86347e0db21a0ca7f&ddCalcu=fa75ea61c14010ae182cb2da07e079493d68
+http://gslbmgsplive.miguvideo.com/wd_r2/2018/ocn/cctv10hd/2000/index.m3u8?msisdn=20251116180028ae2d91acaa6a401cb940fdc1d9d2f2fb&mdspid=&spid=699004&netType=0&sid=5500212874&pid=2028597139&timestamp=20251116180028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=624878405&ParentNodeID=-99&assertID=5500212874&client_ip=106.13.250.83&SecurityKey=20251116180028&promotionId=&mvid=5100001696&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=56d8881e893aa54971169c34576e9bfe&ddCalcu=e5f6ebd1984e8068715e4839c39a6a151479
 #EXTINF:-1 svg-id="CCTV11戏曲" svg-name="CCTV11戏曲" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/988/610/202204010054_1626677922732_H32_1080.webp" group-title="央视咪咕",CCTV11戏曲
-http://gslbmgsplive.miguvideo.com/migu/kailu/cctv11hd/51/20200103/index.m3u8?msisdn=202511161600285f551f894eac4a3caed44d32693085d2&mdspid=&spid=699004&netType=0&sid=5500988610&pid=2028597139&timestamp=20251116160028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=667987558&ParentNodeID=-99&assertID=5500988610&client_ip=106.13.250.83&SecurityKey=20251116160028&promotionId=&mvid=5102751362&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=c75f3399b3053becf500c6c9a9f8d50f&ddCalcu=fc07e551df7830f399a99bc360c5030b5efc
+http://gslbmgsplive.miguvideo.com/migu/kailu/cctv11hd/51/20200103/index.m3u8?msisdn=20251116180028c1e89b0f5e38458fb164102b790d312b&mdspid=&spid=699004&netType=0&sid=5500988610&pid=2028597139&timestamp=20251116180028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=667987558&ParentNodeID=-99&assertID=5500988610&client_ip=106.13.250.83&SecurityKey=20251116180028&promotionId=&mvid=5102751362&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=ad828f59650d40379915639fef3a1516&ddCalcu=6a1de581127a803ff5e9f695306d54109397
 #EXTINF:-1 svg-id="CCTV12社会与法" svg-name="CCTV12社会与法" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/627/202204010053_1626678108629_H32_1080.webp" group-title="央视咪咕",CCTV12社会与法
-http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv12hd/51/index.m3u8?msisdn=20251116160028d16ec96d29d04a0ca66d6c8bdb998739&mdspid=&spid=699004&netType=0&sid=5501083627&pid=2028597139&timestamp=20251116160028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=673168185&ParentNodeID=-99&assertID=5501083627&client_ip=106.13.250.83&SecurityKey=20251116160028&promotionId=&mvid=5102910389&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=d4582a82a47c4b41db74a91a28cd0c6e&ddCalcu=ed64ec51083d20ca8822aa1497ac447bb4d1
+http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv12hd/51/index.m3u8?msisdn=20251116180028349ed4a6ac254c4b894e1f64153f0281&mdspid=&spid=699004&netType=0&sid=5501083627&pid=2028597139&timestamp=20251116180028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=673168185&ParentNodeID=-99&assertID=5501083627&client_ip=106.13.250.83&SecurityKey=20251116180028&promotionId=&mvid=5102910389&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=95e1aa1be4f8185732054592449a602e&ddCalcu=e925e0e1613aa09a414b2e945f4851082537
 #EXTINF:-1 svg-id="CCTV13新闻" svg-name="CCTV13新闻" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2202/208/864/202204010051_2202208864_H32_1080.webp" group-title="央视咪咕",CCTV13新闻
-http://gslbmgsplive.miguvideo.com/envivo_x/2018/SD/cctv13/2000/index.m3u8?msisdn=202511161600283ebba5410f2e49438a6e23bbc6c57c8c&mdspid=&spid=699004&netType=0&sid=2202208864&pid=2028597139&timestamp=20251116160028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608807423&ParentNodeID=-99&assertID=2202208864&client_ip=106.13.250.83&SecurityKey=20251116160028&promotionId=&mvid=2202208864&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=c1f62d9aadc1925aed726e161ec8cb93&ddCalcu=3c91ebf1c68820cde91a6a1dec612972d5ea
+http://gslbmgsplive.miguvideo.com/envivo_x/2018/SD/cctv13/2000/index.m3u8?msisdn=2025111618002882736a74b2894320ba209ed6889ce881&mdspid=&spid=699004&netType=0&sid=2202208864&pid=2028597139&timestamp=20251116180028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608807423&ParentNodeID=-99&assertID=2202208864&client_ip=106.13.250.83&SecurityKey=20251116180028&promotionId=&mvid=2202208864&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=5c81acd7e76eb80eb11d7ec969c2f854&ddCalcu=455ce881f182a0cc9d679ec7e67edb1810be
 #EXTINF:-1 svg-id="CCTV14少儿" svg-name="CCTV14少儿" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/875/202204010054_1626678147073_H32_1080.webp" group-title="央视咪咕",CCTV14少儿
-http://gslbmgsplive.miguvideo.com/wd_r2/2018/ocn/cctv14hd/2000/index.m3u8?msisdn=20251116160028597f2de3c60a473aa5135f05ffc1346b&mdspid=&spid=699004&netType=0&sid=5500212875&pid=2028597139&timestamp=20251116160028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=624878440&ParentNodeID=-99&assertID=5500212875&client_ip=106.13.250.83&SecurityKey=20251116160028&promotionId=&mvid=5100001697&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=a2082824a3b75435f0f9bde0db8201c2&ddCalcu=2ac2e10108422088b2d40ae3dbb795f403f5
+http://gslbmgsplive.miguvideo.com/wd_r2/2018/ocn/cctv14hd/2000/index.m3u8?msisdn=20251116180029c270405770d74cefab4dc7381d828d6f&mdspid=&spid=699004&netType=0&sid=5500212875&pid=2028597139&timestamp=20251116180029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=624878440&ParentNodeID=-99&assertID=5500212875&client_ip=106.13.250.83&SecurityKey=20251116180029&promotionId=&mvid=5100001697&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=40cc35fa5e3544577416b57f360acda5&ddCalcu=54a0edc1cc4a30056f3af57e53b564144577
 #EXTINF:-1 svg-id="CCTV15音乐" svg-name="CCTV15音乐" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/628/202204010054_1626678245130_H32_1080.webp" group-title="央视咪咕",CCTV15音乐
-http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv15hd/51/index.m3u8?msisdn=20251116160028307f812e241847b0a621c4b966a441e3&mdspid=&spid=699004&netType=0&sid=5501083628&pid=2028597139&timestamp=20251116160028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=673168223&ParentNodeID=-99&assertID=5501083628&client_ip=106.13.250.83&SecurityKey=20251116160028&promotionId=&mvid=5102910391&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=973466c4a73ff1b5ff7758e0dc4d36cf&ddCalcu=f9c7e631343d6046ccd40ae7835f7f71fbf5
+http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv15hd/51/index.m3u8?msisdn=20251116180029818b7473660049a88b35b68aecfd28d7&mdspid=&spid=699004&netType=0&sid=5501083628&pid=2028597139&timestamp=20251116180029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=673168223&ParentNodeID=-99&assertID=5501083628&client_ip=106.13.250.83&SecurityKey=20251116180029&promotionId=&mvid=5102910391&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=b5c13013b75ad2ab37c2ac78b73d6e01&ddCalcu=1b05eec1613d303071b38b77c5aa2dc27a3b
 #EXTINF:-1 svg-id="CCTV17农业农村" svg-name="CCTV17农业农村" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/631/202204010052_1626678428060_H32_1080.webp" group-title="央视咪咕",CCTV17农业农村
-http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv17hd/51/index.m3u8?msisdn=202511161600284fc224ba43b14c5b81f051c51c164f3f&mdspid=&spid=699004&netType=0&sid=5501083631&pid=2028597139&timestamp=20251116160028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=673168256&ParentNodeID=-99&assertID=5501083631&client_ip=106.13.250.83&SecurityKey=20251116160028&promotionId=&mvid=5102910396&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=bb4fdc28ba02daa6b71d5dd714f11cfc&ddCalcu=cbfbec411f31d0fc42187bdad052dd1a7ab6
+http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv17hd/51/index.m3u8?msisdn=202511161800294a8d251de0914476a57a51816fdb934a&mdspid=&spid=699004&netType=0&sid=5501083631&pid=2028597139&timestamp=20251116180029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=673168256&ParentNodeID=-99&assertID=5501083631&client_ip=106.13.250.83&SecurityKey=20251116180029&promotionId=&mvid=5102910396&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=f50f8786c83fd71648c5f9744f7f6425&ddCalcu=5f25e4016f3f8077f8464c7893ff5dc78146
 #EXTINF:-1 svg-id="CCTV4欧洲" svg-name="CCTV4欧洲" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/315/202204010055_1626831010992_H32_1080.webp" group-title="央视咪咕",CCTV4欧洲
-http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv4ouhd/51/index.m3u8?msisdn=202511161600285312e8cb16c04cd5b42ef534700a61e4&mdspid=&spid=699004&netType=0&sid=2200179315&pid=2028597139&timestamp=20251116160028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608807419&ParentNodeID=-99&assertID=2200179315&client_ip=106.13.250.83&SecurityKey=20251116160028&promotionId=&mvid=2200179315&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=2bca6d4a3f0df90f12bb5314dffd63b7&ddCalcu=72bbe3c16a8d60fdf4da431f305dbfb9201f
+http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv4ouhd/51/index.m3u8?msisdn=20251116180029e86848de9f84450b88507463f0aaa5ac&mdspid=&spid=699004&netType=0&sid=2200179315&pid=2028597139&timestamp=20251116180029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608807419&ParentNodeID=-99&assertID=2200179315&client_ip=106.13.250.83&SecurityKey=20251116180029&promotionId=&mvid=2200179315&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=40782aee0b40f2501e608cdb500a76ae&ddCalcu=e4a0e671788a200a0e5eb0dbc4800f62e510
 #EXTINF:-1 svg-id="CCTV4美洲" svg-name="CCTV4美洲" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/344/202204010055_1626830746239_H32_1080.webp" group-title="央视咪咕",CCTV4美洲
-http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv4meihd/51/index.m3u8?msisdn=202511161600287a5f8a6c983f4673a288f1523e184041&mdspid=&spid=699004&netType=0&sid=2200179344&pid=2028597139&timestamp=20251116160028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608807416&ParentNodeID=-99&assertID=2200179344&client_ip=106.13.250.83&SecurityKey=20251116160028&promotionId=&mvid=2200179344&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=da0a5b956905611f0d561500e49616ed&ddCalcu=ddeae6011a86509b49e5060950156651d10f
+http://gslbmgsplive.miguvideo.com/migu/kailu/20200324/cctv4meihd/51/index.m3u8?msisdn=20251116180029b56e67e3147b43c69bcbcc1ad71e1a2b&mdspid=&spid=699004&netType=0&sid=2200179344&pid=2028597139&timestamp=20251116180029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608807416&ParentNodeID=-99&assertID=2200179344&client_ip=106.13.250.83&SecurityKey=20251116180029&promotionId=&mvid=2200179344&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=820a0d33858db28fce7e1349bde80af7&ddCalcu=78f2ea010a8800edd3b39845381deb72e8cf
 #EXTINF:-1 svg-id="CGTN外语纪录" svg-name="CGTN外语纪录" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/356/202502251602_1740470541608_H32_1080.webp" group-title="央视咪咕",CGTN外语纪录
-http://gslbmgsplive.miguvideo.com/envivo_v/2018/SD/cctv/doc/1000/index.m3u8?msisdn=20251116160028a5dd7608b500485ea9633c56cc59ec42&mdspid=&spid=699004&netType=0&sid=2200179356&pid=2028597139&timestamp=20251116160028&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=609006487&ParentNodeID=-99&assertID=2200179356&client_ip=106.13.250.83&SecurityKey=20251116160028&promotionId=&mvid=2200179356&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=65e3900e9b2c74e65b5d6e8274640e3d&ddCalcu=d635eee103949060407e298be26cd754be56
+http://gslbmgsplive.miguvideo.com/envivo_v/2018/SD/cctv/doc/1000/index.m3u8?msisdn=20251116180029be9450833adb4ac79a743d7f2b606948&mdspid=&spid=699004&netType=0&sid=2200179356&pid=2028597139&timestamp=20251116180029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=609006487&ParentNodeID=-99&assertID=2200179356&client_ip=106.13.250.83&SecurityKey=20251116180029&promotionId=&mvid=2200179356&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=fa34f628cc4992a8113e8a906f338fff&ddCalcu=fffaef318493f036f2680c9ca489e9321a18
 #EXTINF:-1 svg-id="CGTN阿拉伯语" svg-name="CGTN阿拉伯语" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/303/202502251557_1740470230464_H32_1080.webp" group-title="央视咪咕",CGTN阿拉伯语
-http://gslbmgsplive.miguvideo.com/envivo_v/SD/cctv/alabo/1000/index.m3u8?msisdn=20251116160029908ba63b0b2e4f66947fba9d8b4b1660&mdspid=&spid=699004&netType=0&sid=2200179303&pid=2028597139&timestamp=20251116160029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=609154345&ParentNodeID=-99&assertID=2200179303&client_ip=106.13.250.83&SecurityKey=20251116160029&promotionId=&mvid=2200179303&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=d0eddf90c10b0c6c4489b31d51a0ad0d&ddCalcu=dd00ede1ad90d0af1950dc1130bb908c464c
+http://gslbmgsplive.miguvideo.com/envivo_v/SD/cctv/alabo/1000/index.m3u8?msisdn=2025111618002909e7c3cb06f24d339f7ada96770bad85&mdspid=&spid=699004&netType=0&sid=2200179303&pid=2028597139&timestamp=20251116180029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=609154345&ParentNodeID=-99&assertID=2200179303&client_ip=106.13.250.83&SecurityKey=20251116180029&promotionId=&mvid=2200179303&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=545ffa06bc0df8abe1d7a3ee4b9ed7c1&ddCalcu=15c4e751df9ef09ab046ebec30ad7fd81aeb
 #EXTINF:-1 svg-id="CGTN西班牙语" svg-name="CGTN西班牙语" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/337/202502251600_1740470437874_H32_1080.webp" group-title="央视咪咕",CGTN西班牙语
-http://gslbmgsplive.miguvideo.com/envivo_v/2018/SD/cctv/xibanya/1000/index.m3u8?msisdn=202511161600298dc88ee9365a4a4d98d542617574d755&mdspid=&spid=699004&netType=0&sid=2200179337&pid=2028597139&timestamp=20251116160029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=609006450&ParentNodeID=-99&assertID=2200179337&client_ip=106.13.250.83&SecurityKey=20251116160029&promotionId=&mvid=2200179337&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=420114a20f30f63d50a45fc4f52bda63&ddCalcu=3462ea01d19b10245af240cff3504fa6035d
+http://gslbmgsplive.miguvideo.com/envivo_v/2018/SD/cctv/xibanya/1000/index.m3u8?msisdn=202511161800290336ddd7785044ec8b6a687dfd31f0fd&mdspid=&spid=699004&netType=0&sid=2200179337&pid=2028597139&timestamp=20251116180029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=609006450&ParentNodeID=-99&assertID=2200179337&client_ip=106.13.250.83&SecurityKey=20251116180029&promotionId=&mvid=2200179337&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=ee347cfa54b16e40725138d172588480&ddCalcu=0e8ee4318498705c2f7a15d48b31165e2470
 #EXTINF:-1 svg-id="CGTN法语" svg-name="CGTN法语" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/324/202502251559_1740470371334_H32_1080.webp" group-title="央视咪咕",CGTN法语
-http://gslbmgsplive.miguvideo.com/envivo_v/2018/SD/cctv/fayu/1000/index.m3u8?msisdn=20251116160029fb7fbb4551f64b49aed3a396690f6a3b&mdspid=&spid=699004&netType=0&sid=2200179324&pid=2028597139&timestamp=20251116160029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=609006476&ParentNodeID=-99&assertID=2200179324&client_ip=106.13.250.83&SecurityKey=20251116160029&promotionId=&mvid=2200179324&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=bc2a5afcb7035c61b687cc55fed46b31&ddCalcu=1b3ceb216a9450daeffc5b57c0c3758c66b1
+http://gslbmgsplive.miguvideo.com/envivo_v/2018/SD/cctv/fayu/1000/index.m3u8?msisdn=202511161800298ac6ad32c2ae4085866d0a560d168f8c&mdspid=&spid=699004&netType=0&sid=2200179324&pid=2028597139&timestamp=20251116180029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=609006476&ParentNodeID=-99&assertID=2200179324&client_ip=106.13.250.83&SecurityKey=20251116180029&promotionId=&mvid=2200179324&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=6c3d477a685f1c81b2c82fb97f73be23&ddCalcu=362cee31bd934077f77a96b8f52f81cc28b1
 #EXTINF:-1 svg-id="CGTN俄语" svg-name="CGTN俄语" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/179/332/202502251558_1740470314603_H32_1080.webp" group-title="央视咪咕",CGTN俄语
-http://gslbmgsplive.miguvideo.com/envivo_v/2018/SD/cctv/eyu/1000/index.m3u8?msisdn=202511161600295bbc0e6d6b384c7b88cbf1d029005bea&mdspid=&spid=699004&netType=0&sid=2200179332&pid=2028597139&timestamp=20251116160029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=609006446&ParentNodeID=-99&assertID=2200179332&client_ip=106.13.250.83&SecurityKey=20251116160029&promotionId=&mvid=2200179332&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=cfa4c36b72bddb33a304db42cd93429d&ddCalcu=dc9fe2a14493c093d6cb2742bbdd4d0b33a3
+http://gslbmgsplive.miguvideo.com/envivo_v/2018/SD/cctv/eyu/1000/index.m3u8?msisdn=202511161800298eb5a96025674f24896bc2113331e858&mdspid=&spid=699004&netType=0&sid=2200179332&pid=2028597139&timestamp=20251116180029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=609006446&ParentNodeID=-99&assertID=2200179332&client_ip=106.13.250.83&SecurityKey=20251116180029&promotionId=&mvid=2200179332&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=171136bb20eccbdec663fd0ac91a671f&ddCalcu=f117e711619a30169bcba200defc3c6b6dce
 #EXTINF:-1 svg-id="老故事" svg-name="老故事" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/002/202405081702_1715158648861_H32_1080.webp" group-title="央视咪咕",老故事
-http://gslbmgsplive.miguvideo.com/migu/kailu/cctvlaogushi/50/20231109/index.m3u8?msisdn=202511161600295daa84f092344e6c8f38597c3c88142c&mdspid=&spid=699004&netType=0&sid=5910022002&pid=2028597139&timestamp=20251116160029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=884121956&ParentNodeID=-99&assertID=5910022002&client_ip=106.13.250.83&SecurityKey=20251116160029&promotionId=&mvid=5900006372&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=3ecaaf21573664c68c1f0b8ebae70142&ddCalcu=234ee1c10a47a0efa2b1e587b306f614cc86
+http://gslbmgsplive.miguvideo.com/migu/kailu/cctvlaogushi/50/20231109/index.m3u8?msisdn=202511161800296c26afc7f4804703b53d79b38b5be44e&mdspid=&spid=699004&netType=0&sid=5910022002&pid=2028597139&timestamp=20251116180029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=884121956&ParentNodeID=-99&assertID=5910022002&client_ip=106.13.250.83&SecurityKey=20251116180029&promotionId=&mvid=5900006372&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=e2e4f18cf239b24d84b141585cbf1f0e&ddCalcu=ee02efe1144ff0b1c85c8f5213491bb2448d
 #EXTINF:-1 svg-id="发现之旅" svg-name="发现之旅" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/893/202405081702_1715158828498_H32_1080.webp" group-title="央视咪咕",发现之旅
-http://gslbmgsplive.miguvideo.com/wd_r3/cnr/faxianzhilv/2000/index.m3u8?msisdn=20251116160029fa17ce7054b546da99a00309ef006a0d&mdspid=&spid=699004&netType=0&sid=5500212893&pid=2028597139&timestamp=20251116160029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=624878970&ParentNodeID=-99&assertID=5500212893&client_ip=106.13.250.83&SecurityKey=20251116160029&promotionId=&mvid=5100001701&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=2486f2fb94cd0508f80b97f7f5408439&ddCalcu=9234e4818640f0425ffb79f47c9db00580f8
+http://gslbmgsplive.miguvideo.com/wd_r3/cnr/faxianzhilv/2000/index.m3u8?msisdn=2025111618002973daaf2c93074a84a50898aa0c27fdde&mdspid=&spid=699004&netType=0&sid=5500212893&pid=2028597139&timestamp=20251116180029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=624878970&ParentNodeID=-99&assertID=5500212893&client_ip=106.13.250.83&SecurityKey=20251116180029&promotionId=&mvid=5100001701&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=ebc53f7dfd830efd79bf1c55093ff653&ddCalcu=3e5be6c1f54f303f970d5f5dc813f0be9f7d
 #EXTINF:-1 svg-id="中学生" svg-name="中学生" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/019/355/202405081702_1715158115119_H32_1080.webp" group-title="央视咪咕",中学生
-http://gslbmgsplive.miguvideo.com/migu/kailu/20210415/cctvzhongxuesheng/51/index.m3u8?msisdn=2025111616002931aaf7694a6d4684915cb2ef968e3ea6&mdspid=&spid=699004&netType=0&sid=5910019355&pid=2028597139&timestamp=20251116160029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=708869532&ParentNodeID=-99&assertID=5910019355&client_ip=106.13.250.83&SecurityKey=20251116160029&promotionId=&mvid=5900002149&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=df5173565d46e626fb2591e7c60d6b57&ddCalcu=7d5feb51618d700365c675ed14965e26b2f6
+http://gslbmgsplive.miguvideo.com/migu/kailu/20210415/cctvzhongxuesheng/51/index.m3u8?msisdn=20251116180029a3da91f3c51740af9f6091d20c7400c0&mdspid=&spid=699004&netType=0&sid=5910019355&pid=2028597139&timestamp=20251116180029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=708869532&ParentNodeID=-99&assertID=5910019355&client_ip=106.13.250.83&SecurityKey=20251116180029&promotionId=&mvid=5900002149&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=cfa8b74fe1516ffe6732c6ff5fd5c9d0&ddCalcu=0cdfe9a1c885b0d7f45ffef165c1263f7f6e
 #EXTINF:-1 svg-id="CGTN" svg-name="CGTN" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2202/196/407/202204010052_1642124778350_H32_1080.webp" group-title="央视咪咕",CGTN
-http://gslbmgsplive.miguvideo.com/envivo_x/2018/SD/cctvnews/1000/index.m3u8?msisdn=20251116160029794cf8f8f3374390be75f0fb32bdc35a&mdspid=&spid=699004&netType=0&sid=2202196407&pid=2028597139&timestamp=20251116160029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=609017205&ParentNodeID=-99&assertID=2202196407&client_ip=106.13.250.83&SecurityKey=20251116160029&promotionId=&mvid=2202196407&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=047712f9803ba3113fff6a19ee1f4729&ddCalcu=9024e771479f1012efe99810a36bfaf3f131
+http://gslbmgsplive.miguvideo.com/envivo_x/2018/SD/cctvnews/1000/index.m3u8?msisdn=20251116180029d9cfa9eb8984408fbefb1077aeb574cf&mdspid=&spid=699004&netType=0&sid=2202196407&pid=2028597139&timestamp=20251116180029&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=609017205&ParentNodeID=-99&assertID=2202196407&client_ip=106.13.250.83&SecurityKey=20251116180029&promotionId=&mvid=2202196407&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=a79e1eeb2ca3fe5ece26cea3723ab8d0&ddCalcu=0ad7e891be9a103e2e7b32aceac36f2ee5ce
 #EXTINF:-1 svg-id="东方卫视" svg-name="东方卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/185/202508040856_5100043384_H32_1080.webp" group-title="卫视咪咕",东方卫视
-http://gslbmgsplive.miguvideo.com/wd_r4/dfl/dongfangwshd/1200/index.m3u8?msisdn=202511161600301eec025c909041288b62ded1836a3def&mdspid=&spid=600697&netType=0&sid=5910022185&pid=2028597139&timestamp=20251116160030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=651632648&ParentNodeID=-99&assertID=5910022185&client_ip=106.13.250.83&SecurityKey=20251116160030&promotionId=&mvid=5100043384&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=7350705e4228777ea51ea895201c7c2a&ddCalcu=a723ec51701c7010052e549282a8e71757ae
+http://gslbmgsplive.miguvideo.com/wd_r4/dfl/dongfangwshd/1200/index.m3u8?msisdn=202511161800300f644e4a012d4b079ca39d92bd7332a4&mdspid=&spid=600697&netType=0&sid=5910022185&pid=2028597139&timestamp=20251116180030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=651632648&ParentNodeID=-99&assertID=5910022185&client_ip=106.13.250.83&SecurityKey=20251116180030&promotionId=&mvid=5100043384&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=33f2abb3fdca585700d7a634356a04fb&ddCalcu=b3f3e4f1021aa06b5b334f3d6caa75d80507
 #EXTINF:-1 svg-id="江苏卫视" svg-name="江苏卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/199/408/202104022140_5100156802_H32_1080.webp" group-title="卫视咪咕",江苏卫视
-http://gslbmgsplive.miguvideo.com/wd_r2/cctv/jiangsuhd/1200/index.m3u8?msisdn=202511161600309fd3b46e94244da387baa0f7f2a53038&mdspid=&spid=699067&netType=0&sid=5500199408&pid=2028597139&timestamp=20251116160030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=623899368&ParentNodeID=-99&assertID=5500199408&client_ip=106.13.250.83&SecurityKey=20251116160030&promotionId=&mvid=5100156802&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=bee3782b66629e69b7dba4e749cf59ef&ddCalcu=fbeee9e1533f70c8924b76e646a2b9de76b9
+http://gslbmgsplive.miguvideo.com/wd_r2/cctv/jiangsuhd/1200/index.m3u8?msisdn=2025111618003051ef6fab8e9742e98f4ba0724ebe36f1&mdspid=&spid=699067&netType=0&sid=5500199408&pid=2028597139&timestamp=20251116180030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=623899368&ParentNodeID=-99&assertID=5500199408&client_ip=106.13.250.83&SecurityKey=20251116180030&promotionId=&mvid=5100156802&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=71d8cc9fb0154ecb607a0b3aaa8f9c01&ddCalcu=1701ecd1983fc08ca9afab30b105a47e0c6b
 #EXTINF:-1 svg-id="广东卫视" svg-name="广东卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2202/428/795/202107191524_2202428795_H32_1080.webp" group-title="卫视咪咕",广东卫视
-http://gslbmgsplive.miguvideo.com/ws_w/2018/gdws/gdws711/1000/index.m3u8?msisdn=202511161600305d583183dc6044019de327836834bcd8&mdspid=&spid=699054&netType=0&sid=2202428795&pid=2028597139&timestamp=20251116160030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608831231&ParentNodeID=-99&assertID=2202428795&client_ip=106.13.250.83&SecurityKey=20251116160030&promotionId=&mvid=2202428795&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=82a7fff49fa3bc4164e6943e8f763801&ddCalcu=1802e8a13786f07fff84e93f4a936bec4461
+http://gslbmgsplive.miguvideo.com/ws_w/2018/gdws/gdws711/1000/index.m3u8?msisdn=20251116180030d7012e849964426f8ae13a7f4b58210f&mdspid=&spid=699054&netType=0&sid=2202428795&pid=2028597139&timestamp=20251116180030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608831231&ParentNodeID=-99&assertID=2202428795&client_ip=106.13.250.83&SecurityKey=20251116180030&promotionId=&mvid=2202428795&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=9c13b39d15606b6797dac7a0796433e3&ddCalcu=39ece3113384b063997d01a576c0a6db7697
 #EXTINF:-1 svg-id="江西卫视" svg-name="江西卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/021/492/202303201551_1658134104486_H32_1080.webp" group-title="卫视咪咕",江西卫视
-http://gslbmgsplive.miguvideo.com/migu/kailu/jxwshd/51/20190820/index.m3u8?msisdn=202511161600303bc12703bb5a4ef58b7ef687612994b2&mdspid=&spid=600633&netType=0&sid=5910021492&pid=2028597139&timestamp=20251116160030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=783847495&ParentNodeID=-99&assertID=5910021492&client_ip=106.13.250.83&SecurityKey=20251116160030&promotionId=&mvid=5900004351&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=ffdbf144282a440b42def8bff54462ba&ddCalcu=afbfe2d16b34f04154f4f2b882fae4d4204b
+http://gslbmgsplive.miguvideo.com/migu/kailu/jxwshd/51/20190820/index.m3u8?msisdn=20251116180030a695a036236e47b08fa68fd19d4d3ab3&mdspid=&spid=600633&netType=0&sid=5910021492&pid=2028597139&timestamp=20251116180030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=783847495&ParentNodeID=-99&assertID=5910021492&client_ip=106.13.250.83&SecurityKey=20251116180030&promotionId=&mvid=5900004351&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=76fa0841eba79ff47ce18b116ba5d5ae&ddCalcu=e7a6e5f1da3500a8b4611e1bba8719efcf74
 #EXTINF:-1 svg-id="河南卫视" svg-name="河南卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/021/585/202304031400_1679994692427_H32_1080.webp" group-title="卫视咪咕",河南卫视
-http://gslbmgsplive.miguvideo.com/wd-henanwssd-600/index.m3u8?msisdn=20251116160030909d0cae7fcb4082986bbc2d547f7eb4&mdspid=&spid=600633&netType=0&sid=5910021585&pid=2028597139&timestamp=20251116160030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=790187291&ParentNodeID=-99&assertID=5910021585&client_ip=106.13.250.83&SecurityKey=20251116160030&promotionId=&mvid=5900005706&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=5284a6312add604aedfeafec348b2079&ddCalcu=9572e081240ba0864331c2eafdade6f0d4ea
+http://gslbmgsplive.miguvideo.com/wd-henanwssd-600/index.m3u8?msisdn=20251116180030cd7a6278324945489c894060a4000696&mdspid=&spid=600633&netType=0&sid=5910021585&pid=2028597139&timestamp=20251116180030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=790187291&ParentNodeID=-99&assertID=5910021585&client_ip=106.13.250.83&SecurityKey=20251116180030&promotionId=&mvid=5900005706&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=a5f2f24f8e5a654387c66cacbb57e6d4&ddCalcu=4ad5e6f1e207f052b4bfc8aec56a66c57483
+#EXTINF:-1 svg-id="陕西卫视" svg-name="陕西卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/020/475/202207191732_1658131370190_H32_1080.webp" group-title="卫视咪咕",陕西卫视
+http://gslbmgsplive.miguvideo.com/migu/kailu/shan3xiws/51/20220809/index.m3u8?msisdn=20251116180030de303921730f422d81ab2557df6ca8ab&mdspid=&spid=600633&netType=0&sid=5910020475&pid=2028597139&timestamp=20251116180030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=738910838&ParentNodeID=-99&assertID=5910020475&client_ip=106.13.250.83&SecurityKey=20251116180030&promotionId=&mvid=5900004331&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=ec0470a73ae65d28ed152e49211f9e2f&ddCalcu=fe2cee01948f70101a27934aee26551dd2e8
 #EXTINF:-1 svg-id="大湾区卫视" svg-name="大湾区卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2200/322/852/202304081513_1677570739176_H32_1080.webp" group-title="卫视咪咕",大湾区卫视
-http://gslbmgsplive.miguvideo.com/wd_r3/2018/nfmedia/nfws/1000/index.m3u8?msisdn=202511161600309b815e75af7a4c479f7ffe3fcf4a0a4e&mdspid=&spid=699054&netType=0&sid=2200322852&pid=2028597139&timestamp=20251116160030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608917627&ParentNodeID=-99&assertID=2200322852&client_ip=106.13.250.83&SecurityKey=20251116160030&promotionId=&mvid=2200322852&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=56bdcf74e013f579956fc2c70f991010&ddCalcu=0516e0b11d89c09ff7047ec021c3ff655799
+http://gslbmgsplive.miguvideo.com/wd_r3/2018/nfmedia/nfws/1000/index.m3u8?msisdn=2025111618003039459ee0ae6447789d6a2ae9e67ff20e&mdspid=&spid=699054&netType=0&sid=2200322852&pid=2028597139&timestamp=20251116180030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608917627&ParentNodeID=-99&assertID=2200322852&client_ip=106.13.250.83&SecurityKey=20251116180030&promotionId=&mvid=2200322852&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=af026b4bde048c52ba51277c428b6541&ddCalcu=1a4fe501628b608b244bcd7e7024185ca5b2
 #EXTINF:-1 svg-id="湖北卫视" svg-name="湖北卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/163/202501231715_1658138615859_H32_1080.webp" group-title="卫视咪咕",湖北卫视
-http://gslbmgsplive.miguvideo.com/wd_r2/2018/ocn/hubeiwshd/2000/index.m3u8?msisdn=20251116160030373c023945124fb2aaebb2e41a8272f2&mdspid=&spid=600633&netType=0&sid=5910022163&pid=2028597139&timestamp=20251116160030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=947472496&ParentNodeID=-99&assertID=5910022163&client_ip=106.13.250.83&SecurityKey=20251116160030&promotionId=&mvid=5900004355&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=f812f4b42dc0d57fbed15bfd9faaf7f6&ddCalcu=6ff8e711f27af0a4fb94d2fdbc501dd5e7bf
+http://gslbmgsplive.miguvideo.com/wd_r2/2018/ocn/hubeiwshd/2000/index.m3u8?msisdn=20251116180030192722c1f1254a24bebb6f7cb3690694&mdspid=&spid=600633&netType=0&sid=5910022163&pid=2028597139&timestamp=20251116180030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=947472496&ParentNodeID=-99&assertID=5910022163&client_ip=106.13.250.83&SecurityKey=20251116180030&promotionId=&mvid=5900004355&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=f4bc45ba23c94925f322d8b139ca1028&ddCalcu=8f24e0b11c7a40c59b3a12b38cd9242932f5
 #EXTINF:-1 svg-id="吉林卫视" svg-name="吉林卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/164/202501231715_1658138733016_H32_1080.webp" group-title="卫视咪咕",吉林卫视
-http://gslbmgsplive.miguvideo.com/envivo_v/2018/SD/jilin/1000/index.m3u8?msisdn=20251116160030982530e6cd904d23b5678dd00235fa9f&mdspid=&spid=600633&netType=0&sid=5910022164&pid=2028597139&timestamp=20251116160030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=947472500&ParentNodeID=-99&assertID=5910022164&client_ip=106.13.250.83&SecurityKey=20251116160030&promotionId=&mvid=5900004357&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=2e4ff753bfc5fb72228a3ed5c31bc852&ddCalcu=225ee841cf7bf01735c35bdfec35af8b2722
+http://gslbmgsplive.miguvideo.com/envivo_v/2018/SD/jilin/1000/index.m3u8?msisdn=202511161800306f493ccba47948e6a8901a970cc349c1&mdspid=&spid=600633&netType=0&sid=5910022164&pid=2028597139&timestamp=20251116180030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=947472500&ParentNodeID=-99&assertID=5910022164&client_ip=106.13.250.83&SecurityKey=20251116180030&promotionId=&mvid=5900004357&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=437371a973a7b96f87c0a388c6a13a6c&ddCalcu=c463ea71337170a16ac987833aa70bc9768f
 #EXTINF:-1 svg-id="青海卫视" svg-name="青海卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/166/202501231715_1658138545016_H32_1080.webp" group-title="卫视咪咕",青海卫视
-http://gslbmgsplive.miguvideo.com/envivo_w/2018/SD/qinghai/1000/index.m3u8?msisdn=2025111616003035b916c9988a4c52adac1f3db63ef49a&mdspid=&spid=600633&netType=0&sid=5910022166&pid=2028597139&timestamp=20251116160030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=947472506&ParentNodeID=-99&assertID=5910022166&client_ip=106.13.250.83&SecurityKey=20251116160030&promotionId=&mvid=5900004353&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=ffc0a19a9fc3244ba019f380192cfc00&ddCalcu=0f0fecc1f07ca021991a098f3cf3921404ab
+http://gslbmgsplive.miguvideo.com/envivo_w/2018/SD/qinghai/1000/index.m3u8?msisdn=2025111618003019716ffe02864a86adc8edc53979a028&mdspid=&spid=600633&netType=0&sid=5910022166&pid=2028597139&timestamp=20251116180030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=947472506&ParentNodeID=-99&assertID=5910022166&client_ip=106.13.250.83&SecurityKey=20251116180030&promotionId=&mvid=5900004353&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=6c2e846b8d602c71dec3c4ac9e030b3f&ddCalcu=f63ceb210e738004e69bc8ad46c032cce7d1
 #EXTINF:-1 svg-id="海南卫视" svg-name="海南卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5910/022/165/202501231715_1658138869802_H32_1080.webp" group-title="卫视咪咕",海南卫视
-http://gslbmgsplive.miguvideo.com/envivo_x/SD/lvyou/711/index.m3u8?msisdn=20251116160030fce79c46eee9420f8291430cc78e3ca9&mdspid=&spid=600633&netType=0&sid=5910022165&pid=2028597139&timestamp=20251116160030&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=947472502&ParentNodeID=-99&assertID=5910022165&client_ip=106.13.250.83&SecurityKey=20251116160030&promotionId=&mvid=5900004359&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=45448edd6759e956cea7e231fa668530&ddCalcu=0435e5418476806eadfd163725e97ea9e5c6
+http://gslbmgsplive.miguvideo.com/envivo_x/SD/lvyou/711/index.m3u8?msisdn=20251116180031ccc58f056a6b498282db9c474c06f587&mdspid=&spid=600633&netType=0&sid=5910022165&pid=2028597139&timestamp=20251116180031&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=947472502&ParentNodeID=-99&assertID=5910022165&client_ip=106.13.250.83&SecurityKey=20251116180031&promotionId=&mvid=5900004359&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=571b797d497553e5546b7aae2b61e73f&ddCalcu=f537e711eb717069b72de4a9a775b5634e55
 #EXTINF:-1 svg-id="中国农林卫视" svg-name="中国农林卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/186/202508051621_1754370274934_H32_1080.webp" group-title="卫视咪咕",中国农林卫视
-http://gslbmgsplive.miguvideo.com/migu/kailu/zgnlws/51/20250804/index.m3u8?msisdn=20251116160031f09b6a41baac48e98886217df9942a80&mdspid=&spid=600572&netType=0&sid=5910022186&pid=2028597139&timestamp=20251116160031&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956904896&ParentNodeID=-99&assertID=5910022186&client_ip=106.13.250.83&SecurityKey=20251116160031&promotionId=&mvid=5900006709&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=c21aac332ed1c4ea39a1653729a05594&ddCalcu=4c92e5115a60a0ac9323723e5d611ca49e3a
+http://gslbmgsplive.miguvideo.com/migu/kailu/zgnlws/51/20250804/index.m3u8?msisdn=20251116180031bf858727f5794c27b68dc9a3a681b4f7&mdspid=&spid=600572&netType=0&sid=5910022186&pid=2028597139&timestamp=20251116180031&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956904896&ParentNodeID=-99&assertID=5910022186&client_ip=106.13.250.83&SecurityKey=20251116180031&promotionId=&mvid=5900006709&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=5d1db89052d81ea67f9089c56d472186&ddCalcu=658de1112d67b048d96055c29d88019efa76
 #EXTINF:-1 svg-id="兵团卫视" svg-name="兵团卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/192/202508061552_1754385902654_H32_1080.webp" group-title="卫视咪咕",兵团卫视
-http://gslbmgsplive.miguvideo.com/migu/kailu/btws/51/20250804/index.m3u8?msisdn=2025111616003138e5fb6b5aa545cab8d60ff91a13bc36&mdspid=&spid=600697&netType=0&sid=5910022192&pid=2028597139&timestamp=20251116160031&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956923145&ParentNodeID=-99&assertID=5910022192&client_ip=106.13.250.83&SecurityKey=20251116160031&promotionId=&mvid=5900006716&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=f77196b67142d0ad52c7f39babec7ba1&ddCalcu=1fa7eb71716c90e6bba6b79134f27dc02a5d
+http://gslbmgsplive.miguvideo.com/migu/kailu/btws/51/20250804/index.m3u8?msisdn=20251116180031807a74a941b64a30b78f8b019ba92e70&mdspid=&spid=600697&netType=0&sid=5910022192&pid=2028597139&timestamp=20251116180031&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=956923145&ParentNodeID=-99&assertID=5910022192&client_ip=106.13.250.83&SecurityKey=20251116180031&promotionId=&mvid=5900006716&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=6fb47bf41372a117517164bcf9681d0b&ddCalcu=b60fedb11468706b9ff4c1b347621a711157
 #EXTINF:-1 svg-id="辽宁卫视" svg-name="辽宁卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/198/202509221600_5101043014_H32_1080.webp" group-title="卫视咪咕",辽宁卫视
-http://gslbmgsplive.miguvideo.com/wd_r2/2018/ocn/liaoningwshd/2000/index.m3u8?msisdn=2025111616003195db77b885e448a0b63c0138670e4d0d&mdspid=&spid=600572&netType=0&sid=5910022198&pid=2028597139&timestamp=20251116160031&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=630291707&ParentNodeID=-99&assertID=5910022198&client_ip=106.13.250.83&SecurityKey=20251116160031&promotionId=&mvid=5101043014&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=7a7ec9bbdfeafa8ddbcec8c9b703cf71&ddCalcu=177aef71ce03c0097bbb9dcf8ecaefcab8dd
+http://gslbmgsplive.miguvideo.com/wd_r2/2018/ocn/liaoningwshd/2000/index.m3u8?msisdn=20251116180031697a6eff103d43fa994edbb8b6027673&mdspid=&spid=600572&netType=0&sid=5910022198&pid=2028597139&timestamp=20251116180031&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=630291707&ParentNodeID=-99&assertID=5910022198&client_ip=106.13.250.83&SecurityKey=20251116180031&promotionId=&mvid=5101043014&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=b81055f4b035297aac63027ac44a7a81&ddCalcu=1b88ea11700a50454fc4ab7023053269c7aa
 #EXTINF:-1 svg-id="宁夏卫视" svg-name="宁夏卫视" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/v1/image/5910/022/262/202510241641_1658131953051_H32_1080.webp" group-title="卫视咪咕",宁夏卫视
-http://gslbmgsplive.miguvideo.com/envivo_x/2018/SD/ningxia/1000/index.m3u8?msisdn=20251116160031e7574b1363cf4ecd8516f35feb3b0935&mdspid=&spid=600697&netType=0&sid=5910022262&pid=2028597139&timestamp=20251116160031&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=738910535&ParentNodeID=-99&assertID=5910022262&client_ip=106.13.250.83&SecurityKey=20251116160031&promotionId=&mvid=5900004337&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=638d3ef002a40d663370833f425c9b88&ddCalcu=8683eb819d8c305e2f40f0323a84007d3636
+http://gslbmgsplive.miguvideo.com/envivo_x/2018/SD/ningxia/1000/index.m3u8?msisdn=20251116180031a2b986c348904de0a9b17d9229135efd&mdspid=&spid=600697&netType=0&sid=5910022262&pid=2028597139&timestamp=20251116180031&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=738910535&ParentNodeID=-99&assertID=5910022262&client_ip=106.13.250.83&SecurityKey=20251116180031&promotionId=&mvid=5900004337&mcid=500020&playurlVersion=WX-A1-8.10.1-RELEASE&userid=&jmhm=&videocodec=h264&bean=mgspad&tid=android&conFee=0&puData=a549aa65b869140d611dfa1f13a0452c&ddCalcu=ca25e5414980a0aa3615fb18a6f9d114106d
 #EXTINF:-1 group-title="赛事咪咕",抖姐舞陪你看
 http://81.70.10.196:35455/douyu/11531165
 #EXTINF:-1 group-title="赛事咪咕",赛事睛彩竞技
@@ -4669,454 +4671,440 @@ https://live.ottiptv.cc/douyu/9942574
 https://live.ottiptv.cc/douyu/8912038
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avanew/face/201803/10/23/0b717a095ad0f1459983b4b29c2fcc7c_big.jpg" group-title="斗鱼轮播", 张晓斌21602
 https://live.ottiptv.cc/douyu/4860588
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 武林外传
-https://yylunbo.ottiptv.cc/yy/1355652820
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国产爆剧-狂飙
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 超精彩武打场景
 https://yylunbo.ottiptv.cc/yy/1354936131
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778158/u2956778158pgG63r3.jpg" group-title="Y Y 轮播", 神探狄仁杰2
-https://yylunbo.ottiptv.cc/yy/1382851146
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/68/2353689237/u2353689237IPcZthE.jpg" group-title="Y Y 轮播", 【林正英经典】玄幻电影
 https://yylunbo.ottiptv.cc/yy/1462895099
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/99/2551997293/u2551997293JgveUEE.png" group-title="Y Y 轮播", 湸剑
-https://yylunbo.ottiptv.cc/yy/23206872
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/78/2846789998/u2846789998rB16bJr.png" group-title="Y Y 轮播", 港片 喜剧 动作
-https://yylunbo.ottiptv.cc/yy/1355480591
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/00/2228009724/u2228009724fD4o8rY.png" group-title="Y Y 轮播", 【新三国】萌儿陪看
-https://yylunbo.ottiptv.cc/yy/29216766
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/15/1536159096/u1536159096mZClTOe.jpeg" group-title="Y Y 轮播", 林正英-经典电影
-https://yylunbo.ottiptv.cc/yy/34229877
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 武林外传
+https://yylunbo.ottiptv.cc/yy/1355652820
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/77/1755778855/u1755778855vEcHMAx.jpg" group-title="Y Y 轮播", 【鹿鼎记】金庸经典
 https://yylunbo.ottiptv.cc/yy/28265277
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 欢乐颂
-https://yylunbo.ottiptv.cc/yy/1382735624
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/15/1536159096/u1536159096mZClTOe.jpeg" group-title="Y Y 轮播", 林正英-经典电影
+https://yylunbo.ottiptv.cc/yy/34229877
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/00/2228009724/u2228009724fD4o8rY.png" group-title="Y Y 轮播", 【新三国】萌儿陪看
+https://yylunbo.ottiptv.cc/yy/29216766
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/97/1721970758/u1721970758EWwEW2Y.jpg" group-title="Y Y 轮播", 【周星驰】搞笑电影
+https://yylunbo.ottiptv.cc/yy/38670875
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/99/2551997293/u2551997293JgveUEE.png" group-title="Y Y 轮播", 湸剑
+https://yylunbo.ottiptv.cc/yy/23206872
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/47/2552474340/u2552474340uVnsyqv.png" group-title="Y Y 轮播", 纪晓岚
+https://yylunbo.ottiptv.cc/yy/1354143978
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 憨豆先生-经典喜剧
 https://yylunbo.ottiptv.cc/yy/1354936239
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/78/2242788982/u2242788982KKxPFSF.jpg" group-title="Y Y 轮播", 武林外传 超清
 https://yylunbo.ottiptv.cc/yy/21092633
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 靓剑
-https://yylunbo.ottiptv.cc/yy/1356043643
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/78/2846789998/u2846789998rB16bJr.png" group-title="Y Y 轮播", 港片 喜剧 动作
+https://yylunbo.ottiptv.cc/yy/1355480591
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 少年包青天
 https://yylunbo.ottiptv.cc/yy/1356043677
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/91/2318917695/u2318917695RmfLHsx.png" group-title="Y Y 轮播", 纪晓岚
 https://yylunbo.ottiptv.cc/yy/1352227227
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 弹幕天团 下饭神剧
-https://yylunbo.ottiptv.cc/yy/23512910
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 赵本山《蓝光版》
 https://yylunbo.ottiptv.cc/yy/32160832
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778174/u29567781747Mi0Atp.jpg" group-title="Y Y 轮播", 伪装者
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 神探狄仁杰2
+https://yylunbo.ottiptv.cc/yy/1382828767
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778158/u2956778158pgG63r3.jpg" group-title="Y Y 轮播", 神探狄仁杰2
+https://yylunbo.ottiptv.cc/yy/1382851146
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778174/u29567781747Mi0Atp.jpg" group-title="Y Y 轮播", 小惠_郭德纲相声迷
 https://yylunbo.ottiptv.cc/yy/1382851593
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/52/2454523392/u2454523392hIIEdOS.png" group-title="Y Y 轮播", 鹿鼎记-周星驰版
-https://yylunbo.ottiptv.cc/yy/1354658049
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 地下交通站
 https://yylunbo.ottiptv.cc/yy/1382736795
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/62/2714622159/u2714622159yUkobtU.jpg" group-title="Y Y 轮播", 【水浒传】24h
 https://yylunbo.ottiptv.cc/yy/1382702247
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 欢乐集结号
-https://yylunbo.ottiptv.cc/yy/1354931582
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 老广的味道-美食之旅
-https://yylunbo.ottiptv.cc/yy/1354932375
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/97/1721970758/u1721970758EWwEW2Y.jpg" group-title="Y Y 轮播", 【周星驰】搞笑电影
-https://yylunbo.ottiptv.cc/yy/38670875
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/45/2288454061/u2288454061D_S5gvc.jpg" group-title="Y Y 轮播", 朵宝陪你看狄仁杰
-https://yylunbo.ottiptv.cc/yy/1353753252
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778164/u2956778164hU2c-xK.jpg" group-title="Y Y 轮播", 神探狄仁杰1
+https://yylunbo.ottiptv.cc/yy/1382851575
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/89/1715891810/u1715891810tXiuzKk.png" group-title="Y Y 轮播", 古惑仔
 https://yylunbo.ottiptv.cc/yy/1458015189
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/52/2663522678/u2663522678-Zx2bVq.png" group-title="Y Y 轮播", 勇敢的心~24经典好剧
-https://yylunbo.ottiptv.cc/yy/1354744544
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/47/2552474340/u2552474340uVnsyqv.png" group-title="Y Y 轮播", 纪晓岚
-https://yylunbo.ottiptv.cc/yy/1354143978
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 妖神记-全集
-https://yylunbo.ottiptv.cc/yy/1382735551
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/75/2318756333/u2318756333krWTK9R.png" group-title="Y Y 轮播", 燕双鹰
-https://yylunbo.ottiptv.cc/yy/1352227153
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/11/2544112607/u25441126077cuzOCM.jpg" group-title="Y Y 轮播", 晾剑 电视剧
-https://yylunbo.ottiptv.cc/yy/1451866697
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/19/2291192155/u2291192155VSmTZGl.png" group-title="Y Y 轮播", 神雕侠侣
-https://yylunbo.ottiptv.cc/yy/1351762426
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/51/2573519416/u2573519416gHFBYi6.png" group-title="Y Y 轮播", 笑傲江湖 4K超清
-https://yylunbo.ottiptv.cc/yy/1354282410
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 欢乐颂
+https://yylunbo.ottiptv.cc/yy/1382735624
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 老广的味道-美食之旅
+https://yylunbo.ottiptv.cc/yy/1354932375
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/33/2291330905/u2291330905kCTWJIi.png" group-title="Y Y 轮播", 天龙八部
 https://yylunbo.ottiptv.cc/yy/1351814644
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 狄仁杰
-https://yylunbo.ottiptv.cc/yy/1351755386
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/97/2509978304/u2509978304IyBTrdR.jpg" group-title="Y Y 轮播", 水浒传
-https://yylunbo.ottiptv.cc/yy/1353852605
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/52/2663522678/u2663522678-Zx2bVq.png" group-title="Y Y 轮播", 勇敢的心~24经典好剧
+https://yylunbo.ottiptv.cc/yy/1354744544
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/75/2318756333/u2318756333krWTK9R.png" group-title="Y Y 轮播", 燕双鹰
+https://yylunbo.ottiptv.cc/yy/1352227153
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 妖神记-全集
+https://yylunbo.ottiptv.cc/yy/1382735551
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 靓剑
+https://yylunbo.ottiptv.cc/yy/1356043643
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/11/2544112607/u25441126077cuzOCM.jpg" group-title="Y Y 轮播", 晾剑 电视剧
+https://yylunbo.ottiptv.cc/yy/1451866697
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/19/2291192155/u2291192155VSmTZGl.png" group-title="Y Y 轮播", 小蓉儿 正在直播
+https://yylunbo.ottiptv.cc/yy/1351762426
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/67/2555670393/u2555670393GyWsYT-.jpg" group-title="Y Y 轮播", 【经典港片】佟瑶
+https://yylunbo.ottiptv.cc/yy/23531261
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/09/2910095991/u29100959911f7FBSS.png" group-title="Y Y 轮播", 铁齿铜牙纪晓岚
 https://yylunbo.ottiptv.cc/yy/1382781415
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/47/0990479943/u990479943HazBdS_8.jpg" group-title="Y Y 轮播", 李连杰功夫 经典武侠
-https://yylunbo.ottiptv.cc/yy/74613175
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/53/2474538699/u2474538699rCvSZxg.jpg" group-title="Y Y 轮播", 热度榜1.包青天
-https://yylunbo.ottiptv.cc/yy/22701868
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/92/2456925852/u24569258522eM64JN.jpg" group-title="Y Y 轮播", 豪哥带我们发财
-https://yylunbo.ottiptv.cc/yy/23402146
 #EXTINF:-1 tvg-logo="http://s1.yy.com/guild/header/10106.jpg" group-title="Y Y 轮播", 真实案件系列
 https://yylunbo.ottiptv.cc/yy/1382671124
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/68/2552687588/u2552687588tVBVkVY.png" group-title="Y Y 轮播", 燕双鹰
-https://yylunbo.ottiptv.cc/yy/1354143942
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/97/2509978304/u2509978304IyBTrdR.jpg" group-title="Y Y 轮播", 水浒传
+https://yylunbo.ottiptv.cc/yy/1353852605
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/47/0990479943/u990479943HazBdS_8.jpg" group-title="Y Y 轮播", 李连杰功夫 经典武侠
+https://yylunbo.ottiptv.cc/yy/74613175
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/92/2456925852/u24569258522eM64JN.jpg" group-title="Y Y 轮播", 豪哥带我们发财
+https://yylunbo.ottiptv.cc/yy/23402146
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 弹幕天团 下饭神剧
+https://yylunbo.ottiptv.cc/yy/23512910
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/04/2281046878/u2281046878cBeOWeK.jpeg" group-title="Y Y 轮播", 倚天屠龙记
+https://yylunbo.ottiptv.cc/yy/33300793
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/53/2474538699/u2474538699rCvSZxg.jpg" group-title="Y Y 轮播", 热度榜1.包青天
+https://yylunbo.ottiptv.cc/yy/22701868
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/80/2463800499/u2463800499Zqc-Oe-.jpg" group-title="Y Y 轮播", 超喜剧地下交通站男神贾贵
+https://yylunbo.ottiptv.cc/yy/1353428972
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/38/2394384122/u2394384122VQdi7gf.jpg" group-title="Y Y 轮播", 大染坊
 https://yylunbo.ottiptv.cc/yy/1353215589
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/68/2676684134/u2676684134JPj4Cvo.png" group-title="Y Y 轮播", 雯子：随缘 正在直播
-https://yylunbo.ottiptv.cc/yy/1456829119
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 神医喜来乐
-https://yylunbo.ottiptv.cc/yy/1382714119
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 雍正王朝
-https://yylunbo.ottiptv.cc/yy/1356043620
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/13/2345135168/u23451351684XL-T35.png" group-title="Y Y 轮播", 康熙微服私访记
+https://yylunbo.ottiptv.cc/yy/1352811698
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 狄仁杰
+https://yylunbo.ottiptv.cc/yy/1351755386
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 济公
 https://yylunbo.ottiptv.cc/yy/1355265814
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/42/1834428187/u18344281871tRaM8i.jpg" group-title="Y Y 轮播", 封神榜
 https://yylunbo.ottiptv.cc/yy/1353426319
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/80/2463800499/u2463800499Zqc-Oe-.jpg" group-title="Y Y 轮播", 超喜剧地下交通站男神贾贵
-https://yylunbo.ottiptv.cc/yy/1353428972
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 雍正王朝
+https://yylunbo.ottiptv.cc/yy/1356043620
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 薛仁贵传奇
+https://yylunbo.ottiptv.cc/yy/1355260662
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/85/2219859126/u2219859126sBZCHmt.jpg" group-title="Y Y 轮播", 破案港剧
 https://yylunbo.ottiptv.cc/yy/1350670730
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/13/2345135168/u23451351684XL-T35.png" group-title="Y Y 轮播", 康熙微服私访记
-https://yylunbo.ottiptv.cc/yy/1352811698
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 天龙 神雕金庸
+https://yylunbo.ottiptv.cc/yy/1356043609
 #EXTINF:-1 tvg-logo="http://s1.yy.com/guild/header/10150.jpg" group-title="Y Y 轮播", 进来 陪你看动漫
 https://yylunbo.ottiptv.cc/yy/1352866135
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/24/2338241617/u2338241617rrt3MND.png" group-title="Y Y 轮播", 隋唐英雄传
-https://yylunbo.ottiptv.cc/yy/1352475619
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/68/2871683492/u2871683492J7ImiKy.png" group-title="Y Y 轮播", 鬼经典老片
-https://yylunbo.ottiptv.cc/yy/1463783198
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/47/2552474058/u25524740585EZ7BdS.png" group-title="Y Y 轮播", 动漫
 https://yylunbo.ottiptv.cc/yy/1354143938
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/vipsys/76/81/31/2950318176/T1cQ_yBsW41RCvBVdK.png" group-title="Y Y 轮播", 知否知否应是绿肥红瘦
-https://yylunbo.ottiptv.cc/yy/21881901
-#EXTINF:-1 tvg-logo="http://s1.yy.com/guild/header/10138.jpg" group-title="Y Y 轮播", 赵本山《超清版》
-https://yylunbo.ottiptv.cc/yy/1382683959
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/vipsys/41/64/76/4157766441/T1UyWCBTYT1RCvBVdK.png" group-title="Y Y 轮播", 好先生
-https://yylunbo.ottiptv.cc/yy/79382500
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/24/2338241617/u2338241617rrt3MND.png" group-title="Y Y 轮播", 隋唐英雄传
+https://yylunbo.ottiptv.cc/yy/1352475619
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/68/1150685483/u1150685483sTIw5Gq.png" group-title="Y Y 轮播", 林正英经典
+https://yylunbo.ottiptv.cc/yy/1351505899
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/33/2291330629/u2291330629-Ab2mgi.png" group-title="Y Y 轮播", 精彩动漫
+https://yylunbo.ottiptv.cc/yy/1420843376
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/69/2390690471/u2390690471W2ImUVu.jpg" group-title="Y Y 轮播", 闯关东
 https://yylunbo.ottiptv.cc/yy/1382626335
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/47/2552474200/u2552474200Qy8nGLL.png" group-title="Y Y 轮播", 小美美 正在直播
+https://yylunbo.ottiptv.cc/yy/1354143966
+#EXTINF:-1 tvg-logo="http://s1.yy.com/guild/header/10138.jpg" group-title="Y Y 轮播", 赵本山《超清版》
+https://yylunbo.ottiptv.cc/yy/1382683959
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/92/2977925579/u2977925579msm09Jf.png" group-title="Y Y 轮播", 五号特工组和平ff
 https://yylunbo.ottiptv.cc/yy/1414967772
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 大家车言论
 https://yylunbo.ottiptv.cc/yy/1382570702
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/75/2932756128/u2932756128Zo3N6YO.png" group-title="Y Y 轮播", 【破案 悬疑 港剧】
-https://yylunbo.ottiptv.cc/yy/1382800083
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/77/2670778565/u2670778565SbKEkCT.png" group-title="Y Y 轮播", 大染坊
-https://yylunbo.ottiptv.cc/yy/1354773983
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/77/1647770566/u1647770566C7G-Usr.jpg" group-title="Y Y 轮播", 经典鬼片3000部
-https://yylunbo.ottiptv.cc/yy/29460894
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778172/u2956778172aZ2Pryh.jpg" group-title="Y Y 轮播", 正阳门下
-https://yylunbo.ottiptv.cc/yy/1382851588
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 内在美-伊人有约
-https://yylunbo.ottiptv.cc/yy/1382737892
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 宰相刘罗锅
-https://yylunbo.ottiptv.cc/yy/1382745191
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 夏洛特烦恼-国内电影-喜剧
-https://yylunbo.ottiptv.cc/yy/1354936201
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 神探狄仁杰2
-https://yylunbo.ottiptv.cc/yy/1382736907
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 寻秦记-穿越剧经典
-https://yylunbo.ottiptv.cc/yy/1382749900
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778164/u2956778164hU2c-xK.jpg" group-title="Y Y 轮播", 神探狄仁杰1
-https://yylunbo.ottiptv.cc/yy/1382851575
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 正阳门下
-https://yylunbo.ottiptv.cc/yy/1354931580
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 情满四合院-高分电视剧
-https://yylunbo.ottiptv.cc/yy/1382735541
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/21/1575219181/u1575219181j_2vaIy.png" group-title="Y Y 轮播", 超清鬼片 港片
-https://yylunbo.ottiptv.cc/yy/1335509613
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 法证先锋
-https://yylunbo.ottiptv.cc/yy/1354930939
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
-https://yylunbo.ottiptv.cc/yy/1382736885
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/62/2956624117/u2956624117199l2Fq.jpg" group-title="Y Y 轮播", 二号交通站
-https://yylunbo.ottiptv.cc/yy/1382851582
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778180/u29567781809cFGq5Q.jpg" group-title="Y Y 轮播", 情满四合院-小人物的悲欢离合
-https://yylunbo.ottiptv.cc/yy/1382851601
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 精武英雄-李连杰主演经典动作片
-https://yylunbo.ottiptv.cc/yy/1382736873
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/62/2956624114/u2956624114W5xjDpi.jpg" group-title="Y Y 轮播", 娆�涔�棰�
-https://yylunbo.ottiptv.cc/yy/1382851577
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 二号交通站
-https://yylunbo.ottiptv.cc/yy/1354930965
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/69/2552691967/u2552691967t-dRFJI.png" group-title="Y Y 轮播", 83射雕英雄传
-https://yylunbo.ottiptv.cc/yy/1354210357
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 流行古装剧—知否知否应是绿肥红瘦
-https://yylunbo.ottiptv.cc/yy/1354936134
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/24/1748242818/u1748242818T_zMUrb.jpg" group-title="Y Y 轮播", 经典港片动作搞笑
-https://yylunbo.ottiptv.cc/yy/1459869766
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/33/2291330629/u2291330629-Ab2mgi.png" group-title="Y Y 轮播", 精彩动漫
-https://yylunbo.ottiptv.cc/yy/1420843376
-#EXTINF:-1 tvg-logo="http://s1.yy.com/guild/header/10141.jpg" group-title="Y Y 轮播", 宰相刘罗锅
-https://yylunbo.ottiptv.cc/yy/1353892468
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/04/2281046878/u2281046878cBeOWeK.jpeg" group-title="Y Y 轮播", 倚天屠龙记
-https://yylunbo.ottiptv.cc/yy/33300793
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/68/2632685817/u2632685817Hyt_tdJ.jpg" group-title="Y Y 轮播", 赌神 港片 喜剧
-https://yylunbo.ottiptv.cc/yy/1355112116
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/67/2555670393/u2555670393GyWsYT-.jpg" group-title="Y Y 轮播", 【经典港片】佟瑶
-https://yylunbo.ottiptv.cc/yy/23531261
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/47/2552474200/u2552474200Qy8nGLL.png" group-title="Y Y 轮播", 小美美 正在直播
-https://yylunbo.ottiptv.cc/yy/1354143966
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 薛仁贵传奇
-https://yylunbo.ottiptv.cc/yy/1355260662
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/35/2275350861/u2275350861HUkquhG.png" group-title="Y Y 轮播", 周星驰搞笑在线
-https://yylunbo.ottiptv.cc/yy/1351537467
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/48/2836489679/u2836489679kXCiKK4.jpg" group-title="Y Y 轮播", 鬼片喜剧动作港剧
-https://yylunbo.ottiptv.cc/yy/1355269576
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/26/0357260002/u357260002dZ73mJXQ.jpg" group-title="Y Y 轮播", 24h 我爱我家 纯音频
-https://yylunbo.ottiptv.cc/yy/1356212303
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/80/2563804211/u2563804211WcYp9iK.png" group-title="Y Y 轮播", 新白娘子传奇
-https://yylunbo.ottiptv.cc/yy/1354490667
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/33/1851338003/u1851338003si9kZfD.png" group-title="Y Y 轮播", 经典燕双鹰
-https://yylunbo.ottiptv.cc/yy/22089862
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 天龙 神雕金庸
-https://yylunbo.ottiptv.cc/yy/1356043609
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/38/2466387565/u2466387565UWEAMh6.jpg" group-title="Y Y 轮播", 甜心 正在直播
-https://yylunbo.ottiptv.cc/yy/1454732419
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/68/1150685483/u1150685483sTIw5Gq.png" group-title="Y Y 轮播", 林正英经典
-https://yylunbo.ottiptv.cc/yy/1351505899
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/62/1287621270/u1287621270txIzzu-.jpg" group-title="Y Y 轮播", 天龙神雕经典回忆
-https://yylunbo.ottiptv.cc/yy/68260522
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/46/3048460061/u3048460061cks8Tb9.jpg" group-title="Y Y 轮播", 少年包青天
-https://yylunbo.ottiptv.cc/yy/1414846486
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/82/0015822550/u15822550IX9snXJWG.jpg" group-title="Y Y 轮播", 鱼美美隋唐英雄传
-https://yylunbo.ottiptv.cc/yy/1355102749
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/60/2922604425/u2922604425Gp3ghJF.jpg" group-title="Y Y 轮播", 经典电影重温
-https://yylunbo.ottiptv.cc/yy/1382793140
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/22/2728220271/u2728220271kJWq53d.png" group-title="Y Y 轮播", 经典电影 港片枪战
-https://yylunbo.ottiptv.cc/yy/1355076627
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/57/2367571304/u2367571304FhJ_J6z.jpg" group-title="Y Y 轮播", 【靓剑】乐乐陪看
-https://yylunbo.ottiptv.cc/yy/1352946111
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/34/2810343459/u2810343459ZJIhsLP.jpg" group-title="Y Y 轮播", 迷糊不迷糊 正在直播
-https://yylunbo.ottiptv.cc/yy/1461931969
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 《仙侠》开局无敌了
 https://yylunbo.ottiptv.cc/yy/29600150
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/81/2223817740/u2223817740JU6Tfjw.jpg" group-title="Y Y 轮播", 8090.电影一哥
-https://yylunbo.ottiptv.cc/yy/29197808
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 【新三国】日版
-https://yylunbo.ottiptv.cc/yy/1382851457
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 《武林外传》武侠
-https://yylunbo.ottiptv.cc/yy/1394000563
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/74/1541749696/u1541749696P0qr7as.jpg" group-title="Y Y 轮播", 的直播间
-https://yylunbo.ottiptv.cc/yy/1354129442
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/71/0079713762/u797137629GagAD2t_.png" group-title="Y Y 轮播", 电影电影电影电影电影电影
-https://yylunbo.ottiptv.cc/yy/1351496216
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
-https://yylunbo.ottiptv.cc/yy/1382736810
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/86/2698867296/u2698867296pUy_YIe.png" group-title="Y Y 轮播", 老妖私影院
-https://yylunbo.ottiptv.cc/yy/1354952229
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
-https://yylunbo.ottiptv.cc/yy/1382736808
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", �逋鞠盗�-国产喜剧
-https://yylunbo.ottiptv.cc/yy/1382736856
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 战狼10086
-https://yylunbo.ottiptv.cc/yy/1382773686
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 啊咧
-https://yylunbo.ottiptv.cc/yy/1459243913
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 大家都在看的电视剧
-https://yylunbo.ottiptv.cc/yy/1354930964
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 神探狄仁杰2
-https://yylunbo.ottiptv.cc/yy/1382828767
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 正阳门下
+https://yylunbo.ottiptv.cc/yy/1354931580
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 宰相刘罗锅
+https://yylunbo.ottiptv.cc/yy/1382745191
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 神探狄仁杰1
 https://yylunbo.ottiptv.cc/yy/1354930934
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/52/2454523392/u2454523392hIIEdOS.png" group-title="Y Y 轮播", 鹿鼎记-周星驰版
+https://yylunbo.ottiptv.cc/yy/1354658049
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 夏洛特烦恼-国内电影-喜剧
+https://yylunbo.ottiptv.cc/yy/1354936201
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 啊咧
+https://yylunbo.ottiptv.cc/yy/1459243913
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/45/2288454061/u2288454061D_S5gvc.jpg" group-title="Y Y 轮播", 朵宝陪你看狄仁杰
+https://yylunbo.ottiptv.cc/yy/1353753252
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 天道-9.2高分好剧
 https://yylunbo.ottiptv.cc/yy/1382735574
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 恋歌
-https://yylunbo.ottiptv.cc/yy/1382746276
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国内玄幻电影-林正英
-https://yylunbo.ottiptv.cc/yy/1354932444
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 张国荣与周润发的兄弟情
-https://yylunbo.ottiptv.cc/yy/1354930961
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 新白娘子传奇-女神赵雅芝
-https://yylunbo.ottiptv.cc/yy/1354930969
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 华子系列
-https://yylunbo.ottiptv.cc/yy/1354888726
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 变形金刚
-https://yylunbo.ottiptv.cc/yy/1382736803
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 震撼！国内功夫大片
+https://yylunbo.ottiptv.cc/yy/1382736902
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 双月之城-国漫
+https://yylunbo.ottiptv.cc/yy/1382736907
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 炊事班的故事III
 https://yylunbo.ottiptv.cc/yy/1382736716
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 少年包青天第三部
-https://yylunbo.ottiptv.cc/yy/1382736814
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778167/u2956778167Z_BVVcc.jpg" group-title="Y Y 轮播", 炊事班的故事II
-https://yylunbo.ottiptv.cc/yy/1382851579
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 读心神探
-https://yylunbo.ottiptv.cc/yy/1382736875
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/61/1722612794/u1722612794bYYvt4M.jpg" group-title="Y Y 轮播", [特jing力量】
-https://yylunbo.ottiptv.cc/yy/1508456184
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 智取威虎山
-https://yylunbo.ottiptv.cc/yy/1382736843
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 我的体育老师
-https://yylunbo.ottiptv.cc/yy/1382745169
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 易中天品三国
-https://yylunbo.ottiptv.cc/yy/1354931498
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 二号交通站
-https://yylunbo.ottiptv.cc/yy/1382735582
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 笑声传奇
-https://yylunbo.ottiptv.cc/yy/1382736880
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 风筝
-https://yylunbo.ottiptv.cc/yy/1382828770
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 超英集结
-https://yylunbo.ottiptv.cc/yy/1382745091
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/62/2956624120/u2956624120ZpR05tB.jpg" group-title="Y Y 轮播", 大话西游至尊宝
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 寻秦记-穿越剧经典
+https://yylunbo.ottiptv.cc/yy/1382749900
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 情满四合院-高分电视剧
+https://yylunbo.ottiptv.cc/yy/1382735541
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 法证先锋
+https://yylunbo.ottiptv.cc/yy/1354930939
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778172/u2956778172aZ2Pryh.jpg" group-title="Y Y 轮播", 丸子
+https://yylunbo.ottiptv.cc/yy/1382851588
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
+https://yylunbo.ottiptv.cc/yy/1382736885
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 欢乐集结号
+https://yylunbo.ottiptv.cc/yy/1354931582
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/62/2956624120/u2956624120ZpR05tB.jpg" group-title="Y Y 轮播", 杭小妞
 https://yylunbo.ottiptv.cc/yy/1382851590
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/94/2498946673/u2498946673gcQ-w4Y.jpg" group-title="Y Y 轮播", 小太阳 正在直播
-https://yylunbo.ottiptv.cc/yy/29067083
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国内高分悬疑剧-风筝
-https://yylunbo.ottiptv.cc/yy/1354931585
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/62/2956624118/u2956624118f61cBrp.jpg" group-title="Y Y 轮播", 康熙王朝
-https://yylunbo.ottiptv.cc/yy/1382851583
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
-https://yylunbo.ottiptv.cc/yy/1382736838
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
-https://yylunbo.ottiptv.cc/yy/1382745084
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 周星星系列
-https://yylunbo.ottiptv.cc/yy/1354888671
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/62/2956624116/u2956624116LN4j6HE.jpg" group-title="Y Y 轮播", 刑事侦缉档案I
-https://yylunbo.ottiptv.cc/yy/1382851585
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/92/1529929232/u1529929232hMV18mo.jpg" group-title="Y Y 轮播", 快来呀好剧在等你
-https://yylunbo.ottiptv.cc/yy/1331686180
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/80/2495803807/u2495803807ASrDuj7.jpg" group-title="Y Y 轮播", 24h唐朝诡实录
-https://yylunbo.ottiptv.cc/yy/1353913646
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/97/2835978875/u2835978875L9RPAqK.jpg" group-title="Y Y 轮播", 恐怖诡异墓穴
-https://yylunbo.ottiptv.cc/yy/1382748585
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/28/2858287019/u28582870196C9e_m-.png" group-title="Y Y 轮播", 鹊刀门
-https://yylunbo.ottiptv.cc/yy/1355344777
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 内在美-伊人有约
+https://yylunbo.ottiptv.cc/yy/1382737892
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/24/1748242818/u1748242818T_zMUrb.jpg" group-title="Y Y 轮播", 经典港片动作搞笑
+https://yylunbo.ottiptv.cc/yy/1459869766
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 流行古装剧—知否知否应是绿肥红瘦
+https://yylunbo.ottiptv.cc/yy/1354936134
+#EXTINF:-1 tvg-logo="http://s1.yy.com/guild/header/10141.jpg" group-title="Y Y 轮播", 宰相刘罗锅
+https://yylunbo.ottiptv.cc/yy/1353892468
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/vipsys/41/64/76/4157766441/T1UyWCBTYT1RCvBVdK.png" group-title="Y Y 轮播", 好先生
+https://yylunbo.ottiptv.cc/yy/79382500
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/68/2632685817/u2632685817Hyt_tdJ.jpg" group-title="Y Y 轮播", 赌神 港片 喜剧
+https://yylunbo.ottiptv.cc/yy/1355112116
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/51/2573519416/u2573519416gHFBYi6.png" group-title="Y Y 轮播", 笑傲江湖 4K超清
+https://yylunbo.ottiptv.cc/yy/1354282410
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/68/2552687588/u2552687588tVBVkVY.png" group-title="Y Y 轮播", 燕双鹰
+https://yylunbo.ottiptv.cc/yy/1354143942
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/35/2275350861/u2275350861HUkquhG.png" group-title="Y Y 轮播", 周星驰搞笑在线
+https://yylunbo.ottiptv.cc/yy/1351537467
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 神医喜来乐
+https://yylunbo.ottiptv.cc/yy/1382714119
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/76/2627769220/u2627769220ukp35Vp.jpg" group-title="Y Y 轮播", 小甜甜    闯关东
 https://yylunbo.ottiptv.cc/yy/1354689861
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/29/1280295265/u1280295265CYEmTOm.jpg" group-title="Y Y 轮播", 恐怖电影
-https://yylunbo.ottiptv.cc/yy/24066336
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/62/2665627706/u2665627706GP24tLn.jpg" group-title="Y Y 轮播", 打王者  看电影
-https://yylunbo.ottiptv.cc/yy/1460889796
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778163/u295677816358dgO10.jpg" group-title="Y Y 轮播", 魔幻手机
-https://yylunbo.ottiptv.cc/yy/1382851541
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/68/2543685369/u2543685369dz8qk5x.png" group-title="Y Y 轮播", 咸鱼动漫
-https://yylunbo.ottiptv.cc/yy/1354076248
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/78/2664784453/u266478445378sqTJP.jpg" group-title="Y Y 轮播", 鹿鼎记-高清全集
-https://yylunbo.ottiptv.cc/yy/1382704650
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/68/2676684134/u2676684134JPj4Cvo.png" group-title="Y Y 轮播", 雯子：随缘 正在直播
+https://yylunbo.ottiptv.cc/yy/1456829119
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/vipsys/76/81/31/2950318176/T1cQ_yBsW41RCvBVdK.png" group-title="Y Y 轮播", 知否知否应是绿肥红瘦
+https://yylunbo.ottiptv.cc/yy/21881901
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/94/2498946673/u2498946673gcQ-w4Y.jpg" group-title="Y Y 轮播", 小太阳 正在直播
+https://yylunbo.ottiptv.cc/yy/29067083
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/33/1851338003/u1851338003si9kZfD.png" group-title="Y Y 轮播", 经典燕双鹰
+https://yylunbo.ottiptv.cc/yy/22089862
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/38/2466387565/u2466387565UWEAMh6.jpg" group-title="Y Y 轮播", 甜心 正在直播
+https://yylunbo.ottiptv.cc/yy/1454732419
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/80/2563804211/u2563804211WcYp9iK.png" group-title="Y Y 轮播", 新白娘子传奇
+https://yylunbo.ottiptv.cc/yy/1354490667
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/68/2871683492/u2871683492J7ImiKy.png" group-title="Y Y 轮播", 鬼经典老片
+https://yylunbo.ottiptv.cc/yy/1463783198
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/71/2838711783/u2838711783ZNzG_h5.jpg" group-title="Y Y 轮播", 惊恐盗暮鬼怪
 https://yylunbo.ottiptv.cc/yy/1382749525
 #EXTINF:-1 tvg-logo="http://s1.yy.com/guild/header/10100.jpg" group-title="Y Y 轮播", 国内科幻片来袭
 https://yylunbo.ottiptv.cc/yy/1354930821
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/99/2952995563/u29529955630Nh11Z1.jpg" group-title="Y Y 轮播", 古装剧
-https://yylunbo.ottiptv.cc/yy/1356158015
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/30/2632308599/u2632308599zmh830o.jpg" group-title="Y Y 轮播", 经典抗战剧
-https://yylunbo.ottiptv.cc/yy/1354555195
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/52/2460526223/u24605262233FAgbOU.png" group-title="Y Y 轮播", 西游记后传 蓝光
-https://yylunbo.ottiptv.cc/yy/1353392400
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/46/3048460061/u3048460061cks8Tb9.jpg" group-title="Y Y 轮播", 少年包青天
+https://yylunbo.ottiptv.cc/yy/1414846486
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/82/0015822550/u15822550IX9snXJWG.jpg" group-title="Y Y 轮播", 鱼美美隋唐英雄传
+https://yylunbo.ottiptv.cc/yy/1355102749
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/38/2363380518/u2363380518Frd7i6E.jpg" group-title="Y Y 轮播", 动漫《火影疾风传》
 https://yylunbo.ottiptv.cc/yy/1459675153
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/20/2559209961/u2559209961mR796jI.jpg" group-title="Y Y 轮播", 鬼片恐怖私家影院
-https://yylunbo.ottiptv.cc/yy/1354209316
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 奇缘港台影院
-https://yylunbo.ottiptv.cc/yy/1354889234
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 欢乐集结号-每天笑不停
 https://yylunbo.ottiptv.cc/yy/1382741642
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/80/2563804534/u2563804534mupdNru.png" group-title="Y Y 轮播", 动漫
-https://yylunbo.ottiptv.cc/yy/1354768831
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 进来 陪你看电视
-https://yylunbo.ottiptv.cc/yy/1353518742
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/21/2785215565/u2785215565EyfdKbN.jpg" group-title="Y Y 轮播", 24h老九门
-https://yylunbo.ottiptv.cc/yy/1355171231
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/88/2894881561/u2894881561whDl7Ak.png" group-title="Y Y 轮播", 父母的爱情
-https://yylunbo.ottiptv.cc/yy/1382768483
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/22/2728220271/u2728220271kJWq53d.png" group-title="Y Y 轮播", 经典电影 港片枪战
+https://yylunbo.ottiptv.cc/yy/1355076627
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/34/2810343459/u2810343459ZJIhsLP.jpg" group-title="Y Y 轮播", 迷糊不迷糊 正在直播
+https://yylunbo.ottiptv.cc/yy/1461931969
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/89/2246894217/u2246894217_jnE9tk.png" group-title="Y Y 轮播", 灌篮高手
 https://yylunbo.ottiptv.cc/yy/26664495
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 《石敢当》六耳猕猴
-https://yylunbo.ottiptv.cc/yy/1394156613
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/38/2679387278/u2679387278_B3NLfN.jpg" group-title="Y Y 轮播", 新主播，求照顾
-https://yylunbo.ottiptv.cc/yy/1382690406
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/66/1587662225/u1587662225m-UfjRA.jpg" group-title="Y Y 轮播", 一剑开天门
-https://yylunbo.ottiptv.cc/yy/34313906
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/80/2563804305/u2563804305b75d55Z.png" group-title="Y Y 轮播", 国漫动漫
-https://yylunbo.ottiptv.cc/yy/1354768828
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 【新三国】吕布
-https://yylunbo.ottiptv.cc/yy/1382851459
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/69/0063695166/u63695166-62tXa-Fx.png" group-title="Y Y 轮播", 24小时循环播电视剧
-https://yylunbo.ottiptv.cc/yy/53320802
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 洪金宝福星系列
-https://yylunbo.ottiptv.cc/yy/1354924839
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 妖神记
-https://yylunbo.ottiptv.cc/yy/1382745171
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/57/2367571304/u2367571304FhJ_J6z.jpg" group-title="Y Y 轮播", 【靓剑】乐乐陪看
+https://yylunbo.ottiptv.cc/yy/1352946111
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/77/2670778565/u2670778565SbKEkCT.png" group-title="Y Y 轮播", 大染坊
+https://yylunbo.ottiptv.cc/yy/1354773983
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/77/1647770566/u1647770566C7G-Usr.jpg" group-title="Y Y 轮播", 经典鬼片3000部
+https://yylunbo.ottiptv.cc/yy/29460894
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 【新三国】日版
+https://yylunbo.ottiptv.cc/yy/1382851457
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
+https://yylunbo.ottiptv.cc/yy/1382736810
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
+https://yylunbo.ottiptv.cc/yy/1382736808
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/86/2698867296/u2698867296pUy_YIe.png" group-title="Y Y 轮播", 老妖私影院
+https://yylunbo.ottiptv.cc/yy/1354952229
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", �逋鞠盗�-国产喜剧
+https://yylunbo.ottiptv.cc/yy/1382736856
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 单挑荒野第一季
 https://yylunbo.ottiptv.cc/yy/1354933535
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 西游记后传
-https://yylunbo.ottiptv.cc/yy/1382736846
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 宫锁珠帘
-https://yylunbo.ottiptv.cc/yy/1354926666
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
-https://yylunbo.ottiptv.cc/yy/1382736818
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 大进军全集：红色系列电影
-https://yylunbo.ottiptv.cc/yy/1382745083
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 速度与激情系列！-精彩大片
-https://yylunbo.ottiptv.cc/yy/1382736911
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 震撼！国内功夫大片
-https://yylunbo.ottiptv.cc/yy/1382736902
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 动作大片
-https://yylunbo.ottiptv.cc/yy/1354930926
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 少年包青天第三部
-https://yylunbo.ottiptv.cc/yy/1382851540
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 大家都在看的电视剧
+https://yylunbo.ottiptv.cc/yy/1354930964
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/80/2563804534/u2563804534mupdNru.png" group-title="Y Y 轮播", 动漫
+https://yylunbo.ottiptv.cc/yy/1354768831
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 张国荣与周润发的兄弟情
+https://yylunbo.ottiptv.cc/yy/1354930961
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 三国演义94年经典版
 https://yylunbo.ottiptv.cc/yy/1354936241
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 速度与激情全集
-https://yylunbo.ottiptv.cc/yy/1382749892
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 成龙系列
-https://yylunbo.ottiptv.cc/yy/1354888751
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 灌篮高手
-https://yylunbo.ottiptv.cc/yy/1382735626
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 情满四合院
-https://yylunbo.ottiptv.cc/yy/1382736848
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 叶问全集
-https://yylunbo.ottiptv.cc/yy/1382736890
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 甜甜的恋爱 这狗粮我吃了
-https://yylunbo.ottiptv.cc/yy/1354932438
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 魔幻手机
-https://yylunbo.ottiptv.cc/yy/1382735544
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 寻秦记
-https://yylunbo.ottiptv.cc/yy/1354658048
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 速度与激情系列！-精彩大片
+https://yylunbo.ottiptv.cc/yy/1382736911
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 变形金刚
+https://yylunbo.ottiptv.cc/yy/1382736803
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 少年包青天第三部
+https://yylunbo.ottiptv.cc/yy/1382736814
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 华子系列
+https://yylunbo.ottiptv.cc/yy/1354888726
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 父母爱情
 https://yylunbo.ottiptv.cc/yy/1354926650
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 这部剧你居然没看过？
-https://yylunbo.ottiptv.cc/yy/1354932355
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 漫威十年老粉福利来了
-https://yylunbo.ottiptv.cc/yy/1354930233
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 郝蕾演绎-情满四合院
 https://yylunbo.ottiptv.cc/yy/1382745089
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 大汉贤后卫子夫
-https://yylunbo.ottiptv.cc/yy/1382735569
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 农家小菜
-https://yylunbo.ottiptv.cc/yy/1382736894
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778167/u2956778167Z_BVVcc.jpg" group-title="Y Y 轮播", 时光的海
+https://yylunbo.ottiptv.cc/yy/1382851579
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/69/0063695166/u63695166-62tXa-Fx.png" group-title="Y Y 轮播", 24小时循环播电视剧
+https://yylunbo.ottiptv.cc/yy/53320802
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/62/2956624119/u2956624119uL9R72W.jpg" group-title="Y Y 轮播", 纯纯纯儿
+https://yylunbo.ottiptv.cc/yy/1382851589
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778180/u29567781809cFGq5Q.jpg" group-title="Y Y 轮播", 七色小彩虹
+https://yylunbo.ottiptv.cc/yy/1382851601
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 读心神探
+https://yylunbo.ottiptv.cc/yy/1382736875
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 甜甜的恋爱 这狗粮我吃了
+https://yylunbo.ottiptv.cc/yy/1354932438
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 我的体育老师
+https://yylunbo.ottiptv.cc/yy/1382745169
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 风筝
+https://yylunbo.ottiptv.cc/yy/1382828770
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 笑声传奇
+https://yylunbo.ottiptv.cc/yy/1382736880
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778179/u2956778179naZPtF0.jpg" group-title="Y Y 轮播", 士兵突击
+https://yylunbo.ottiptv.cc/yy/1382851600
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 精武英雄-李连杰主演经典动作片
+https://yylunbo.ottiptv.cc/yy/1382736873
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国内高分悬疑剧-风筝
+https://yylunbo.ottiptv.cc/yy/1354931585
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/62/2956624118/u2956624118f61cBrp.jpg" group-title="Y Y 轮播", 许多多
+https://yylunbo.ottiptv.cc/yy/1382851583
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/62/2956624113/u2956624113idqwUTV.jpg" group-title="Y Y 轮播", 情满四合院
+https://yylunbo.ottiptv.cc/yy/1382851524
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 人生必看的科幻片
+https://yylunbo.ottiptv.cc/yy/1382745114
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 超精彩！系列动作电影
+https://yylunbo.ottiptv.cc/yy/1382745096
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
+https://yylunbo.ottiptv.cc/yy/1382736838
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 你的回忆有我吗
+https://yylunbo.ottiptv.cc/yy/1354889024
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/62/2956624116/u2956624116LN4j6HE.jpg" group-title="Y Y 轮播", 活力满满
+https://yylunbo.ottiptv.cc/yy/1382851585
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/97/2835978875/u2835978875L9RPAqK.jpg" group-title="Y Y 轮播", 恐怖诡异墓穴
+https://yylunbo.ottiptv.cc/yy/1382748585
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/80/2495803807/u2495803807ASrDuj7.jpg" group-title="Y Y 轮播", 24h唐朝诡实录
+https://yylunbo.ottiptv.cc/yy/1353913646
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 宋小宝春晚小品合集
+https://yylunbo.ottiptv.cc/yy/1382736866
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 大明王朝
+https://yylunbo.ottiptv.cc/yy/1382736879
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/48/2836489679/u2836489679kXCiKK4.jpg" group-title="Y Y 轮播", 鬼片喜剧动作港剧
+https://yylunbo.ottiptv.cc/yy/1355269576
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/62/2665627706/u2665627706GP24tLn.jpg" group-title="Y Y 轮播", 打王者  看电影
+https://yylunbo.ottiptv.cc/yy/1460889796
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 中国味道 第4季-美食纪录片
+https://yylunbo.ottiptv.cc/yy/1382736845
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/68/2543685369/u2543685369dz8qk5x.png" group-title="Y Y 轮播", 咸鱼动漫
+https://yylunbo.ottiptv.cc/yy/1354076248
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/78/2664784453/u266478445378sqTJP.jpg" group-title="Y Y 轮播", 鹿鼎记-高清全集
+https://yylunbo.ottiptv.cc/yy/1382704650
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/26/0357260002/u357260002dZ73mJXQ.jpg" group-title="Y Y 轮播", 24h 我爱我家 纯音频
+https://yylunbo.ottiptv.cc/yy/1356212303
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/69/2552691967/u2552691967t-dRFJI.png" group-title="Y Y 轮播", 83射雕英雄传
+https://yylunbo.ottiptv.cc/yy/1354210357
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/62/1287621270/u1287621270txIzzu-.jpg" group-title="Y Y 轮播", 天龙神雕经典回忆
+https://yylunbo.ottiptv.cc/yy/68260522
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/20/2559209961/u2559209961mR796jI.jpg" group-title="Y Y 轮播", 鬼片恐怖私家影院
+https://yylunbo.ottiptv.cc/yy/1354209316
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/52/2460526223/u24605262233FAgbOU.png" group-title="Y Y 轮播", 西游记后传 蓝光
+https://yylunbo.ottiptv.cc/yy/1353392400
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/10/2494106782/u2494106782qI_NMDu.jpg" group-title="Y Y 轮播", 纪晓岚专属
+https://yylunbo.ottiptv.cc/yy/1353811810
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/38/2679387278/u2679387278_B3NLfN.jpg" group-title="Y Y 轮播", 新主播，求照顾
+https://yylunbo.ottiptv.cc/yy/1382690406
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/60/2922604425/u2922604425Gp3ghJF.jpg" group-title="Y Y 轮播", 经典电影重温
+https://yylunbo.ottiptv.cc/yy/1382793140
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/29/1280295265/u1280295265CYEmTOm.jpg" group-title="Y Y 轮播", 恐怖电影
+https://yylunbo.ottiptv.cc/yy/24066336
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 进来 陪你看电视
+https://yylunbo.ottiptv.cc/yy/1353518742
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 战狼7吴京退役
+https://yylunbo.ottiptv.cc/yy/1382773714
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/88/2894881561/u2894881561whDl7Ak.png" group-title="Y Y 轮播", 父母的爱情
+https://yylunbo.ottiptv.cc/yy/1382768483
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/88/2453889186/u2453889186v0MbEbT.png" group-title="Y Y 轮播", 狂飙
+https://yylunbo.ottiptv.cc/yy/1382627144
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 《武林外传》武侠
+https://yylunbo.ottiptv.cc/yy/1394000563
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 【新三国】吕布
+https://yylunbo.ottiptv.cc/yy/1382851459
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/74/1541749696/u1541749696P0qr7as.jpg" group-title="Y Y 轮播", 的直播间
+https://yylunbo.ottiptv.cc/yy/1354129442
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 《石敢当》六耳猕猴
+https://yylunbo.ottiptv.cc/yy/1394156613
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/61/1722612794/u1722612794bYYvt4M.jpg" group-title="Y Y 轮播", [特jing力量】
+https://yylunbo.ottiptv.cc/yy/1508456184
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 【武林客栈】
+https://yylunbo.ottiptv.cc/yy/1382773728
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 恋歌
+https://yylunbo.ottiptv.cc/yy/1382746276
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 成龙系列
+https://yylunbo.ottiptv.cc/yy/1354888751
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 妖神记
+https://yylunbo.ottiptv.cc/yy/1382745171
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 情满四合院
+https://yylunbo.ottiptv.cc/yy/1382736848
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国内玄幻电影-林正英
+https://yylunbo.ottiptv.cc/yy/1354932444
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 宫锁珠帘
+https://yylunbo.ottiptv.cc/yy/1354926666
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 抹茶少女
+https://yylunbo.ottiptv.cc/yy/1382737888
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
+https://yylunbo.ottiptv.cc/yy/1382736818
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 欢乐一起看
+https://yylunbo.ottiptv.cc/yy/1354930926
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 洪金宝福星系列
+https://yylunbo.ottiptv.cc/yy/1354924839
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 西游记后传
+https://yylunbo.ottiptv.cc/yy/1382736846
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 少年包青天第三部
+https://yylunbo.ottiptv.cc/yy/1382851540
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 速度与激情全集
+https://yylunbo.ottiptv.cc/yy/1382749892
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 你最爱的宋小宝
 https://yylunbo.ottiptv.cc/yy/1354936198
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 新白娘子传奇-女神赵雅芝
+https://yylunbo.ottiptv.cc/yy/1354930969
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 灌篮高手
+https://yylunbo.ottiptv.cc/yy/1382735626
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 大进军全集：红色系列电影
+https://yylunbo.ottiptv.cc/yy/1382745083
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/62/2956624117/u2956624117199l2Fq.jpg" group-title="Y Y 轮播", 颜值永远在线
+https://yylunbo.ottiptv.cc/yy/1382851582
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 寻秦记
+https://yylunbo.ottiptv.cc/yy/1354658048
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 仙剑奇侠传-神仙姐姐驾到
+https://yylunbo.ottiptv.cc/yy/1382749903
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 漫威十年老粉福利来了
+https://yylunbo.ottiptv.cc/yy/1354930233
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 这部剧你居然没看过？
+https://yylunbo.ottiptv.cc/yy/1354932355
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 大汉贤后卫子夫
+https://yylunbo.ottiptv.cc/yy/1382735569
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 我的前半生
+https://yylunbo.ottiptv.cc/yy/1382735564
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 农家小菜
+https://yylunbo.ottiptv.cc/yy/1382736894
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 魔幻手机
+https://yylunbo.ottiptv.cc/yy/1382735544
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
+https://yylunbo.ottiptv.cc/yy/1382736890
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
 https://yylunbo.ottiptv.cc/yy/1382735578
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 老广的味道 第3季-美食纪录片
 https://yylunbo.ottiptv.cc/yy/1382735565
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 仙剑奇侠传-神仙姐姐驾到
-https://yylunbo.ottiptv.cc/yy/1382749903
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
-https://yylunbo.ottiptv.cc/yy/1382736910
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/62/2956624119/u2956624119uL9R72W.jpg" group-title="Y Y 轮播", 读心神探
-https://yylunbo.ottiptv.cc/yy/1382851589
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/62/2956624115/u2956624115uHDCmW7.jpg" group-title="Y Y 轮播", ����������
-https://yylunbo.ottiptv.cc/yy/1382851578
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 炊事班的故事
-https://yylunbo.ottiptv.cc/yy/1382749901
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 经典大片合集
+https://yylunbo.ottiptv.cc/yy/1382749895
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 宝莲灯前传
+https://yylunbo.ottiptv.cc/yy/1354931631
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 智取威虎山
+https://yylunbo.ottiptv.cc/yy/1382736843
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 易中天品三国
+https://yylunbo.ottiptv.cc/yy/1354931498
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 爆笑小品大合集
+https://yylunbo.ottiptv.cc/yy/1382736821
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 真心想让你幸福
 https://yylunbo.ottiptv.cc/yy/1382736876
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 亲爱的热爱的
 https://yylunbo.ottiptv.cc/yy/1354932433
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 经典大片合集
-https://yylunbo.ottiptv.cc/yy/1382749895
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778173/u2956778173d4Hhqbe.jpg" group-title="Y Y 轮播", 寻秦记-穿越剧经典
-https://yylunbo.ottiptv.cc/yy/1382851591
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 伪装者
-https://yylunbo.ottiptv.cc/yy/1354936244
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 北京爱情故事，心动不打烊
 https://yylunbo.ottiptv.cc/yy/1382744423
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778179/u2956778179naZPtF0.jpg" group-title="Y Y 轮播", 士兵突击
-https://yylunbo.ottiptv.cc/yy/1382851600
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 最美的青春
-https://yylunbo.ottiptv.cc/yy/1382745116
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 宝莲灯前传
-https://yylunbo.ottiptv.cc/yy/1354931631
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 伪装者
+https://yylunbo.ottiptv.cc/yy/1354936244
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 超英集结
+https://yylunbo.ottiptv.cc/yy/1382745091
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 二号交通站
+https://yylunbo.ottiptv.cc/yy/1382735582
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 陈情令
 https://yylunbo.ottiptv.cc/yy/1382745121
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 妖神记之黑狱篇
-https://yylunbo.ottiptv.cc/yy/1382745173
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 娘亲舅大
 https://yylunbo.ottiptv.cc/yy/1354932360
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 妖神记之黑狱篇
+https://yylunbo.ottiptv.cc/yy/1382745173
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 最美的青春
+https://yylunbo.ottiptv.cc/yy/1382745116
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/62/2956624115/u2956624115uHDCmW7.jpg" group-title="Y Y 轮播", 开心小泡芙
+https://yylunbo.ottiptv.cc/yy/1382851578
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 海洋幻梦-泰剧
 https://yylunbo.ottiptv.cc/yy/1382749889
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 巩汉林春晚小品合集
@@ -5125,110 +5113,112 @@ https://yylunbo.ottiptv.cc/yy/1354889035
 https://yylunbo.ottiptv.cc/yy/1354936167
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
 https://yylunbo.ottiptv.cc/yy/1382745085
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 炊事班的故事
+https://yylunbo.ottiptv.cc/yy/1382749901
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 密子君
 https://yylunbo.ottiptv.cc/yy/1382736717
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 抹茶少女
-https://yylunbo.ottiptv.cc/yy/1382737888
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 小鬼当家-童年回忆
 https://yylunbo.ottiptv.cc/yy/1382745104
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 我的前半生
-https://yylunbo.ottiptv.cc/yy/1382735564
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 爆笑小品大合集
-https://yylunbo.ottiptv.cc/yy/1382736821
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 科幻惊悚片-异形
-https://yylunbo.ottiptv.cc/yy/1382735543
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 哈利波特全集
 https://yylunbo.ottiptv.cc/yy/1382745105
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 无敌县令
 https://yylunbo.ottiptv.cc/yy/1354932390
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 大帅哥-港剧
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
 https://yylunbo.ottiptv.cc/yy/1382736842
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 科幻惊悚片-异形
+https://yylunbo.ottiptv.cc/yy/1382735543
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
 https://yylunbo.ottiptv.cc/yy/1382735572
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 欢乐集结号
 https://yylunbo.ottiptv.cc/yy/1382735550
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/62/2956624113/u2956624113idqwUTV.jpg" group-title="Y Y 轮播", 情满四合院
-https://yylunbo.ottiptv.cc/yy/1382851524
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
 https://yylunbo.ottiptv.cc/yy/1382736975
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 父母爱情
-https://yylunbo.ottiptv.cc/yy/1382851594
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国外动作片
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778173/u2956778173d4Hhqbe.jpg" group-title="Y Y 轮播", 暖暖1999
+https://yylunbo.ottiptv.cc/yy/1382851591
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
+https://yylunbo.ottiptv.cc/yy/1382736910
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 重生之超级赛亚人
 https://yylunbo.ottiptv.cc/yy/1354936124
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 院线动作大片
 https://yylunbo.ottiptv.cc/yy/1382736900
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 苦乐村官
 https://yylunbo.ottiptv.cc/yy/1382736864
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 人生必看的科幻片
-https://yylunbo.ottiptv.cc/yy/1382745114
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 非常保镖-经典港剧
 https://yylunbo.ottiptv.cc/yy/1382736903
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 金玉满堂：精彩港剧
 https://yylunbo.ottiptv.cc/yy/1382736881
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 二号交通站
+https://yylunbo.ottiptv.cc/yy/1354930965
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/62/2956624114/u2956624114W5xjDpi.jpg" group-title="Y Y 轮播", 欢乐颂
+https://yylunbo.ottiptv.cc/yy/1382851577
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 穿越时空的爱恋
+https://yylunbo.ottiptv.cc/yy/1382735567
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 笑傲江湖 第2季
 https://yylunbo.ottiptv.cc/yy/1382736914
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
-https://yylunbo.ottiptv.cc/yy/1382736888
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 笑傲帮
 https://yylunbo.ottiptv.cc/yy/1382735555
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 动作大片-热血开打
 https://yylunbo.ottiptv.cc/yy/1354936168
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 本山快乐营
 https://yylunbo.ottiptv.cc/yy/1354933529
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 发哥系列
-https://yylunbo.ottiptv.cc/yy/1354888733
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 强悍“杀猪婆”的励志人生
 https://yylunbo.ottiptv.cc/yy/1354658062
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 发哥系列
+https://yylunbo.ottiptv.cc/yy/1354888733
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 以家人之名
+https://yylunbo.ottiptv.cc/yy/1382736908
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 舌尖上的中国第一季
 https://yylunbo.ottiptv.cc/yy/1354930952
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 超精彩！系列动作电影
-https://yylunbo.ottiptv.cc/yy/1382745096
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 穿越时空的爱恋
-https://yylunbo.ottiptv.cc/yy/1382735567
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 金牌配角达叔系列
+https://yylunbo.ottiptv.cc/yy/1354888728
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 恋歌
+https://yylunbo.ottiptv.cc/yy/1382851594
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/62/2956624121/u2956624121FQvGaEH.jpg" group-title="Y Y 轮播", 你是最美的风景
+https://yylunbo.ottiptv.cc/yy/1382851599
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 野山鹰-影视剧
 https://yylunbo.ottiptv.cc/yy/1354932395
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
 https://yylunbo.ottiptv.cc/yy/1382736834
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 以家人之名
-https://yylunbo.ottiptv.cc/yy/1382736908
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 舌尖上的中国第2季
-https://yylunbo.ottiptv.cc/yy/1354930943
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 不可能的任务-碟中谍4
 https://yylunbo.ottiptv.cc/yy/1354930967
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 舌尖上的中国第2季
+https://yylunbo.ottiptv.cc/yy/1354930943
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
+https://yylunbo.ottiptv.cc/yy/1382745117
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 超燃警匪片
 https://yylunbo.ottiptv.cc/yy/1382735576
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 俺娘田小草
 https://yylunbo.ottiptv.cc/yy/1382741638
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国内喜剧
 https://yylunbo.ottiptv.cc/yy/1382736862
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 来自星星的你
-https://yylunbo.ottiptv.cc/yy/1354930976
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 回家的诱惑
 https://yylunbo.ottiptv.cc/yy/1354658043
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 来自星星的你
+https://yylunbo.ottiptv.cc/yy/1354930976
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 哑巴竟然会说话
 https://yylunbo.ottiptv.cc/yy/1354932427
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 东海龙棺
 https://yylunbo.ottiptv.cc/yy/1354930968
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 高分科幻动作片
+https://yylunbo.ottiptv.cc/yy/1382749948
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 周星星系列
+https://yylunbo.ottiptv.cc/yy/1354888671
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 无厘头的出处
 https://yylunbo.ottiptv.cc/yy/1354930891
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 美国队长史蒂夫
-https://yylunbo.ottiptv.cc/yy/1382736813
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 渴望
+https://yylunbo.ottiptv.cc/yy/1354930963
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国产喜剧
 https://yylunbo.ottiptv.cc/yy/1382735584
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 美国队长史蒂夫
+https://yylunbo.ottiptv.cc/yy/1382736813
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 电影黑豹
 https://yylunbo.ottiptv.cc/yy/1382736816
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 福贵
 https://yylunbo.ottiptv.cc/yy/1354926537
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 你的回忆有我吗
-https://yylunbo.ottiptv.cc/yy/1354889024
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
-https://yylunbo.ottiptv.cc/yy/1382745117
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 渴望
-https://yylunbo.ottiptv.cc/yy/1354930963
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
 https://yylunbo.ottiptv.cc/yy/1382736886
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 金牌配角达叔系列
-https://yylunbo.ottiptv.cc/yy/1354888728
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 岳云鹏宋小宝也来演电影了？
+https://yylunbo.ottiptv.cc/yy/1354926612
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 粟裕大将-影视
 https://yylunbo.ottiptv.cc/yy/1354926542
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 香港院线大片-最新
@@ -5237,16 +5227,20 @@ https://yylunbo.ottiptv.cc/yy/1354936242
 https://yylunbo.ottiptv.cc/yy/1382736915
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 保护我家蓉儿
 https://yylunbo.ottiptv.cc/yy/1370293254
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
+https://yylunbo.ottiptv.cc/yy/1382745084
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/21/1575219181/u1575219181j_2vaIy.png" group-title="Y Y 轮播", 超清鬼片 港片
+https://yylunbo.ottiptv.cc/yy/1335509613
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 港剧-警犬巴打
 https://yylunbo.ottiptv.cc/yy/1354932397
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 我爱我家
+https://yylunbo.ottiptv.cc/yy/1382735557
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 三国演义【1994】
+https://yylunbo.ottiptv.cc/yy/1354930932
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国内喜剧
 https://yylunbo.ottiptv.cc/yy/1382735563
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
 https://yylunbo.ottiptv.cc/yy/1382736805
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 我爱我家
-https://yylunbo.ottiptv.cc/yy/1382735557
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 高分科幻动作片
-https://yylunbo.ottiptv.cc/yy/1382749948
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 叛逆者
 https://yylunbo.ottiptv.cc/yy/1382736868
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 辉煌或疯狂-韩剧
@@ -5255,18 +5249,16 @@ https://yylunbo.ottiptv.cc/yy/1382749902
 https://yylunbo.ottiptv.cc/yy/1382736871
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 缺宅男女
 https://yylunbo.ottiptv.cc/yy/1354930937
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/62/2956624121/u2956624121FQvGaEH.jpg" group-title="Y Y 轮播", 法证先锋
-https://yylunbo.ottiptv.cc/yy/1382851599
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 岳云鹏宋小宝也来演电影了？
-https://yylunbo.ottiptv.cc/yy/1354926612
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 大唐双龙传
 https://yylunbo.ottiptv.cc/yy/1354930979
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778178/u2956778178YJKxE-w.jpg" group-title="Y Y 轮播", 国内喜剧
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778178/u2956778178YJKxE-w.jpg" group-title="Y Y 轮播", Blingbling
 https://yylunbo.ottiptv.cc/yy/1382851598
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 欢乐集结号3
 https://yylunbo.ottiptv.cc/yy/1382736822
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 猩球崛起-怪兽片合集
 https://yylunbo.ottiptv.cc/yy/1354930181
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 蔡明春晚小品
+https://yylunbo.ottiptv.cc/yy/1354936177
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 本山快乐营-爆笑小品
 https://yylunbo.ottiptv.cc/yy/1354930948
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 飞虎之潜行极战
@@ -5279,13 +5271,9 @@ https://yylunbo.ottiptv.cc/yy/1382735570
 https://yylunbo.ottiptv.cc/yy/1354932359
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 河伯的新娘：奇幻爱情
 https://yylunbo.ottiptv.cc/yy/1354936249
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 三国演义【1994】
-https://yylunbo.ottiptv.cc/yy/1354930932
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 精彩动作电影享不停
 https://yylunbo.ottiptv.cc/yy/1382736809
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 宋小宝春晚小品合集
-https://yylunbo.ottiptv.cc/yy/1382736866
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 动作电影合集
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国产大片电影
 https://yylunbo.ottiptv.cc/yy/1354926655
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 高分动作大片-热血出击
 https://yylunbo.ottiptv.cc/yy/1382736909
@@ -5295,46 +5283,46 @@ https://yylunbo.ottiptv.cc/yy/1382736839
 https://yylunbo.ottiptv.cc/yy/1382747628
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 田园生活
 https://yylunbo.ottiptv.cc/yy/1382736898
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 来看修牛蹄
+https://yylunbo.ottiptv.cc/yy/1382749887
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 飓风营救
 https://yylunbo.ottiptv.cc/yy/1382735547
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国外动作大片
-https://yylunbo.ottiptv.cc/yy/1382735540
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 第8号当铺
 https://yylunbo.ottiptv.cc/yy/1382736905
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国内动作电影
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国外动作大片
+https://yylunbo.ottiptv.cc/yy/1382735540
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国外黑色喜剧：冷幽默小剧场
 https://yylunbo.ottiptv.cc/yy/1382745175
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/92/1529929232/u1529929232hMV18mo.jpg" group-title="Y Y 轮播", 快来呀好剧在等你
+https://yylunbo.ottiptv.cc/yy/1331686180
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 燃爆动作片
 https://yylunbo.ottiptv.cc/yy/1382736801
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 永远的经典系列
 https://yylunbo.ottiptv.cc/yy/1354930204
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 笑傲江湖 第1季
 https://yylunbo.ottiptv.cc/yy/1382749896
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778163/u295677816358dgO10.jpg" group-title="Y Y 轮播", 魔幻手机
+https://yylunbo.ottiptv.cc/yy/1382851541
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 科幻片：来看神奇的地球
 https://yylunbo.ottiptv.cc/yy/1354930897
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 蔡明春晚小品
-https://yylunbo.ottiptv.cc/yy/1354936177
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 科幻电影
-https://yylunbo.ottiptv.cc/yy/1354930209
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
+https://yylunbo.ottiptv.cc/yy/1382736888
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 缺宅男女-精彩港剧
 https://yylunbo.ottiptv.cc/yy/1382745088
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 动作大片
-https://yylunbo.ottiptv.cc/yy/1354888739
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
-https://yylunbo.ottiptv.cc/yy/1382745093
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 精彩动作电影
-https://yylunbo.ottiptv.cc/yy/1382736823
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 赌神-发哥
-https://yylunbo.ottiptv.cc/yy/1354889044
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 小宝让你乐翻天：6到9集
-https://yylunbo.ottiptv.cc/yy/1354930971
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 大明王朝
-https://yylunbo.ottiptv.cc/yy/1382736879
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 中国味道 第4季-美食纪录片
-https://yylunbo.ottiptv.cc/yy/1382736845
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 来看修牛蹄
-https://yylunbo.ottiptv.cc/yy/1382749887
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/28/2858287019/u28582870196C9e_m-.png" group-title="Y Y 轮播", 鹊刀门
+https://yylunbo.ottiptv.cc/yy/1355344777
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 少年包青天美黑之旅
 https://yylunbo.ottiptv.cc/yy/1354936141
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
+https://yylunbo.ottiptv.cc/yy/1382745093
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 动作大片
+https://yylunbo.ottiptv.cc/yy/1354888739
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 精彩动作电影
+https://yylunbo.ottiptv.cc/yy/1382736823
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 小宝让你乐翻天：6到9集
+https://yylunbo.ottiptv.cc/yy/1354930971
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 科幻电影
+https://yylunbo.ottiptv.cc/yy/1354930209
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 我的父亲我的兵
 https://yylunbo.ottiptv.cc/yy/1353413714
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 爆笑来袭-小品欢乐集结号
@@ -5349,52 +5337,58 @@ https://yylunbo.ottiptv.cc/yy/1354930894
 https://yylunbo.ottiptv.cc/yy/1382736797
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 深海利剑
 https://yylunbo.ottiptv.cc/yy/1382736906
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 赌神-发哥
+https://yylunbo.ottiptv.cc/yy/1354889044
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 末日系列-外国电影合集
 https://yylunbo.ottiptv.cc/yy/1354889019
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国外科幻
 https://yylunbo.ottiptv.cc/yy/1382736800
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778161/u2956778161rUYdVf2.jpg" group-title="Y Y 轮播", 最美的青春
-https://yylunbo.ottiptv.cc/yy/1382851530
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
 https://yylunbo.ottiptv.cc/yy/1382745103
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778161/u2956778161rUYdVf2.jpg" group-title="Y Y 轮播", 最美的青春
+https://yylunbo.ottiptv.cc/yy/1382851530
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
 https://yylunbo.ottiptv.cc/yy/1382735553
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国产电影-就是闹着玩的
 https://yylunbo.ottiptv.cc/yy/1354931503
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 超炫科幻大片
 https://yylunbo.ottiptv.cc/yy/1382736840
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/20/2785203163/u2785203163A88_99H.png" group-title="Y Y 轮播", 沙海
-https://yylunbo.ottiptv.cc/yy/1355171357
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
-https://yylunbo.ottiptv.cc/yy/1382745113
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 嘻嘻熙熙
 https://yylunbo.ottiptv.cc/yy/1382735585
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
+https://yylunbo.ottiptv.cc/yy/1382745113
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国外经典—小鬼当家
 https://yylunbo.ottiptv.cc/yy/1354658064
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 漫威超级英雄系列
 https://yylunbo.ottiptv.cc/yy/1354932402
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国内动作大片
 https://yylunbo.ottiptv.cc/yy/1382745176
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 侏罗纪世界-国外科幻大片合集
+https://yylunbo.ottiptv.cc/yy/1382736851
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/20/2785203163/u2785203163A88_99H.png" group-title="Y Y 轮播", 沙海
+https://yylunbo.ottiptv.cc/yy/1355171357
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 加勒比海盗系列
 https://yylunbo.ottiptv.cc/yy/1382749914
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/91/0090919811/u90919811Gb-11zrzi.jpg" group-title="Y Y 轮播", 经典倚天屠龙记
 https://yylunbo.ottiptv.cc/yy/25444932
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 流金岁月-经典港剧
 https://yylunbo.ottiptv.cc/yy/1382736891
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 侏罗纪世界-国外科幻大片合集
-https://yylunbo.ottiptv.cc/yy/1382736851
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 一起来笑吧
 https://yylunbo.ottiptv.cc/yy/1454859415
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 少年四大名捕
 https://yylunbo.ottiptv.cc/yy/1354936203
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778160/u2956778160r59MiuJ.jpg" group-title="Y Y 轮播", 国内经典动作电影
 https://yylunbo.ottiptv.cc/yy/1382851522
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/99/2952995563/u29529955630Nh11Z1.jpg" group-title="Y Y 轮播", 古装剧
+https://yylunbo.ottiptv.cc/yy/1356158015
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 热门喜剧
 https://yylunbo.ottiptv.cc/yy/1354931495
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 高分港剧合集
 https://yylunbo.ottiptv.cc/yy/1382735542
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 黄大妮-电视剧
 https://yylunbo.ottiptv.cc/yy/1354930904
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/30/2632308599/u2632308599zmh830o.jpg" group-title="Y Y 轮播", 经典抗战剧
+https://yylunbo.ottiptv.cc/yy/1354555195
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 带你领略四季的变化
 https://yylunbo.ottiptv.cc/yy/1354930816
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 忠烈杨家将
@@ -5405,50 +5399,48 @@ https://yylunbo.ottiptv.cc/yy/1382735577
 https://yylunbo.ottiptv.cc/yy/1382736918
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 动物宝宝大盘点-大波可爱动物来袭
 https://yylunbo.ottiptv.cc/yy/1382736723
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 战狼7吴京退役
-https://yylunbo.ottiptv.cc/yy/1382773714
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 热血动作电影
 https://yylunbo.ottiptv.cc/yy/1382736804
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 编辑部的故事
 https://yylunbo.ottiptv.cc/yy/1354936120
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/64/1612648695/u1612648695_F1cQTm.jpg" group-title="Y Y 轮播", 电影
-https://yylunbo.ottiptv.cc/yy/37454459
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 大江大河-高分影视推荐
 https://yylunbo.ottiptv.cc/yy/1382736806
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 漫画解说
 https://yylunbo.ottiptv.cc/yy/1382735568
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 动物世界-领略原始野性
-https://yylunbo.ottiptv.cc/yy/1382743138
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/43/1702436400/u1702436400K_-znF2.jpg" group-title="Y Y 轮播", 雍正王朝
+https://yylunbo.ottiptv.cc/yy/1459714870
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 黑衣人1、2—动作喜剧大片
 https://yylunbo.ottiptv.cc/yy/1354930936
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/10/2494106782/u2494106782qI_NMDu.jpg" group-title="Y Y 轮播", 纪晓岚专属
-https://yylunbo.ottiptv.cc/yy/1353811810
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 反黑
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 动物世界-领略原始野性
+https://yylunbo.ottiptv.cc/yy/1382743138
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 奇缘港台影院
+https://yylunbo.ottiptv.cc/yy/1354889234
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
 https://yylunbo.ottiptv.cc/yy/1382745182
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 明天和你-韩剧
 https://yylunbo.ottiptv.cc/yy/1382749905
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/60/2512607207/u2512607207daPCfls.jpg" group-title="Y Y 轮播", 狂飙
+https://yylunbo.ottiptv.cc/yy/1353873252
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 施公奇案2-欧阳震华
 https://yylunbo.ottiptv.cc/yy/1382736824
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 毒液：致命守护者
 https://yylunbo.ottiptv.cc/yy/1382745095
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 今晚80后脱口秀
 https://yylunbo.ottiptv.cc/yy/1382745098
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/67/0058679144/u58679144Ahb7BFyxg.jpg" group-title="Y Y 轮播", 靓剑
-https://yylunbo.ottiptv.cc/yy/1507704566
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 一分钟学道菜
 https://yylunbo.ottiptv.cc/yy/1382736901
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 河山
 https://yylunbo.ottiptv.cc/yy/1382749952
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/43/1702436400/u1702436400K_-znF2.jpg" group-title="Y Y 轮播", 雍正王朝
-https://yylunbo.ottiptv.cc/yy/1459714870
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/60/2512607207/u2512607207daPCfls.jpg" group-title="Y Y 轮播", 狂飙
-https://yylunbo.ottiptv.cc/yy/1353873252
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/21/2785215565/u2785215565EyfdKbN.jpg" group-title="Y Y 轮播", 24h老九门
+https://yylunbo.ottiptv.cc/yy/1355171231
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
 https://yylunbo.ottiptv.cc/yy/1382736807
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 你最爱的小龙女-神雕侠侣
 https://yylunbo.ottiptv.cc/yy/1354926637
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 活宝夫妻-笑闹日常
 https://yylunbo.ottiptv.cc/yy/1382745124
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/64/1612648695/u1612648695_F1cQTm.jpg" group-title="Y Y 轮播", 电影
+https://yylunbo.ottiptv.cc/yy/37454459
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国外高分大片
 https://yylunbo.ottiptv.cc/yy/1382736867
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/96/2610968788/u2610968788eHDzLzz.jpg" group-title="Y Y 轮播", 少年歌行
@@ -5461,18 +5453,24 @@ https://yylunbo.ottiptv.cc/yy/1354936209
 https://yylunbo.ottiptv.cc/yy/1354936234
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 欢喜冤家的爱情-夏日乐悠悠
 https://yylunbo.ottiptv.cc/yy/1354936191
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 百家讲坛――之明太祖朱元璋
-https://yylunbo.ottiptv.cc/yy/1354936149
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 热血少年上线，《长歌行》开播
+https://yylunbo.ottiptv.cc/yy/1382736802
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
 https://yylunbo.ottiptv.cc/yy/1382735579
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 百家讲坛――之明太祖朱元璋
+https://yylunbo.ottiptv.cc/yy/1354936149
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 探秘自然奇境-纪录片合集
 https://yylunbo.ottiptv.cc/yy/1382749913
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/75/2932756128/u2932756128Zo3N6YO.png" group-title="Y Y 轮播", 【破案 悬疑 港剧】
+https://yylunbo.ottiptv.cc/yy/1382800083
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 趣味小品合集
 https://yylunbo.ottiptv.cc/yy/1382736853
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 忠诚无畏，战犬出击
-https://yylunbo.ottiptv.cc/yy/1354930225
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 欢乐集结号2
+https://yylunbo.ottiptv.cc/yy/1354930919
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 银河护卫队-国外科幻巨作
 https://yylunbo.ottiptv.cc/yy/1382736815
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 忠诚无畏，战犬出击
+https://yylunbo.ottiptv.cc/yy/1354930225
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 什么会让你快乐
 https://yylunbo.ottiptv.cc/yy/54886912
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 百家讲坛-红楼梦篇
@@ -5483,17 +5481,17 @@ https://yylunbo.ottiptv.cc/yy/1354889048
 https://yylunbo.ottiptv.cc/yy/1354926676
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 金牌喜剧班
 https://yylunbo.ottiptv.cc/yy/1354889009
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778165/u2956778165RKtikAg.jpg" group-title="Y Y 轮播", 藏地密码：秘境探险，悬念拉满
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778165/u2956778165RKtikAg.jpg" group-title="Y Y 轮播", 晨晨的影视小窝
 https://yylunbo.ottiptv.cc/yy/1382851576
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 萌鸡小队S1-国漫
 https://yylunbo.ottiptv.cc/yy/1382736904
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 科幻电影-环太平洋
 https://yylunbo.ottiptv.cc/yy/1354936170
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 欢乐集结号2
-https://yylunbo.ottiptv.cc/yy/1354930919
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/05/0166055038/u1660550386RKY4Bj1.jpg" group-title="Y Y 轮播", 军旅剧（回忆经典）
+https://yylunbo.ottiptv.cc/yy/1356306672
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 距离你500米
 https://yylunbo.ottiptv.cc/yy/24759907
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 斗地主：民国喜剧
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
 https://yylunbo.ottiptv.cc/yy/1382736887
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/01/2870013294/u2870013294BCj_fCA.jpg" group-title="Y Y 轮播", 生存大战，尽显人性
 https://yylunbo.ottiptv.cc/yy/1414864186
@@ -5501,10 +5499,10 @@ https://yylunbo.ottiptv.cc/yy/1414864186
 https://yylunbo.ottiptv.cc/yy/1459010966
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 蝙蝠侠：侠影之谜
 https://yylunbo.ottiptv.cc/yy/1382736719
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
-https://yylunbo.ottiptv.cc/yy/1382735545
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 嫌疑人X的献身-悬疑
 https://yylunbo.ottiptv.cc/yy/1382749953
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
+https://yylunbo.ottiptv.cc/yy/1382735545
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 能耐大了第1季
 https://yylunbo.ottiptv.cc/yy/1354930195
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 洪大哥系列
@@ -5515,30 +5513,28 @@ https://yylunbo.ottiptv.cc/yy/1354936154
 https://yylunbo.ottiptv.cc/yy/1382736835
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 溏心风暴之家好月圆
 https://yylunbo.ottiptv.cc/yy/1354888747
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/66/1587662225/u1587662225m-UfjRA.jpg" group-title="Y Y 轮播", 一剑开天门
+https://yylunbo.ottiptv.cc/yy/34313906
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 白鹿原-国内经典战争片
 https://yylunbo.ottiptv.cc/yy/1354931488
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 欢乐集结号4
 https://yylunbo.ottiptv.cc/yy/1382736889
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/84/2763846360/u2763846360XS-TWTu.jpg" group-title="Y Y 轮播", 和你不见不散
+https://yylunbo.ottiptv.cc/yy/1355635293
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 太空荒野求生记-火星救援
 https://yylunbo.ottiptv.cc/yy/1354930957
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 热血少年上线，《长歌行》开播
-https://yylunbo.ottiptv.cc/yy/1382736802
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 影视小艺
 https://yylunbo.ottiptv.cc/yy/1382737886
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 绝境博弈，无路可逃
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 初恋脸
 https://yylunbo.ottiptv.cc/yy/1382851597
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 每天都要快乐哦！
 https://yylunbo.ottiptv.cc/yy/1354930909
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/05/0166055038/u1660550386RKY4Bj1.jpg" group-title="Y Y 轮播", 军旅剧（回忆经典）
-https://yylunbo.ottiptv.cc/yy/1356306672
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 【新三国】
-https://yylunbo.ottiptv.cc/yy/1382851415
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/88/2453889186/u2453889186v0MbEbT.png" group-title="Y Y 轮播", 狂飙
-https://yylunbo.ottiptv.cc/yy/1382627144
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 小朋友可爱到家了
 https://yylunbo.ottiptv.cc/yy/1354930887
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 降魔传-神魔大战
 https://yylunbo.ottiptv.cc/yy/1354932371
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 心中的白月光
+https://yylunbo.ottiptv.cc/yy/1382851580
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 监狱风云1：经典犯罪片
 https://yylunbo.ottiptv.cc/yy/1382828769
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/38/2353385550/u2353385550rtw1OaM.png" group-title="Y Y 轮播", 24小时不停播
@@ -5553,14 +5549,18 @@ https://yylunbo.ottiptv.cc/yy/1355532933
 https://yylunbo.ottiptv.cc/yy/1382735548
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 远去的飞鹰-影视剧
 https://yylunbo.ottiptv.cc/yy/1354930912
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 【新三国】
+https://yylunbo.ottiptv.cc/yy/1382851415
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 经典武侠电影-如来神掌
 https://yylunbo.ottiptv.cc/yy/1382749944
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 刘旸教主脱口秀合集
 https://yylunbo.ottiptv.cc/yy/1354930189
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/80/2563804305/u2563804305b75d55Z.png" group-title="Y Y 轮播", 国漫动漫
+https://yylunbo.ottiptv.cc/yy/1354768828
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 多力特的奇幻冒险-和动物对话
 https://yylunbo.ottiptv.cc/yy/1354930927
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 我爱我家
-https://yylunbo.ottiptv.cc/yy/1382851580
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 宫心计-港剧-古装
+https://yylunbo.ottiptv.cc/yy/1354933540
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 抗日神片，燃爆抗战热血魂
 https://yylunbo.ottiptv.cc/yy/1354926600
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 本山快乐营2
@@ -5569,18 +5569,18 @@ https://yylunbo.ottiptv.cc/yy/1382736718
 https://yylunbo.ottiptv.cc/yy/1382745087
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国产动作电影
 https://yylunbo.ottiptv.cc/yy/1382736858
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/81/2223817740/u2223817740JU6Tfjw.jpg" group-title="Y Y 轮播", 8090.电影一哥
+https://yylunbo.ottiptv.cc/yy/29197808
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 能耐大了！德云社演技爆棚
 https://yylunbo.ottiptv.cc/yy/1354930915
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/6060/60/60/84/2763846360/u2763846360XS-TWTu.jpg" group-title="Y Y 轮播", 和你不见不散
-https://yylunbo.ottiptv.cc/yy/1355635293
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国产家庭电视剧-如果岁月可回头
 https://yylunbo.ottiptv.cc/yy/1382736883
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 本山选谁上-喜剧人选拔
-https://yylunbo.ottiptv.cc/yy/1382749878
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 老夫少妻搞笑忘年恋
 https://yylunbo.ottiptv.cc/yy/1354932391
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 白领被迫当楼奴？
-https://yylunbo.ottiptv.cc/yy/1382736832
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 本山选谁上-喜剧人选拔
+https://yylunbo.ottiptv.cc/yy/1382749878
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/71/0079713762/u797137629GagAD2t_.png" group-title="Y Y 轮播", 电影电影电影电影电影电影
+https://yylunbo.ottiptv.cc/yy/1351496216
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 成龙大哥火爆力作
 https://yylunbo.ottiptv.cc/yy/1382736841
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 九层妖塔
@@ -5591,6 +5591,8 @@ https://yylunbo.ottiptv.cc/yy/1354932365
 https://yylunbo.ottiptv.cc/yy/1382735566
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 熊出没之探险日记-森林探险记
 https://yylunbo.ottiptv.cc/yy/1382745122
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 白领被迫当楼奴？
+https://yylunbo.ottiptv.cc/yy/1382736832
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 电视剧-流金岁月
 https://yylunbo.ottiptv.cc/yy/1382749906
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/400/400/77/2956778136/u2956778136fhU7opB.jpg" group-title="Y Y 轮播", 1930年代经典电影
@@ -5609,12 +5611,10 @@ https://yylunbo.ottiptv.cc/yy/1354936208
 https://yylunbo.ottiptv.cc/yy/1354936195
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 洪金宝经典喜剧电影
 https://yylunbo.ottiptv.cc/yy/1354889042
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 蚁人-微观世界大冒险
-https://yylunbo.ottiptv.cc/yy/1382736913
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 海王-院线大片
 https://yylunbo.ottiptv.cc/yy/1354936142
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 【武林客栈】
-https://yylunbo.ottiptv.cc/yy/1382773728
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 蚁人-微观世界大冒险
+https://yylunbo.ottiptv.cc/yy/1382736913
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 孙红雷古天乐主演犯罪动作片
 https://yylunbo.ottiptv.cc/yy/1382735552
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 高能博弈—大事件
@@ -5625,10 +5625,10 @@ https://yylunbo.ottiptv.cc/yy/1354936136
 https://yylunbo.ottiptv.cc/yy/1382736849
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", BBC纪录片之王：地球无限
 https://yylunbo.ottiptv.cc/yy/1382735625
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 东北奇缘：江湖情缘
-https://yylunbo.ottiptv.cc/yy/1354936238
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 闲暇观看综艺
 https://yylunbo.ottiptv.cc/yy/1354932379
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 东北奇缘：江湖情缘
+https://yylunbo.ottiptv.cc/yy/1354936238
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 宇宙护卫队--国漫
 https://yylunbo.ottiptv.cc/yy/1382736837
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 热血抗日电影
@@ -5651,6 +5651,8 @@ https://yylunbo.ottiptv.cc/yy/1354930954
 https://yylunbo.ottiptv.cc/yy/1382745190
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/62/2956624111/u2956624111RwgKyF4.jpg" group-title="Y Y 轮播", 法国版《家有儿女》治愈所有不开心
 https://yylunbo.ottiptv.cc/yy/1382851137
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 战狼10086
+https://yylunbo.ottiptv.cc/yy/1382773686
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 老牌经典喜剧-笨贼妙探
 https://yylunbo.ottiptv.cc/yy/1354932405
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 真实揭露全球军火贸易的黑暗史诗
@@ -5671,10 +5673,10 @@ https://yylunbo.ottiptv.cc/yy/1382745092
 https://yylunbo.ottiptv.cc/yy/1353413683
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 古惑仔二十年后再聚首
 https://yylunbo.ottiptv.cc/yy/1354936217
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 致命武器3
-https://yylunbo.ottiptv.cc/yy/1382749918
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 吴彦祖张静初再合作
 https://yylunbo.ottiptv.cc/yy/1382735561
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 致命武器3
+https://yylunbo.ottiptv.cc/yy/1382749918
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 电影兴风作浪系列播放
 https://yylunbo.ottiptv.cc/yy/1382736857
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 先锋之那时青春-热血年代
@@ -5701,10 +5703,10 @@ https://yylunbo.ottiptv.cc/yy/1354936169
 https://yylunbo.ottiptv.cc/yy/1354932429
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 谁的童年记忆？经典音乐之声
 https://yylunbo.ottiptv.cc/yy/1382735559
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 小人国——介子鬼城
-https://yylunbo.ottiptv.cc/yy/1382749950
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", A级保镖上演死亡任务
 https://yylunbo.ottiptv.cc/yy/1354936221
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 小人国——介子鬼城
+https://yylunbo.ottiptv.cc/yy/1382749950
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 大饭店：浮华饭店里的人情冷暖
 https://yylunbo.ottiptv.cc/yy/1382745099
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 爱情片合集-童梦奇缘
@@ -5749,12 +5751,12 @@ https://yylunbo.ottiptv.cc/yy/1382741640
 https://yylunbo.ottiptv.cc/yy/1382745189
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 拳拳到肉，搏击燃情
 https://yylunbo.ottiptv.cc/yy/1382736870
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 探险纪录片：荒野垂钓
+https://yylunbo.ottiptv.cc/yy/1382745111
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 嗜血巨狼突袭人类
 https://yylunbo.ottiptv.cc/yy/1382735560
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 致敬不屈的抗日英雄
 https://yylunbo.ottiptv.cc/yy/1382736817
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 探险纪录片：荒野垂钓
-https://yylunbo.ottiptv.cc/yy/1382745111
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 重启
 https://yylunbo.ottiptv.cc/yy/1354888736
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 毒力觉醒的异能逆袭狂潮
@@ -5763,12 +5765,8 @@ https://yylunbo.ottiptv.cc/yy/1354926735
 https://yylunbo.ottiptv.cc/yy/1382735583
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 最佳下饭小甜剧，暖心暖胃
 https://yylunbo.ottiptv.cc/yy/1382741637
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 爱情拳击手：爱情重击
-https://yylunbo.ottiptv.cc/yy/1354936229
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 程序员用AI复活挚爱
 https://yylunbo.ottiptv.cc/yy/1382749911
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 还原英雄最后的壮烈！
-https://yylunbo.ottiptv.cc/yy/1354930984
 #EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/74/1817744934/u1817744934L0mddfh.jpg" group-title="Y Y 轮播", 你看与不看我都在
 https://yylunbo.ottiptv.cc/yy/1353422557
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 天龙八部（国语版）
@@ -5777,29 +5775,37 @@ https://yylunbo.ottiptv.cc/yy/1382736855
 https://yylunbo.ottiptv.cc/yy/1382736859
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 暴君画家的情人
 https://yylunbo.ottiptv.cc/yy/1382736920
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 体验另一种生活！
+https://yylunbo.ottiptv.cc/yy/1354936229
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 封神：祸商
 https://yylunbo.ottiptv.cc/yy/1354932407
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 90年代爱情经典必看
 https://yylunbo.ottiptv.cc/yy/1382736893
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 还原英雄最后的壮烈！
+https://yylunbo.ottiptv.cc/yy/1354930984
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 时间的答卷第二季
 https://yylunbo.ottiptv.cc/yy/1382745106
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 闫妮主演-轻松都市喜剧
-https://yylunbo.ottiptv.cc/yy/1382749888
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/93/3013934291/u3013934291GxsbFF0.jpg" group-title="Y Y 轮播", 小宝与老财
+https://yylunbo.ottiptv.cc/yy/1509378553
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 铁血拍档：并肩破局的燃魂对决
 https://yylunbo.ottiptv.cc/yy/1382736884
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 缉魂-科幻悬疑电影
 https://yylunbo.ottiptv.cc/yy/1382745090
 #EXTINF:-1 tvg-logo="http://s1.yy.com/guild/header/10108.jpg" group-title="Y Y 轮播", 史上最赞的延时摄影
 https://yylunbo.ottiptv.cc/yy/1354658051
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 许光汉主演喜剧大片
-https://yylunbo.ottiptv.cc/yy/1382736825
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 闫妮主演-轻松都市喜剧
+https://yylunbo.ottiptv.cc/yy/1382749888
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 在殡仪馆发生的奇葩囧事
 https://yylunbo.ottiptv.cc/yy/1354936214
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
+https://yylunbo.ottiptv.cc/yy/1382736852
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 当爸爸变成我兄弟？
+https://yylunbo.ottiptv.cc/yy/1382749912
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 电波传情-生死密电
 https://yylunbo.ottiptv.cc/yy/1382735571
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 果酱熊的萌愈之力-帕丁顿熊2
 https://yylunbo.ottiptv.cc/yy/1382735627
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778166/u2956778166PzRg4bd.jpg" group-title="Y Y 轮播", 傲娇千金惹人醉
+#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/500/500/77/2956778166/u2956778166PzRg4bd.jpg" group-title="Y Y 轮播", 洪金宝福星系列
 https://yylunbo.ottiptv.cc/yy/1382851602
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
 https://yylunbo.ottiptv.cc/yy/1382736869
@@ -5811,6 +5817,8 @@ https://yylunbo.ottiptv.cc/yy/17615250
 https://yylunbo.ottiptv.cc/yy/1382736798
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 最佳时机：命运转角的最佳抉择与奔赴
 https://yylunbo.ottiptv.cc/yy/1354936207
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 许光汉主演喜剧大片
+https://yylunbo.ottiptv.cc/yy/1382736825
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 废柴少女逆袭
 https://yylunbo.ottiptv.cc/yy/1354932441
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 守护千年雄关
@@ -5821,18 +5829,12 @@ https://yylunbo.ottiptv.cc/yy/1382736863
 https://yylunbo.ottiptv.cc/yy/1382736874
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 国家地理音乐风光纪录片
 https://yylunbo.ottiptv.cc/yy/1382749951
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", YY用户
-https://yylunbo.ottiptv.cc/yy/1382736852
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 当爸爸变成我兄弟？
-https://yylunbo.ottiptv.cc/yy/1382749912
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 辣警狂花2
 https://yylunbo.ottiptv.cc/yy/1382745110
-#EXTINF:-1 tvg-logo="http://downhdlogo.yy.com/hdlogo/640640/640/640/93/3013934291/u3013934291GxsbFF0.jpg" group-title="Y Y 轮播", 小宝与老财
-https://yylunbo.ottiptv.cc/yy/1509378553
-#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 硬汉搭档扫黑，致命武器2
-https://yylunbo.ottiptv.cc/yy/1382736865
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 生活真是笑料百出
 https://yylunbo.ottiptv.cc/yy/1382736844
+#EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 硬汉搭档扫黑，致命武器2
+https://yylunbo.ottiptv.cc/yy/1382736865
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 致敬民族气节！
 https://yylunbo.ottiptv.cc/yy/1354926643
 #EXTINF:-1 tvg-logo="https://s1.yy.com/guild/header/10001.jpg" group-title="Y Y 轮播", 不一样的花木兰传奇
